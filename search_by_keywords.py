@@ -4,17 +4,23 @@ maint_keywords = ["maintainability", "maintenance", "reliability", "serviceabili
 
 perf_keywords = ["performance", "rate", "bandwidth", "cpu", "time", "latency", "throughput", "channel",
                  "instruction", "response", "process", "communication", "space", "memory", "storage", "peak",
-                 "compress",
-                 "uncompress", "runtime", "perform", "execute", "dynamic", "offset", "reduce", "response", "longer",
-                 "fast", "slow", "maximum", "capacity"]
+                 "compress", "uncompress", "runtime", "perform", "execute", "dynamic", "offset", "reduce", "response",
+                 "longer", "fast", "slow", "maximum", "capacity"]
 
+#Slankas: fast, simultaneous, 0, second, scale, capable, increase, peark, longer, average, acceptable, lead, handle, flow, response, capacity, 10, maximum, cycle, distribution
+#Huang: storage, response, throughput, peak, mean, index, compress, uncompress, runtime, perform, execute, dynamic, offset, reduce, fixing, early, late
 robu_keywords = ["robust", "robustness", "inputs", "error", "failure", "network", "error", "reliability",
                  "serviceability", "fault", "tolerance", "exception", "bug", "recover", "handl", "fail with",
                  "crash", "unexpect", "NPE", "null", "stack", "swallow"]
 
+#Slankas: reliable, dependent, validate, validation, input, query, accept, loss, failure, operate, alert, laboratory, prevent, database,     product, appropriate, event, application, capability, ability
+
 security_keywords = ["access", "author", "ensure", "data", "authentication", "security", "secure", "malicious",
                      "prevent", "incorrect", "harmful", "state", "exception", "vulnerability", "vulnerable",
                      "malicious", "harmful", 'attack', 'expose', 'compromised', 'aunthenticator', 'encrypt']
+
+#Slankas: cookie, encrypted, ephi, http, predetermined, strong, vulnerability, username, inactivity, portal, ssl, deficiency, uc3, authenticate, certificate, session, path, string, password, incentive
+#Huang: integrity, completeness, accuracy, perturbation, virus, access, authorization, rule, validation, audit, biometrics, card, key, password, alarm, encryption, noise
 
 all_keywords = []
 all_keywords.extend(maint_keywords)

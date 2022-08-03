@@ -12,8 +12,6 @@ with open(file_data) as json_file:
 def get_message_info(data_to_analyze):
     output = []
 
-    print ("analyin ")
-
     for pull in data_to_analyze['pulls']:
         current = {}
         title_cleaned = pre_process_on_text(pull['title'])

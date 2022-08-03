@@ -16,5 +16,7 @@ In that example we are extracting the info from  <strong>title</strong> and <str
 - <code><NFR_NAME></code>: Keywords for the NFR
 - <code>has_nfr</code>: Identify if the message has any type of keyword
 
+<code>ref</code> file contains the refs to the keywords suggested on the comments
+
 
 ![image](https://user-images.githubusercontent.com/2151827/182270709-b14b39bc-c9bd-487b-902e-d2fc1a2e6e45.png)
