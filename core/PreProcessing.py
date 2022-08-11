@@ -5,6 +5,8 @@ import contractions
 import inflect
 import nltk
 
+from core.textcleaner import TextCleaner
+
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
@@ -135,6 +137,10 @@ def pre_process_text(text):
 def pre_process_on_text(text):
     """Pre process text and return text cleaned"""
     try:
+        adapted_cleaner  = TextCleaner()
+
+        text = adapted_cleaner.clean(text)
+
         #Remove square brackets
         text = re.sub('\[[^]]*\]', '', text)
 

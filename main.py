@@ -1,4 +1,5 @@
 import json
+import statistics
 
 from core.PreProcessing import pre_process_on_text
 from core.search_by_keywords import get_nfrs_keywords_and_counts, get_nfrs_counts
@@ -9,73 +10,107 @@ with open(file_data) as json_file:
     data = json.load(json_file)
 
 
-def get_nfrs_comments(comments):
+def __get_nfrs_list_messages(messages):
     output = {}
     output["n_all"] = 0
     output["n_maint"] = 0
     output["n_sec"] = 0
     output["n_perf"] = 0
     output["n_robu"] = 0
+    output["n_words"] = 0
 
-    for comment in comments:
-        comment_cleaned = pre_process_on_text(comment['body'])
-        nfrs_comment = get_nfrs_keywords_and_counts(comment_cleaned)
+    for message in messages:
+        message_cleaned = pre_process_on_text(message['body'])
+        nfrs_message = get_nfrs_keywords_and_counts(message_cleaned)
 
-        output["n_all"] += nfrs_comment["n_all"]
-        output["n_maint"] += nfrs_comment["n_maint"]
-        output["n_sec"] += nfrs_comment["n_sec"]
-        output["n_perf"] += nfrs_comment["n_perf"]
-        output["n_robu"] += nfrs_comment["n_robu"]
+        output["n_all"] += nfrs_message["n_all"]
+        output["n_maint"] += nfrs_message["n_maint"]
+        output["n_sec"] += nfrs_message["n_sec"]
+        output["n_perf"] += nfrs_message["n_perf"]
+        output["n_robu"] += nfrs_message["n_robu"]
+        output["n_words"] += len(message_cleaned.split())
 
     return output
 
+
+def __get_nfrs_list_commits(commits):
+    list_commit_messages = []
+
+    for commit in commits:
+        current_message = {}
+        current_message["body"] = commit["message"]
+
+        list_commit_messages.append(current_message)
+
+    return __get_nfrs_list_messages(list_commit_messages)
+
+
+def __compute_median_words_commits(list_commits):
+    n_words = []
+    for commit in list_commits:
+        cleaned_commit = pre_process_on_text(commit["message"])
+        n_words.append(len(cleaned_commit.split()))
+
+    try:
+        median = statistics.median(n_words)
+        return median
+    except statistics.StatisticsError:
+        return None
+
+
+"""Check whether this pull request is valid
+1. If it has only the title, should be discarded"""
+def __validate_pr(pull_to_analyze):
+    if pull_to_analyze["body"] == "" and \
+            not len(pull_to_analyze["comments"]) and \
+            not len(pull_to_analyze["review_comments"]):
+        return False
+
+    return True
 
 
 def get_message_info(data_to_analyze):
     output = []
 
+    groups_nfrs = ['all', 'maint', 'sec', 'perf', 'robu']
     for pull in data_to_analyze['pulls']:
-        current = {}
-        current['number'] = pull['number']
-        title_cleaned = pre_process_on_text(pull['title'])
-        title_nfrs = get_nfrs_counts(title_cleaned)
 
-        current["title_all"] = title_nfrs['n_all']
-        current["title_maint"] = title_nfrs['n_maint']
-        current["title_sec"] = title_nfrs['n_sec']
-        current["title_perf"] = title_nfrs['n_perf']
-        current["title_robu"] = title_nfrs['n_robu']
+        __is_a_valid_pr = __validate_pr(pull)
 
-        description_cleaned = pre_process_on_text(pull['body'])
-        description_nfrs = get_nfrs_counts(description_cleaned)
+        if __is_a_valid_pr:
+            current = {}
+            current['number'] = pull['number']
+            title_cleaned = pre_process_on_text(pull['title'])
+            title_nfrs = get_nfrs_counts(title_cleaned)
 
-        current["description_all"] = description_nfrs['n_all']
-        current["description_maint"] = description_nfrs['n_maint']
-        current["description_sec"] = description_nfrs['n_sec']
-        current["description_perf"] = description_nfrs['n_perf']
-        current["description_robu"] = description_nfrs['n_robu']
+            description_cleaned = pre_process_on_text(pull['body'])
+            description_nfrs = get_nfrs_counts(description_cleaned)
 
-        comments_nfrs = get_nfrs_comments(pull['comments'])
-        current["comments_all"] = comments_nfrs['n_all']
-        current["comments_maint"] = comments_nfrs['n_maint']
-        current["comments_sec"] = comments_nfrs['n_sec']
-        current["comments_perf"] = comments_nfrs['n_perf']
-        current["comments_robu"] = comments_nfrs['n_robu']
+            comments_nfrs = __get_nfrs_list_messages(pull['comments'])
+            review_comments_nfrs = __get_nfrs_list_messages(pull['review_comments'])
+            commits_nfrs = __get_nfrs_list_commits(pull["commits"])
 
-        review_comments_nfrs = get_nfrs_comments(pull['review_comments'])
-        current["review_comments_all"] = review_comments_nfrs['n_all']
-        current["review_comments_maint"] = review_comments_nfrs['n_maint']
-        current["review_comments_sec"] = review_comments_nfrs['n_sec']
-        current["review_comments_perf"] = review_comments_nfrs['n_perf']
-        current["review_comments_robu"] = review_comments_nfrs['n_robu']
+            current["title_n_words"] = len(title_cleaned.split())
+            current["description_n_words"] = len(description_cleaned.split())
+            current["comments_n_words"] = comments_nfrs["n_words"]
+            current["comments_review_n_words"] = review_comments_nfrs["n_words"]
+            current["n_commits"] = len(pull["commits"])
+            current["median_words_commits"] = __compute_median_words_commits(pull["commits"])
 
-        current["general_all"] = current["title_all"] + current["description_all"] + current["comments_all"] + current["review_comments_all"]
-        current["general_maint"] = current["title_maint"] + current["description_maint"] + current["comments_maint"] + current["review_comments_maint"]
-        current["general_sec"] = current["title_sec"] + current["description_sec"] + current["comments_sec"] + current["review_comments_sec"]
-        current["general_perf"] = current["title_perf"] + current["description_perf"] + current["comments_perf"] + current["review_comments_perf"]
-        current["general_robu"] = current["title_robu"] + current["description_robu"] + current["comments_robu"] + current["review_comments_robu"]
+            for current_nfr in groups_nfrs:
+                current[f'title_{current_nfr}'] = title_nfrs[f'n_{current_nfr}']
+                current[f'description_{current_nfr}'] = description_nfrs[f'n_{current_nfr}']
+                current[f'comments_{current_nfr}'] = comments_nfrs[f'n_{current_nfr}']
+                current[f'review_comments_{current_nfr}'] = review_comments_nfrs[f'n_{current_nfr}']
+                current[f'commits_{current_nfr}'] = commits_nfrs[f'n_{current_nfr}']
 
-        output.append(current)
+                current[f"general_{current_nfr}"] = current[f'title_{current_nfr}'] + \
+                                                    current[f'description_{current_nfr}'] + \
+                                                    current[f'comments_{current_nfr}'] + \
+                                                    current[f'review_comments_{current_nfr}'] + \
+                                                    current[f'commits_{current_nfr}']
+
+            output.append(current)
 
     return output
 
@@ -85,4 +120,3 @@ if __name__ == "__main__":
 
     with open(f"output.json", "w") as write_file:
         json.dump(nfr_info, write_file, indent=4)
-

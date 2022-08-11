@@ -30,7 +30,7 @@ all_keywords.extend(security_keywords)
 all_keywords = list(set(all_keywords))
 
 
-def _find_in_list(list_nfrs, message):
+def __find_in_list(list_nfrs, message):
     list_nfrs_words = []
     count = 0
     for key in list_nfrs:
@@ -41,14 +41,14 @@ def _find_in_list(list_nfrs, message):
     return list_nfrs_words, count
 
 
-def _has_nfr_in_list(list_nfrs, message):
+def __has_nfr_in_list(list_nfrs, message):
     for key in list_nfrs:
         if key in message:
             return True
     return False
 
 
-def _return_nfr_keyword_in_list(list_nfrs, message):
+def __return_nfr_keyword_in_list(list_nfrs, message):
     has_nfr = False
     list_keys = []
     for key in list_nfrs:
@@ -57,15 +57,16 @@ def _return_nfr_keyword_in_list(list_nfrs, message):
             list_keys.append(key)
     return has_nfr, list_keys
 
+
 def get_nfrs_counts(message):
     """Return the total number of keywords in the message"""
     nfr_list = {}
 
-    _, nfr_list['n_all'] = _find_in_list(all_keywords, message)
-    _, nfr_list["n_maint"] = _find_in_list(maint_keywords, message)
-    _, nfr_list["n_sec"] = _find_in_list(security_keywords, message)
-    _, nfr_list["n_perf"] = _find_in_list(perf_keywords, message)
-    _, nfr_list["n_robu"] = _find_in_list(robu_keywords, message)
+    _, nfr_list['n_all'] = __find_in_list(all_keywords, message)
+    _, nfr_list["n_maint"] = __find_in_list(maint_keywords, message)
+    _, nfr_list["n_sec"] = __find_in_list(security_keywords, message)
+    _, nfr_list["n_perf"] = __find_in_list(perf_keywords, message)
+    _, nfr_list["n_robu"] = __find_in_list(robu_keywords, message)
 
     return nfr_list
 
@@ -74,11 +75,11 @@ def get_nfrs_keywords_and_counts(message):
     """Return the list of NFRs words and the total number of keywords in the message"""
     nfr_list = {}
 
-    nfr_list['all'], nfr_list['n_all'] = _find_in_list(all_keywords, message)
-    nfr_list["maintainability"], nfr_list["n_maint"] = _find_in_list(maint_keywords, message)
-    nfr_list["security"], nfr_list["n_sec"] = _find_in_list(security_keywords, message)
-    nfr_list["performance"], nfr_list["n_perf"] = _find_in_list(perf_keywords, message)
-    nfr_list["robustness"], nfr_list["n_robu"] = _find_in_list(robu_keywords, message)
+    nfr_list['all'], nfr_list['n_all'] = __find_in_list(all_keywords, message)
+    nfr_list["maintainability"], nfr_list["n_maint"] = __find_in_list(maint_keywords, message)
+    nfr_list["security"], nfr_list["n_sec"] = __find_in_list(security_keywords, message)
+    nfr_list["performance"], nfr_list["n_perf"] = __find_in_list(perf_keywords, message)
+    nfr_list["robustness"], nfr_list["n_robu"] = __find_in_list(robu_keywords, message)
 
     nfr_list["n_total"] = nfr_list["n_maint"] + nfr_list["n_sec"] + nfr_list["n_perf"] + nfr_list["n_robu"]
 
@@ -92,16 +93,16 @@ def get_nfrs_keywords_and_counts(message):
 
 def has_nfr(message, nfrs_to_verify):
     """Check whether there is a NFR in the message"""
-    if "Robustness" in nfrs_to_verify and _has_nfr_in_list(robu_keywords, message):
+    if "Robustness" in nfrs_to_verify and __has_nfr_in_list(robu_keywords, message):
         return True
 
-    if "Maintainability" in nfrs_to_verify and _has_nfr_in_list(maint_keywords, message):
+    if "Maintainability" in nfrs_to_verify and __has_nfr_in_list(maint_keywords, message):
         return True
 
-    if "Security" in nfrs_to_verify and _has_nfr_in_list(security_keywords, message):
+    if "Security" in nfrs_to_verify and __has_nfr_in_list(security_keywords, message):
         return True
 
-    if "Performance" in nfrs_to_verify and _has_nfr_in_list(perf_keywords, message):
+    if "Performance" in nfrs_to_verify and __has_nfr_in_list(perf_keywords, message):
         return True
 
     return False
@@ -111,10 +112,10 @@ def get_nfr_count(message):
     """Collect the number of keywords for each type"""
     nfr_list = {}
 
-    nfr_list["n_maint"] = _find_in_list(maint_keywords, message)[1]
-    nfr_list["n_sec"] = _find_in_list(security_keywords, message)[1]
-    nfr_list["n_perf"] = _find_in_list(perf_keywords, message)[1]
-    nfr_list["n_robu"] = _find_in_list(robu_keywords, message)[1]
+    nfr_list["n_maint"] = __find_in_list(maint_keywords, message)[1]
+    nfr_list["n_sec"] = __find_in_list(security_keywords, message)[1]
+    nfr_list["n_perf"] = __find_in_list(perf_keywords, message)[1]
+    nfr_list["n_robu"] = __find_in_list(robu_keywords, message)[1]
 
     return nfr_list["n_maint"], nfr_list["n_sec"], nfr_list["n_perf"], nfr_list["n_robu"]
 
@@ -124,20 +125,20 @@ def return_nfr_keyword(message):
     has_nfr = False
     keywords = []
 
-    if _return_nfr_keyword_in_list(maint_keywords, message)[0]:
+    if __return_nfr_keyword_in_list(maint_keywords, message)[0]:
         has_nfr = True
-        keywords.append(_return_nfr_keyword_in_list(maint_keywords, message)[1])
+        keywords.append(__return_nfr_keyword_in_list(maint_keywords, message)[1])
 
-    if _return_nfr_keyword_in_list(security_keywords, message)[0]:
+    if __return_nfr_keyword_in_list(security_keywords, message)[0]:
         has_nfr = True
-        keywords.append(_return_nfr_keyword_in_list(security_keywords, message)[1])
+        keywords.append(__return_nfr_keyword_in_list(security_keywords, message)[1])
 
-    if _return_nfr_keyword_in_list(perf_keywords, message)[0]:
+    if __return_nfr_keyword_in_list(perf_keywords, message)[0]:
         has_nfr = True
-        keywords.append(_return_nfr_keyword_in_list(perf_keywords, message)[1])
+        keywords.append(__return_nfr_keyword_in_list(perf_keywords, message)[1])
 
-    if _return_nfr_keyword_in_list(robu_keywords, message)[0]:
+    if __return_nfr_keyword_in_list(robu_keywords, message)[0]:
         has_nfr = True
-        keywords.append(_return_nfr_keyword_in_list(robu_keywords, message)[1])
+        keywords.append(__return_nfr_keyword_in_list(robu_keywords, message)[1])
 
     return has_nfr, keywords
