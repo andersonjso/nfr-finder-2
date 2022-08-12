@@ -5,6 +5,7 @@ from core.PreProcessing import pre_process_on_text
 from core.search_by_keywords import get_nfrs_keywords_and_counts, get_nfrs_counts
 
 file_data = 'data/spring-projects_spring-security_pulls.json'
+groups_nfrs = ['all', 'maint', 'sec', 'perf', 'robu']
 
 with open(file_data) as json_file:
     data = json.load(json_file)
@@ -68,11 +69,44 @@ def __validate_pr(pull_to_analyze):
 
     return True
 
+def __divide_comments_by_user_group(comments):
+    list_messages_core = []
+    list_messages_contributor = []
+    list_messages_newcomer = []
+
+    for comment in comments:
+        if comment["user_association"] == "MEMBER" or comment["user_association"] == "OWNER":
+            list_messages_core.append(comment)
+        elif comment["user_association"] == "CONTRIBUTOR" or comment["user_association"] == "COLLABORATOR":
+            list_messages_contributor.append(comment)
+        elif comment["user_association"] == "NONE" or comment["user_association"] == "FIRST_TIMER" \
+                or comment["user_association"] == "FIRST_TIMER_CONTRIBUTOR":
+            list_messages_newcomer.append(comment)
+
+    return list_messages_core, list_messages_contributor, list_messages_newcomer
+
+def __get_number_of_keywords_by_user_type(comments, reviews, dict_out):
+    list_messages_core, list_messages_contributor, list_messages_newcomer = __divide_comments_by_user_group(comments)
+    reviews_core, reviews_contributor, reviews_newcomer = __divide_comments_by_user_group(reviews)
+
+    list_messages_core.extend(reviews_core)
+    list_messages_contributor.extend(reviews_contributor)
+    list_messages_newcomer.extend(reviews_newcomer)
+
+    nfrs_core = __get_nfrs_list_messages(list_messages_core)
+    nfrs_contributor = __get_nfrs_list_messages(list_messages_contributor)
+    nfrs_newcomer = __get_nfrs_list_messages(list_messages_contributor)
+
+    for current_nfr in groups_nfrs:
+        dict_out[f'core_{current_nfr}'] = nfrs_core[f'n_{current_nfr}']
+        dict_out[f'contributor_{current_nfr}'] = nfrs_contributor[f'n_{current_nfr}']
+        dict_out[f'newcomer_{current_nfr}'] = nfrs_newcomer[f'n_{current_nfr}']
+
+
 
 def get_message_info(data_to_analyze):
     output = []
 
-    groups_nfrs = ['all', 'maint', 'sec', 'perf', 'robu']
     for pull in data_to_analyze['pulls']:
 
         __is_a_valid_pr = __validate_pr(pull)
@@ -96,6 +130,7 @@ def get_message_info(data_to_analyze):
             current["comments_review_n_words"] = review_comments_nfrs["n_words"]
             current["n_commits"] = len(pull["commits"])
             current["median_words_commits"] = __compute_median_words_commits(pull["commits"])
+            __get_number_of_keywords_by_user_type(pull['comments'], pull["review_comments"], current)
 
             for current_nfr in groups_nfrs:
                 current[f'title_{current_nfr}'] = title_nfrs[f'n_{current_nfr}']
@@ -118,5 +153,5 @@ def get_message_info(data_to_analyze):
 if __name__ == "__main__":
     nfr_info = get_message_info(data)
 
-    with open(f"output.json", "w") as write_file:
+    with open(f"output_spring.json", "w") as write_file:
         json.dump(nfr_info, write_file, indent=4)
