@@ -4,7 +4,9 @@ import statistics
 from core.PreProcessing import pre_process_on_text
 from core.search_by_keywords import get_nfrs_keywords_and_counts, get_nfrs_counts
 
-file_data = 'data/spring-projects_spring-security_pulls.json'
+project_name = "spring-framework"
+
+file_data = f'data/{project_name}_pulls.json'
 groups_nfrs = ['all', 'maint', 'sec', 'perf', 'robu']
 
 with open(file_data) as json_file:
@@ -153,5 +155,5 @@ def get_message_info(data_to_analyze):
 if __name__ == "__main__":
     nfr_info = get_message_info(data)
 
-    with open(f"output_spring.json", "w") as write_file:
+    with open(f"output/{project_name}.json", "w") as write_file:
         json.dump(nfr_info, write_file, indent=4)

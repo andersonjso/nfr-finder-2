@@ -4,17 +4,46 @@ import random
 
 import xlsxwriter
 
-file_data = 'data/spring-projects_spring-security_pulls.json'
+#sample is 15% of the total
 
-SAMPLE_SIZE = 318
-PARTICIPANTS = 8
+dict_systems = []
+spring_security_proj = {}
+spring_security_proj["name"] = "spring-security"
+spring_security_proj["file"] = "spring-projects_spring-security_pulls.json"
+spring_security_proj["url_pulls"] = "https://github.com/spring-projects/spring-security/pull/"
+spring_security_proj["sample_size"] = 318
+dict_systems.append(spring_security_proj)
+
+spring_boot_proj = {}
+spring_boot_proj["name"] = "spring-boot"
+spring_boot_proj["file"] = "spring-boot_pulls.json"
+spring_boot_proj["url_pulls"] = "https://github.com/spring-projects/spring-boot/pull/"
+spring_boot_proj["sample_size"] = 798
+dict_systems.append(spring_boot_proj)
+
+spring_framework_prok = {}
+spring_framework_prok["name"] = "spring-framework"
+spring_framework_prok["file"] = "spring-framework_pulls.json"
+spring_framework_prok["url_pulls"] = "https://github.com/spring-projects/spring-framework/pull/"
+spring_framework_prok["sample_size"] = 577
+dict_systems.append(spring_framework_prok)
+
+project_name = "spring-framework"
+
+current_proj = next((item for item in dict_systems if item['name'] == project_name), None)
+
+file_data = f'data/{current_proj["file"]}'
+
+SAMPLE_SIZE = current_proj["sample_size"]
+PARTICIPANTS = 7
 SAMPLE_PARTICIPANT = math.ceil(SAMPLE_SIZE/PARTICIPANTS)
 SAMPLE_BY_NFR = math.ceil(SAMPLE_PARTICIPANT/4)
 
-participants = ["Oliveira", "Joao", "Coutinho", "Caio", "Juliana", "Rafael", "Paulo", "Vinicius"]
+participants = ["Oliveira", "Joao", "Coutinho", "Caio", "Rafael", "Paulo", "Vinicius"]
 
 with open(file_data) as json_file:
     data = json.load(json_file)
+
 
 def send_to_list(my_dict):
     list_out = []
@@ -23,6 +52,7 @@ def send_to_list(my_dict):
         list_out.append(current['number'])
 
     return list_out
+
 
 def generate_samples_groups():
     file_data = 'output/output.json'
@@ -70,7 +100,7 @@ if __name__ == "__main__":
 
     all, maint, sec, perf, robu = generate_samples_groups()
 
-    workbook = xlsxwriter.Workbook('auxiliar/identification-spring-security.xlsx')
+    workbook = xlsxwriter.Workbook(f'auxiliar/identification_{project_name}.xlsx')
     header = ["NUMBER_ISSUE", "URL", "NFR_TYPE", "PHRASE", "KEYWORDS", "LOCATION", "LABEL"]
 
     for participant in participants:
@@ -91,7 +121,7 @@ if __name__ == "__main__":
         row = 1
         for issue_number in my_sample:
             worksheet.write(row, 0, issue_number)
-            worksheet.write(row, 1, f"https://github.com/spring-projects/spring-security/pull/{issue_number}")
+            worksheet.write(row, 1, f"{current_proj['url_pulls']}{issue_number}")
             row += 1
 
     workbook.close()
