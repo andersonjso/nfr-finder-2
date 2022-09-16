@@ -1,0 +1,167 @@
+import csv
+import json
+import traceback
+
+import numpy as np
+
+project= 'spring-security'
+
+identification_file_path = f'data/identification_{project}.csv'
+pull_file_path = f'data/{project}_pulls.json'
+
+with open(pull_file_path) as json_input:
+    pull_file = json.load(json_input)
+
+
+def __identify_participation_times(dict_users, user_name, nfrs):
+    if user_name in dict_users:
+        for nfr in nfrs:
+            dict_users[user_name][f'participates_{nfr.lower()}'] += 1
+
+        if 'None' not in nfrs:
+            dict_users[user_name]['participates_all_nfrs'] += 1
+    else:
+        dict_users[user_name] = {}
+        dict_users[user_name]['participates_security'] = 0
+        dict_users[user_name]['participates_maintainability'] = 0
+        dict_users[user_name]['participates_robustness'] = 0
+        dict_users[user_name]['participates_performance'] = 0
+        dict_users[user_name]['participates_none'] = 0
+        dict_users[user_name]['participates_all_nfrs'] = 0
+
+        for nfr in nfrs:
+            dict_users[user_name][f'participates_{nfr.lower()}'] += 1
+
+        if 'None' not in nfrs:
+            dict_users[user_name]['participates_all_nfrs'] += 1
+
+
+def __identify_tasks_times(dict_users, user_name, nfrs, task):
+    try:
+        for nfr in nfrs:
+            if f'{task}_{nfr.lower()}' in dict_users[user_name]:
+                dict_users[user_name][f'{task}_{nfr.lower()}'] += 1
+            else:
+                dict_users[user_name][f'{task}_{nfr.lower()}'] = 0
+                dict_users[user_name][f'{task}_{nfr.lower()}'] += 1
+
+    except Exception as e:
+        print(traceback.format_exc())
+
+
+def __identify_users_on_pull(pull_number, nfrs, dict_output):
+    for pull in pull_file['pulls']:
+        if pull["number"] == int(pull_number):
+            user_opened = [pull['user_login']]
+            users_commented = list(map(lambda current_review: current_review["user_login"], pull['comments']))
+            users_reviewed = list(map(lambda current_review: current_review["user_login"], pull['review_comments']))
+            users_commited = list(map(lambda current_review: current_review["author"], pull['commits']))
+
+            users_participating = set(user_opened + users_commented + users_reviewed + users_commited)
+
+            for current_user in users_participating:
+                __identify_participation_times(dict_output, current_user, nfrs)
+
+            return user_opened, users_commented, users_reviewed, users_commited
+
+    return [], [], []
+
+
+def __identify_users_tasks(pull_number, nfrs, dict_output):
+    for pull in pull_file['pulls']:
+        if pull["number"] == int(pull_number):
+            user_opened = [pull['user_login']]
+            users_commented = list(map(lambda current_review: current_review["user_login"], pull['comments']))
+            users_reviewed = list(map(lambda current_review: current_review["user_login"], pull['review_comments']))
+            users_commited = list(map(lambda current_review: current_review["author"], pull['commits']))
+
+            for current_user in user_opened:
+                __identify_tasks_times(dict_output, current_user, nfrs, "opened_discussion")
+
+            for current_user in users_commented:
+                __identify_tasks_times(dict_output, current_user, nfrs, "commented")
+
+            for current_user in users_reviewed:
+                __identify_tasks_times(dict_output, current_user, nfrs, "reviewed")
+
+            for current_user in users_commited:
+                __identify_tasks_times(dict_output, current_user, nfrs, "commited")
+
+            return user_opened, users_commented, users_reviewed, users_commited
+
+    return [], [], []
+
+
+
+def __get_quartiles_group(list_nfr):
+    out = {}
+    out["1st"] = np.percentile(list(set(list_nfr)), 25)
+    out["median"] = np.percentile(list(set(list_nfr)), 50)
+    out["3rd"] = np.percentile(list(set(list_nfr)), 75)
+
+    return out
+
+def __define_quartiles(users):
+    sec = []
+    maint = []
+    perf = []
+    rob = []
+    none = []
+    all = []
+
+    for user in users:
+        sec.append(users[user]['participates_security'])
+        maint.append(users[user]['participates_maintainability'])
+        perf.append(users[user]['participates_performance'])
+        rob.append(users[user]['participates_robustness'])
+        none.append(users[user]['participates_none'])
+        all.append(users[user]['participates_all_nfrs'])
+
+    quartiles = {}
+    quartiles["security"] = __get_quartiles_group(sec)
+    quartiles["maintainability"] = __get_quartiles_group(maint)
+    quartiles["performance"] = __get_quartiles_group(perf)
+    quartiles["robustness"] = __get_quartiles_group(rob)
+    quartiles["none"] = __get_quartiles_group(none)
+    quartiles["all_nfrs"] = __get_quartiles_group(all)
+
+    return quartiles
+
+def __define_groups_interaction(users, quartiles):
+    for user in users:
+        for nfr_quartile in quartiles:
+            users[user][f"participation_{nfr_quartile}_high"] = False
+            users[user][f"participation_{nfr_quartile}_low"] = False
+            users[user][f"participation_{nfr_quartile}_medium"] = False
+            users[user][f'participates_{nfr_quartile}_never'] = False
+
+            if nfr_quartile == "all_nfrs":
+                print (users[user][f'participates_{nfr_quartile}'])
+            if users[user][f'participates_{nfr_quartile}'] == 0:
+                users[user][f'participates_{nfr_quartile}_never'] = True
+            elif users[user][f'participates_{nfr_quartile}'] >= quartiles[nfr_quartile]['3rd']:
+                users[user][f"participation_{nfr_quartile}_high"] = True
+            elif users[user][f'participates_{nfr_quartile}'] <= quartiles[nfr_quartile]['1st']:
+                users[user][f"participation_{nfr_quartile}_low"] = True
+            else:
+                users[user][f"participation_{nfr_quartile}_medium"] = True
+
+
+with open(identification_file_path, mode='r') as identification_file:
+    reader = csv.DictReader(identification_file)
+
+    output = {}
+    for row in reader:
+        if row['NFR_TYPE']:
+            nfrs = row['NFR_TYPE'].replace(" ", "").replace("-", "None").split(",")
+            __identify_users_on_pull(row["NUMBER_ISSUE"], nfrs, output)
+            __identify_users_tasks(row["NUMBER_ISSUE"], nfrs, output)
+
+    quartiles = __define_quartiles(output)
+    __define_groups_interaction(output, quartiles)
+
+with open(f"output/{project}_info_devs.json", "w") as write_file:
+    json.dump(output, write_file, indent=4)
+
+
+

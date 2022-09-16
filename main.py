@@ -4,7 +4,7 @@ import statistics
 from core.PreProcessing import pre_process_on_text
 from core.search_by_keywords import get_nfrs_keywords_and_counts, get_nfrs_counts
 
-project_name = "spring-framework"
+project_name = "spring-boot"
 
 file_data = f'data/{project_name}_pulls.json'
 groups_nfrs = ['all', 'maint', 'sec', 'perf', 'robu']
@@ -151,9 +151,30 @@ def get_message_info(data_to_analyze):
 
     return output
 
+def __get_total_nfrs_system(json_file):
+    total_robu = total_maint = total_sec = total_perf = 0
+
+    for pull_info in json_file:
+        total_robu += pull_info["general_robu"]
+        total_maint += pull_info["general_maint"]
+        total_sec += pull_info["general_sec"]
+        total_perf += pull_info["general_perf"]
+
+    print (f"Robustez: {total_robu}\n"
+           f"Manutenabilidade: {total_maint}\n"
+           f"Segurança: {total_sec}\n"
+           f"Performance: {total_perf}")
+
+
+
+
 
 if __name__ == "__main__":
-    nfr_info = get_message_info(data)
+    # nfr_info = get_message_info(data)
+    #
+    # with open(f"output/{project_name}.json", "w") as write_file:
+    #     json.dump(nfr_info, write_file, indent=4)
 
-    with open(f"output/{project_name}.json", "w") as write_file:
-        json.dump(nfr_info, write_file, indent=4)
+    with open(f"output/{project_name}.json") as read_file:
+        j_file = json.load(read_file)
+        total_nfrs = __get_total_nfrs_system(j_file)

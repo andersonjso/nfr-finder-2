@@ -9,7 +9,7 @@ import xlsxwriter
 dict_systems = []
 spring_security_proj = {}
 spring_security_proj["name"] = "spring-security"
-spring_security_proj["file"] = "spring-projects_spring-security_pulls.json"
+spring_security_proj["file"] = "spring-security_pulls.json"
 spring_security_proj["url_pulls"] = "https://github.com/spring-projects/spring-security/pull/"
 spring_security_proj["sample_size"] = 318
 dict_systems.append(spring_security_proj)
@@ -35,11 +35,11 @@ current_proj = next((item for item in dict_systems if item['name'] == project_na
 file_data = f'data/{current_proj["file"]}'
 
 SAMPLE_SIZE = current_proj["sample_size"]
-PARTICIPANTS = 7
+PARTICIPANTS = 8
 SAMPLE_PARTICIPANT = math.ceil(SAMPLE_SIZE/PARTICIPANTS)
 SAMPLE_BY_NFR = math.ceil(SAMPLE_PARTICIPANT/4)
 
-participants = ["Oliveira", "Joao", "Coutinho", "Caio", "Rafael", "Paulo", "Vinicius"]
+participants = ["Oliveira", "Joao", "Coutinho", "Caio", "Rafael", "Paulo", "Vinicius", "Wesley"]
 
 with open(file_data) as json_file:
     data = json.load(json_file)
@@ -55,7 +55,7 @@ def send_to_list(my_dict):
 
 
 def generate_samples_groups():
-    file_data = 'output/output.json'
+    file_data = f'output/{project_name}.json'
 
     with open(file_data) as json_file:
         data = json.load(json_file)
@@ -70,19 +70,19 @@ def generate_samples_groups():
 
 
 def compute_sample(maint, sec, perf, robu):
-    maint_sample = random.sample(maint, SAMPLE_BY_NFR)
-    sec = [e for e in sec if e not in set(maint_sample)]
-    perf = [e for e in perf if e not in set(maint_sample)]
-    robu = [e for e in robu if e not in set(maint_sample)]
-
-    sec_sample = random.sample(sec, SAMPLE_BY_NFR)
-    perf = [e for e in perf if e not in set(sec_sample)]
-    robu = [e for e in robu if e not in set(sec_sample)]
-
-    perf_sample = random.sample(perf, SAMPLE_BY_NFR)
+    perf_sample = random.sample(perf, SAMPLE_BY_NFR + 13)
+    sec = [e for e in sec if e not in set(perf_sample)]
+    maint = [e for e in maint if e not in set(perf_sample)]
     robu = [e for e in robu if e not in set(perf_sample)]
 
-    robu_sample = random.sample(robu, SAMPLE_BY_NFR)
+    robu_sample = random.sample(robu, SAMPLE_BY_NFR + 4)
+    sec = [e for e in sec if e not in set(robu_sample)]
+    maint = [e for e in maint if e not in set(robu_sample)]
+
+    sec_sample = random.sample(sec, SAMPLE_BY_NFR - 8)
+    maint = [e for e in maint if e not in set(sec_sample)]
+
+    maint_sample = random.sample(maint, SAMPLE_BY_NFR - 8)
 
     final_sample = []
     final_sample.extend(maint_sample)
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     all, maint, sec, perf, robu = generate_samples_groups()
 
     workbook = xlsxwriter.Workbook(f'auxiliar/identification_{project_name}.xlsx')
-    header = ["NUMBER_ISSUE", "URL", "NFR_TYPE", "PHRASE", "KEYWORDS", "LOCATION", "LABEL"]
+    header = ["NUMBER_ISSUE", "URL", "NFR_TYPE", "PHRASE", "KEYWORDS", "LOCATION", "LABEL", "OBS"]
 
     for participant in participants:
         my_sample = compute_sample(maint, sec, perf, robu)
