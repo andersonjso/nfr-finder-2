@@ -28,18 +28,18 @@ spring_framework_prok["url_pulls"] = "https://github.com/spring-projects/spring-
 spring_framework_prok["sample_size"] = 577
 dict_systems.append(spring_framework_prok)
 
-project_name = "spring-framework"
+project_name = "spring-boot"
 
 current_proj = next((item for item in dict_systems if item['name'] == project_name), None)
 
 file_data = f'data/{current_proj["file"]}'
 
 SAMPLE_SIZE = current_proj["sample_size"]
-PARTICIPANTS = 8
+PARTICIPANTS = 7
 SAMPLE_PARTICIPANT = math.ceil(SAMPLE_SIZE/PARTICIPANTS)
 SAMPLE_BY_NFR = math.ceil(SAMPLE_PARTICIPANT/4)
 
-participants = ["Oliveira", "Joao", "Coutinho", "Caio", "Rafael", "Paulo", "Vinicius", "Wesley"]
+participants = ["Oliveira", "Joao", "Coutinho", "Caio", "Rafael", "Paulo", "Vinicius"]
 
 with open(file_data) as json_file:
     data = json.load(json_file)
@@ -70,19 +70,19 @@ def generate_samples_groups():
 
 
 def compute_sample(maint, sec, perf, robu):
-    perf_sample = random.sample(perf, SAMPLE_BY_NFR + 13)
+    perf_sample = random.sample(perf, SAMPLE_BY_NFR)
     sec = [e for e in sec if e not in set(perf_sample)]
     maint = [e for e in maint if e not in set(perf_sample)]
     robu = [e for e in robu if e not in set(perf_sample)]
 
-    robu_sample = random.sample(robu, SAMPLE_BY_NFR + 4)
+    robu_sample = random.sample(robu, SAMPLE_BY_NFR)
     sec = [e for e in sec if e not in set(robu_sample)]
     maint = [e for e in maint if e not in set(robu_sample)]
 
-    sec_sample = random.sample(sec, SAMPLE_BY_NFR - 8)
+    sec_sample = random.sample(sec, SAMPLE_BY_NFR)
     maint = [e for e in maint if e not in set(sec_sample)]
 
-    maint_sample = random.sample(maint, SAMPLE_BY_NFR - 8)
+    maint_sample = random.sample(maint, SAMPLE_BY_NFR)
 
     final_sample = []
     final_sample.extend(maint_sample)
