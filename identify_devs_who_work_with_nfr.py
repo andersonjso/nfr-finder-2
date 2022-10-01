@@ -4,7 +4,7 @@ import traceback
 
 import numpy as np
 
-project= 'spring-security'
+project = 'spring-framework'
 
 identification_file_path = f'data/identification_{project}.csv'
 pull_file_path = f'data/{project}_pulls.json'
@@ -64,24 +64,28 @@ def __identify_users_on_pull(pull_number, nfrs, dict_output):
             users_participating = set(user_opened + users_commented + users_reviewed + users_commited)
 
 
-            for current_user in users_participating:
-                __identify_participation_times(dict_output, current_user, nfrs, 'participates')
+            try:
+                for current_user in users_participating:
+                    __identify_participation_times(dict_output, current_user, nfrs, 'participates')
 
-            for current_user in user_opened:
-                # __identify_tasks_times(dict_output, current_user, nfrs, "opened_discussion")
-                __identify_participation_times(dict_output, current_user, nfrs, 'opened_discussion')
+                for current_user in user_opened:
+                    # __identify_tasks_times(dict_output, current_user, nfrs, "opened_discussion")
+                    __identify_participation_times(dict_output, current_user, nfrs, 'opened_discussion')
 
-            for current_user in users_commented:
-                # __identify_tasks_times(dict_output, current_user, nfrs, "commented")
-                __identify_participation_times(dict_output, current_user, nfrs, 'commented')
+                for current_user in users_commented:
+                    # __identify_tasks_times(dict_output, current_user, nfrs, "commented")
+                    __identify_participation_times(dict_output, current_user, nfrs, 'commented')
 
-            for current_user in users_reviewed:
-                # __identify_tasks_times(dict_output, current_user, nfrs, "reviewed")
-                __identify_participation_times(dict_output, current_user, nfrs, 'reviewed')
+                for current_user in users_reviewed:
+                    # __identify_tasks_times(dict_output, current_user, nfrs, "reviewed")
+                    __identify_participation_times(dict_output, current_user, nfrs, 'reviewed')
 
-            for current_user in users_commited:
-                # __identify_tasks_times(dict_output, current_user, nfrs, "commited")
-                __identify_participation_times(dict_output, current_user, nfrs, 'commited')
+                for current_user in users_commited:
+                    # __identify_tasks_times(dict_output, current_user, nfrs, "commited")
+                    __identify_participation_times(dict_output, current_user, nfrs, 'commited')
+            except Exception as e:
+                print (e)
+                break
 
             return user_opened, users_commented, users_reviewed, users_commited
 
@@ -142,7 +146,7 @@ def __define_groups_interaction(users, quartiles, task):
                 users[user][f"{task}_{nfr_quartile}_medium"] = True
 
 
-with open(identification_file_path, mode='r') as identification_file:
+with open(identification_file_path, mode='r', encoding="utf8") as identification_file:
     reader = csv.DictReader(identification_file)
 
     output = {}

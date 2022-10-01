@@ -34,9 +34,12 @@ def __find_in_list(list_nfrs, message):
     list_nfrs_words = []
     count = 0
     for key in list_nfrs:
-        if key in message:
-            list_nfrs_words.append(key)
-            count += 1
+        try:
+            if key in message:
+                list_nfrs_words.append(key)
+                count += 1
+        except TypeError as e:
+            print (e)
 
     return list_nfrs_words, count
 

@@ -1,0 +1,569 @@
+NUMBER_ISSUE,URL,NFR_TYPE,PHRASE,KEYWORDS,LOCATION,LABEL,OBS
+665,https://github.com/spring-projects/spring-framework/pull/665,None,-,-,-,-,Deleted unused import
+26995,https://github.com/spring-projects/spring-framework/pull/26995,None,-,-,-,-,"Add missing "")"" in Kotlin example"
+1309,https://github.com/spring-projects/spring-framework/pull/1309,None,-,-,-,-,Fix missing uriVariables
+22637,https://github.com/spring-projects/spring-framework/pull/22637,None,-,-,-,-,URL Cleanup
+28775,https://github.com/spring-projects/spring-framework/pull/28775,None,-,-,-,-,Bug when dealing with repeated annotations
+692,https://github.com/spring-projects/spring-framework/pull/692,None,-,-,-,-,JIRA
+25621,https://github.com/spring-projects/spring-framework/pull/25621,"Performance, Robustness","Performance, Robustness: ""SocketUtils ServerSocket、DatagramSocket use try-with-resource""","Performance: ""sockets""
+Robustness: ""try""","Title, Discussion",-,-
+31,https://github.com/spring-projects/spring-framework/pull/31,None,-,-,-,-,Run sql scripts before each test method
+1424,https://github.com/spring-projects/spring-framework/pull/1424,Robustness,"""Logging exception in ExceptionWebSocketHandlerDecorator"",
+""I was having some hibernate exception in the back, but the exception is not getting printed/logged"",
+""exception handling is there but logging is missing.""","""exception"", ""handling, ""logging""","Title, Discussion",-,-
+1498,https://github.com/spring-projects/spring-framework/pull/1498,None,-,-,-,-,Support groovy markup
+712,https://github.com/spring-projects/spring-framework/pull/712,None,-,-,-,-,JIRA
+1035,https://github.com/spring-projects/spring-framework/pull/1035,Maintainability,"""fix WebRequest.checkNotModified docs""","""docs""",Title,-,type: documentation
+664,https://github.com/spring-projects/spring-framework/pull/664,None,-,-,-,-,Merge
+24617,https://github.com/spring-projects/spring-framework/pull/24617,Performance,"""avoids some unnecessary sorting overhead""","""overhead""","Title, Description",-,-
+163,https://github.com/spring-projects/spring-framework/pull/163,None,-,-,-,-,Allow SpEL reserved words in type package names
+395,https://github.com/spring-projects/spring-framework/pull/395,Maintainability,"""Migrate documentation to asciidoctor""","""documentation""","Title, Description",-,-
+1691,https://github.com/spring-projects/spring-framework/pull/1691,Maintainability,"""Corrected Javadoc""","""javadoc""","Title, Description",-,-
+247,https://github.com/spring-projects/spring-framework/pull/247,Maintainability,"""Where appropriate, updated Javadoc to refer to the""","""javadoc""",Description,-,-
+25612,https://github.com/spring-projects/spring-framework/pull/25612,None,-,-,-,-,Merge
+1277,https://github.com/spring-projects/spring-framework/pull/1277,Security,"""to use a different authentication method""","""authentication""",Description,-,-
+26353,https://github.com/spring-projects/spring-framework/pull/26353,None,-,-,-,-,Merge
+312,https://github.com/spring-projects/spring-framework/pull/312,"Robustness, Performance","Robustness, Performance: ""If you throw an exception when getBody is called, then how will the body be flushed to the stream?""","Robustness: ""exception""
+Performance: ""stream""",Review,-,-
+1861,https://github.com/spring-projects/spring-framework/pull/1861,None,-,-,-,-,Propagate read-only status
+27482,https://github.com/spring-projects/spring-framework/pull/27482,Maintainability,"""Feat/fix java doc""","""javadoc""","Title, Description",-,
+598,https://github.com/spring-projects/spring-framework/pull/598,None,-,-,-,-,Add filtered properties
+53,https://github.com/spring-projects/spring-framework/pull/53,Maintainability,"""This allows SpEL to support this syntax kind of syntax""","""syntax""","Title, Discussion",-,-
+1597,https://github.com/spring-projects/spring-framework/pull/1597,None,-,-,-,-,Change getter method
+23965,https://github.com/spring-projects/spring-framework/pull/23965,None,-,-,-,-,Avoid store all beanName
+107,https://github.com/spring-projects/spring-framework/pull/107,None,-,-,-,-,JIRA
+2026,https://github.com/spring-projects/spring-framework/pull/2026,Maintainability,"""The name of the parameter is misleading"",
+""This parameter is confusing to developers who read""","""misleading"", ""read""",,-,-
+2069,https://github.com/spring-projects/spring-framework/pull/2069,"Maintainability, Performance","Maintainability: ""I'll keep readability""
+Performance: ""Extract Method::getParameterTypes out of the loop where possible""","Maintainability: ""readability""
+Performance: ""loop""","Title, Discussion",-,-
+25897,https://github.com/spring-projects/spring-framework/pull/25897,Performance,""" Is it Tomcat opening such a stream?""","""stream""",Discussion,-,
+25594,https://github.com/spring-projects/spring-framework/pull/25594,Performance,"""Optimize ObjectUtils.nullSafeHashCode() implementations""","""optimize""",Title,-,-
+28890,https://github.com/spring-projects/spring-framework/pull/28890,None,-,-,-,-,Fix typo
+152,https://github.com/spring-projects/spring-framework/pull/152,None,-,-,-,-,-
+26822,https://github.com/spring-projects/spring-framework/pull/26822,None,-,-,-,-,-
+22665,https://github.com/spring-projects/spring-framework/pull/22665,Maintainability,URL Cleanup,"""cleanup""","Title, Description",-,-
+1462,https://github.com/spring-projects/spring-framework/pull/1462,None,-,-,-,-,-
+571,https://github.com/spring-projects/spring-framework/pull/571,Maintainability,"""I wonder whether we should shorten""","""shorten""",Discussion,-,-
+1030,https://github.com/spring-projects/spring-framework/pull/1030,None,-,-,-,-,Fix typo
+26929,https://github.com/spring-projects/spring-framework/pull/26929,Performance,"""Optimize some scenes which need not proxy""","""optimize""",Title,-,-
+28746,https://github.com/spring-projects/spring-framework/pull/28746,Robustness,"""will throw an InvalidPathException on""","""thrown""",Discussion,-,-
+1147,https://github.com/spring-projects/spring-framework/pull/1147,Performance,"""Improve performance when parsing MediaTypes""","""performance""",Title,-,-
+200,https://github.com/spring-projects/spring-framework/pull/200,None,-,-,-,-,-
+472,https://github.com/spring-projects/spring-framework/pull/472,None,-,-,-,-,-
+22337,https://github.com/spring-projects/spring-framework/pull/22337,None,-,-,-,-,-
+27229,https://github.com/spring-projects/spring-framework/pull/27229,Robustness,"""and raising an exception later""","""exception""",Discussion,-,-
+382,https://github.com/spring-projects/spring-framework/pull/382,None,-,-,-,-,-
+800,https://github.com/spring-projects/spring-framework/pull/800,Performance,"""Support OkHttp as (Async)ClientHttpRequestFactory""","""async""","Title, Description",-,-
+1806,https://github.com/spring-projects/spring-framework/pull/1806,None,-,-,-,-,Fix typo
+871,https://github.com/spring-projects/spring-framework/pull/871,Performance,"""Read large data using InputStreamResource""","""large""",Description,-,-
+1933,https://github.com/spring-projects/spring-framework/pull/1933,None,-,-,-,-,Fix unusable assertions
+23555,https://github.com/spring-projects/spring-framework/pull/23555,None,-,-,-,-,Fix typo
+656,https://github.com/spring-projects/spring-framework/pull/656,None,-,-,-,-,-
+23715,https://github.com/spring-projects/spring-framework/pull/23715,None,-,-,-,-,-
+23198,https://github.com/spring-projects/spring-framework/pull/23198,None,-,-,-,-,Transaction
+24903,https://github.com/spring-projects/spring-framework/pull/24903,Maintainability,"""replaced deprecated invocation with recommended method""","""deprecated""",Discussion,-,-
+268,https://github.com/spring-projects/spring-framework/pull/268,None,-,-,-,-,-
+24768,https://github.com/spring-projects/spring-framework/pull/24768,Performance,"""resulting in severe performance degradation""","""performance""",Description,-,-
+25137,https://github.com/spring-projects/spring-framework/pull/25137,None,-,-,-,-,Fix URI pattern
+1917,https://github.com/spring-projects/spring-framework/pull/1917,None,-,-,-,-,-
+24674,https://github.com/spring-projects/spring-framework/pull/24674,Performance,"""Improve performance of StringUtils"", ""I noticed an optimization opportunity""","""performance"", ""optimization""","Title, Description",-,-
+26114,https://github.com/spring-projects/spring-framework/pull/26114,None,-,-,-,-,-
+25058,https://github.com/spring-projects/spring-framework/pull/25058,Performance,"""Include timeout unit in shutdown failure logging""","""timeout""",Title,-,-
+25487,https://github.com/spring-projects/spring-framework/pull/25487,Maintainability,"""would be used in other Comparators, we should make this as singleton design pattern""","""pattern""",Description,-,-
+1183,https://github.com/spring-projects/spring-framework/pull/1183,None,-,-,-,-,Fix Typo
+26075,https://github.com/spring-projects/spring-framework/pull/26075,Performance,"""Avoid full singleton lock""","""lock""",Title,-,-
+27799,https://github.com/spring-projects/spring-framework/pull/27799,None,-,-,-,-,Polish
+625,https://github.com/spring-projects/spring-framework/pull/625,None,-,-,-,-,Clean up
+773,https://github.com/spring-projects/spring-framework/pull/773,Performance,"""Performance Optimization on getResultSetValue"",
+""found significant lack of performance "",
+""benchmark"", 
+""almost as fast as a custom""","""performance"", ""benchmark"", ""fast""","Title, Description",-,-
+44,https://github.com/spring-projects/spring-framework/pull/44,None,-,-,-,-,Fix Typo
+419,https://github.com/spring-projects/spring-framework/pull/419,Robustness,"""If the exception is not caught, the app cannot be deployed into""","""exception"", ""caught""","Title, Description",-,-
+1889,https://github.com/spring-projects/spring-framework/pull/1889,Security,"""even though they have a valid session""","""session""",Description,-,-
+24105,https://github.com/spring-projects/spring-framework/pull/24105,Performance,"""time improvements of the caching without some additional setup""","""time improvement""",Description,-,-
+28355,https://github.com/spring-projects/spring-framework/pull/28355,None,-,-,-,-,-
+25452,https://github.com/spring-projects/spring-framework/pull/25452,None,-,-,-,-,-
+1874,https://github.com/spring-projects/spring-framework/pull/1874,None,-,-,-,-,Fix Typo
+27604,https://github.com/spring-projects/spring-framework/pull/27604,None,,,,,"Todas essas mudanças que são claramente enhancement, estou desconsiderando como NFR."
+895,https://github.com/spring-projects/spring-framework/pull/895,None,,,,,"Todas essas mudanças que são claramente enhancement, estou desconsiderando como NFR."
+293,https://github.com/spring-projects/spring-framework/pull/293,None,,,,,"Todas essas mudanças que são claramente enhancement, estou desconsiderando como NFR."
+28783,https://github.com/spring-projects/spring-framework/pull/28783,Performance,"""prevent some lock competition""","""lock"", ""syncronization""",Description,,Os detalhes mais importantes estão na issue referenciada.
+25311,https://github.com/spring-projects/spring-framework/pull/25311,None,,,,,"Todas essas mudanças que são claramente enhancement, estou desconsiderando como NFR."
+518,https://github.com/spring-projects/spring-framework/pull/518,Maintainability,"""clean up compiler warnings""","""clean up"",""warnings""",Description,,
+1002,https://github.com/spring-projects/spring-framework/pull/1002,None,,,,,Sem informação suficiente
+1378,https://github.com/spring-projects/spring-framework/pull/1378,None,,,,,Sem informação suficiente
+1972,https://github.com/spring-projects/spring-framework/pull/1972,None,,,,,Correção de typo
+23401,https://github.com/spring-projects/spring-framework/pull/23401,None,,,,,Correção de typo
+1449,https://github.com/spring-projects/spring-framework/pull/1449,Maintainability,"""Simplify the code""",,Description,,Os detalhes mais importantes estão na issue referenciada.
+24250,https://github.com/spring-projects/spring-framework/pull/24250,None,,,,,
+1792,https://github.com/spring-projects/spring-framework/pull/1792,None,,,,,
+24476,https://github.com/spring-projects/spring-framework/pull/24476,None,,,,,
+241,https://github.com/spring-projects/spring-framework/pull/241,None,,,,,
+1061,https://github.com/spring-projects/spring-framework/pull/1061,Robustness,"""An error occurs while binding request parameters ""","""Error"", ""StringIndexOutOfBoundsException""","Title, Description",,
+589,https://github.com/spring-projects/spring-framework/pull/589,None,,,,,"Todas essas mudanças que são claramente enhancement, estou desconsiderando como NFR."
+2023,https://github.com/spring-projects/spring-framework/pull/2023,None,,,,,
+715,https://github.com/spring-projects/spring-framework/pull/715,Robustness,"""...other cases were not properly managed, throwing exceptions for valid HTTP responses.""","""throwing"", ""exceptions""",Description,,
+26294,https://github.com/spring-projects/spring-framework/pull/26294,None,,,,,Apenas uma inconformidade.
+1380,https://github.com/spring-projects/spring-framework/pull/1380,None,,,,,
+885,https://github.com/spring-projects/spring-framework/pull/885,None,,,,,
+23469,https://github.com/spring-projects/spring-framework/pull/23469,None,,,,,
+24492,https://github.com/spring-projects/spring-framework/pull/24492,Maintainability,"""Use try-with-resource instead of try-finally to close stream""",,"Title, Description",,
+22867,https://github.com/spring-projects/spring-framework/pull/22867,None,,,,,
+88,https://github.com/spring-projects/spring-framework/pull/88,None,,,,,
+24920,https://github.com/spring-projects/spring-framework/pull/24920,None,,,,,
+28315,https://github.com/spring-projects/spring-framework/pull/28315,Maintainability,"""Introduce ... method"", ""Very common""",,Description,,
+1825,https://github.com/spring-projects/spring-framework/pull/1825,Robustness,"""works as expected and does't throw exception""","""throw exception""",Description,,
+28375,https://github.com/spring-projects/spring-framework/pull/28375,None,,,,,
+214,https://github.com/spring-projects/spring-framework/pull/214,None,,,,,
+323,https://github.com/spring-projects/spring-framework/pull/323,None,,,,,Sem informação suficiente.
+25351,https://github.com/spring-projects/spring-framework/pull/25351,None,,,,,Apenas correção na documentação.
+41,https://github.com/spring-projects/spring-framework/pull/41,None,,,,,
+22647,https://github.com/spring-projects/spring-framework/pull/22647,None,,,,,
+26816,https://github.com/spring-projects/spring-framework/pull/26816,None,,,,,
+24926,https://github.com/spring-projects/spring-framework/pull/24926,Maintainability,"""spring-test HtmlUnit does not recognize files for multipart uploading""","""spring-test""",Descriptiom,in:test,Os detalhes mais importantes estão na issue referenciada.
+1071,https://github.com/spring-projects/spring-framework/pull/1071,None,,,,,Sem informação suficiente.
+744,https://github.com/spring-projects/spring-framework/pull/744,Maintainability,"""a simple refactor to extract the application of default configuration to into a separate method""","""extract"", ""refactoring""",Description,,
+27614,https://github.com/spring-projects/spring-framework/pull/27614,None,,,,,
+27565,https://github.com/spring-projects/spring-framework/pull/27565,Maintainability,"""This should save a few cycles and is also less code in some cases because we do not need to catch UnsupportedEncodingExceptions""","""less code"", ""simplification""",Description,,Os detalhes mais importantes estão na issue referenciada.
+23981,https://github.com/spring-projects/spring-framework/pull/23981,None,,,,,Sem informação suficiente.
+24774,https://github.com/spring-projects/spring-framework/pull/24774,None,,,,,Sem informação suficiente.
+1296,https://github.com/spring-projects/spring-framework/pull/1296,Robustness,"""Exception if no RequestDataValueProcessor is present""","""exception""",Title,,
+584,https://github.com/spring-projects/spring-framework/pull/584,None,,,,,
+835,https://github.com/spring-projects/spring-framework/pull/835,None,,,,,
+738,https://github.com/spring-projects/spring-framework/pull/738,None,,,,,Correção de typo
+1644,https://github.com/spring-projects/spring-framework/pull/1644,None,,,,,
+26197,https://github.com/spring-projects/spring-framework/pull/26197,None,,,,,
+390,https://github.com/spring-projects/spring-framework/pull/390,None,,,,,
+24377,https://github.com/spring-projects/spring-framework/pull/24377,None,,,,,
+28338,https://github.com/spring-projects/spring-framework/pull/28338,None,,,,,Sem informação suficiente.
+896,https://github.com/spring-projects/spring-framework/pull/896,None,,,,,
+24236,https://github.com/spring-projects/spring-framework/pull/24236,None,,,,,
+1879,https://github.com/spring-projects/spring-framework/pull/1879,None,,,,,
+467,https://github.com/spring-projects/spring-framework/pull/467,None,,,,,
+26374,https://github.com/spring-projects/spring-framework/pull/26374,None,,,,,
+26678,https://github.com/spring-projects/spring-framework/pull/26678,None,,,,,
+1361,https://github.com/spring-projects/spring-framework/pull/1361,None,,,,,
+1368,https://github.com/spring-projects/spring-framework/pull/1368,Maintainability,"""Use JDK8 hashCode() for primitives in ObjectUtils""","""Deprecated""",Description,,
+22809,https://github.com/spring-projects/spring-framework/pull/22809,None,,,,,
+1579,https://github.com/spring-projects/spring-framework/pull/1579,Maintainability,"""otherwise it's easy to accidentally get 'localhost' even if you set a Host: header""",,Description,,
+26952,https://github.com/spring-projects/spring-framework/pull/26952,None,,,,,
+22677,https://github.com/spring-projects/spring-framework/pull/22677,None,,,,,Apenas correção na documentação.
+1511,https://github.com/spring-projects/spring-framework/pull/1511,None,,,,,Apenas correção na documentação.
+24155,https://github.com/spring-projects/spring-framework/pull/24155,None,,,,,Apenas correção na documentação.
+1293,https://github.com/spring-projects/spring-framework/pull/1293,None,,,,,"Parece relacionada a performance, mas faltam detalhes do autor."
+1798,https://github.com/spring-projects/spring-framework/pull/1798,None,,,,,
+23967,https://github.com/spring-projects/spring-framework/pull/23967,None,,,,,
+27290,https://github.com/spring-projects/spring-framework/pull/27290,Maintainability,"""A new method has been added, named hasAnyContributors that returns the value expected of its name.""","""Deprecated""",Description,,
+1135,https://github.com/spring-projects/spring-framework/pull/1135,None,,,,,Sem informação suficiente.
+1288,https://github.com/spring-projects/spring-framework/pull/1288,None,,,,,
+1453,https://github.com/spring-projects/spring-framework/pull/1453,Maintainability,"""use lambda to refact the code""","""Refact""",Description,,"Apesar de ser relacionada a refatoração, foi rejeitada."
+28217,https://github.com/spring-projects/spring-framework/pull/28217,None,,,,,
+22517,https://github.com/spring-projects/spring-framework/pull/22517,None,,,,,Apenas correção na documentação.
+22589,https://github.com/spring-projects/spring-framework/pull/22589,None,,,,,Correção de typo
+1011,https://github.com/spring-projects/spring-framework/pull/1011,None,,,,,
+27997,https://github.com/spring-projects/spring-framework/pull/27997,Maintainability,Polish codes in spring-webmvc,Polish,Title,-,"Detalhe, numa das mensagens dos commits associados no PR tem uma menção explícita à refatoração, o que poderia ajudar mais na identificação que as keywords que eu indiquei."
+645,https://github.com/spring-projects/spring-framework/pull/645,None,-,-,-,-,-
+24419,https://github.com/spring-projects/spring-framework/pull/24419,Maintainability,Simplify UrlFileNameViewController#getViewNameForUrlPath(),Simplify,Title,-,-
+1427,https://github.com/spring-projects/spring-framework/pull/1427,Robustness,Is there not possible NPE if subs.get(sessionId) returns null? How about:,NPE,Discussion,-,
+1977,https://github.com/spring-projects/spring-framework/pull/1977,Performance,"Optimize HTTP headers parsing
+
+Several benchmarks underlined a few hotspots for CPU and GC pressure in
+the Spring Framework codebase:
+
+The media
+type parsing operation is expensive
+
+This commit improves this by caching the parsed MediaType for the
+""Content-Type"" request header in the ReadOnlyHttpHeaders class. This change
+is available for both Spring MVC and Spring WebFlux.","Optimize, CPU, benchmarks, hotspots, GC pressure, expensive, caching","Title, Description",-,-
+25899,https://github.com/spring-projects/spring-framework/pull/25899,None,-,-,-,-,-
+28677,https://github.com/spring-projects/spring-framework/pull/28677,Robustness,Fix DataSourceUtils inconsistent exception handling,exception,Title,-,-
+1999,https://github.com/spring-projects/spring-framework/pull/1999,Robustness,fix exception chain loss,exception,Title,-,-
+25936,https://github.com/spring-projects/spring-framework/pull/25936,None,-,-,-,-,-
+28426,https://github.com/spring-projects/spring-framework/pull/28426,None,-,-,-,-,-
+313,https://github.com/spring-projects/spring-framework/pull/313,Maintainability,removed unused dependency from spring-instrument,unused dependency,Title,-,-
+1349,https://github.com/spring-projects/spring-framework/pull/1349,Maintainability,Making easier for understanding example of GenericApplicationContext by changing undeclared object ctx to context.,easier + understand,Description,-,-
+1910,https://github.com/spring-projects/spring-framework/pull/1910,None,-,-,-,-,-
+1404,https://github.com/spring-projects/spring-framework/pull/1404,None,-,-,-,-,-
+1581,https://github.com/spring-projects/spring-framework/pull/1581,None,-,-,-,-,-
+958,https://github.com/spring-projects/spring-framework/pull/958,Performance,Speed up AntPathMatcher by doing prefix-match,speed up,Title,-,-
+27324,https://github.com/spring-projects/spring-framework/pull/27324,None,-,-,-,-,-
+23450,https://github.com/spring-projects/spring-framework/pull/23450,None,,,,,
+1610,https://github.com/spring-projects/spring-framework/pull/1610,None,,,,,
+960,https://github.com/spring-projects/spring-framework/pull/960,None,,,,,
+28472,https://github.com/spring-projects/spring-framework/pull/28472,None,,,,,
+23142,https://github.com/spring-projects/spring-framework/pull/23142,None,,,,,
+1584,https://github.com/spring-projects/spring-framework/pull/1584,None,,,,,
+1228,https://github.com/spring-projects/spring-framework/pull/1228,None,,,,,
+1213,https://github.com/spring-projects/spring-framework/pull/1213,None,,,,,
+27862,https://github.com/spring-projects/spring-framework/pull/27862,None,,,,,
+1410,https://github.com/spring-projects/spring-framework/pull/1410,None,,,,,
+26773,https://github.com/spring-projects/spring-framework/pull/26773,Maintainability,Fix @Scope documentation in ref docs,fix documentation,Title,,
+801,https://github.com/spring-projects/spring-framework/pull/801,Robustness,"Trivial change: use Long.parseLong instead of Integer.parseInt because the assigned fields are of type long, not int. The current code is causing errors on startup when I try to use a value too big for an int.",errors,Description,,
+869,https://github.com/spring-projects/spring-framework/pull/869,Robustness,Prevent a IllegalStateException in BindStatus at the time of without property access,exception,Title,,
+636,https://github.com/spring-projects/spring-framework/pull/636,Security,Add Authentication to Security Context Holder,"authentication, security",Title,,
+1826,https://github.com/spring-projects/spring-framework/pull/1826,None,,,,,
+124,https://github.com/spring-projects/spring-framework/pull/124,None,,,,,
+540,https://github.com/spring-projects/spring-framework/pull/540,None,,,,,
+28453,https://github.com/spring-projects/spring-framework/pull/28453,None,,,,,
+22792,https://github.com/spring-projects/spring-framework/pull/22792,Performance,Some trivial optimization in method populateBean(),optimization,Title,,
+1003,https://github.com/spring-projects/spring-framework/pull/1003,Robustness,"Profiling has shown that we have a lot of caught
+SAXNotRecognizedException during normal program execution. ",exception,Description,,
+28010,https://github.com/spring-projects/spring-framework/pull/28010,None,,,,,
+26030,https://github.com/spring-projects/spring-framework/pull/26030,None,,,,,
+253,https://github.com/spring-projects/spring-framework/pull/253,Maintainability,Document @Bean 'lite' mode vs @Configuration,document,Title,,
+27127,https://github.com/spring-projects/spring-framework/pull/27127,Maintainability,Avoid duplicated code by using map,duplicated code,Title,,
+27726,https://github.com/spring-projects/spring-framework/pull/27726,Maintainability,Clarify that interface-level cache annotations work for target-class proxies as well,clarify,Title,,
+27752,https://github.com/spring-projects/spring-framework/pull/27752,Maintainability,Avoids duplicating the logic,duplicating + logic,Description,,
+26708,https://github.com/spring-projects/spring-framework/pull/26708,Maintainability,This PR fixes polishes trivial stuff.,polish,"Title, Description",,
+642,https://github.com/spring-projects/spring-framework/pull/642,None,,,,,
+22993,https://github.com/spring-projects/spring-framework/pull/22993,Maintainability,"Update webflux.adoc
+
+Correction of example with @RequestBody and BindingResult which dosn't work.",correction + doc,"Title, Description",,
+1286,https://github.com/spring-projects/spring-framework/pull/1286,None,,,,,
+24696,https://github.com/spring-projects/spring-framework/pull/24696,Maintainability,Improve Javadoc in InstantiationAwareBeanPostProcessor,improve,Title,,
+25398,https://github.com/spring-projects/spring-framework/pull/25398,None,,,,,
+27755,https://github.com/spring-projects/spring-framework/pull/27755,Maintainability,Avoids duplicating the logic,duplicating + logic,Description,,
+1648,https://github.com/spring-projects/spring-framework/pull/1648,None,,,,,
+1541,https://github.com/spring-projects/spring-framework/pull/1541,None,,,,,
+23835,https://github.com/spring-projects/spring-framework/pull/23835,None,,,,,
+1688,https://github.com/spring-projects/spring-framework/pull/1688,None,,,,,
+2036,https://github.com/spring-projects/spring-framework/pull/2036,None,,,,,
+1325,https://github.com/spring-projects/spring-framework/pull/1325,None,,,,,
+1787,https://github.com/spring-projects/spring-framework/pull/1787,None,,,,,
+28744,https://github.com/spring-projects/spring-framework/pull/28744,Maintainability,Polish ,Polish ,Title,,
+23274,https://github.com/spring-projects/spring-framework/pull/23274,None,,,,,
+1138,https://github.com/spring-projects/spring-framework/pull/1138,Performance,Improve performance of assertion in StompSubProtocolHandler.convertCo,performance,Title,,
+25078,https://github.com/spring-projects/spring-framework/pull/25078,None,,,,,
+25357,https://github.com/spring-projects/spring-framework/pull/25357,None,,,,,
+310,https://github.com/spring-projects/spring-framework/pull/310,None,,,,,
+455,https://github.com/spring-projects/spring-framework/pull/455,None,,,,,
+1572,https://github.com/spring-projects/spring-framework/pull/1572,None,,,,,
+1627,https://github.com/spring-projects/spring-framework/pull/1627,None,,,,,
+1905,https://github.com/spring-projects/spring-framework/pull/1905,None,,,,,
+23780,https://github.com/spring-projects/spring-framework/pull/23780,Maintainability,Polish HttpWebHandlerAdapter.handleUnresolvedError(),Polish,Title,,
+26969,https://github.com/spring-projects/spring-framework/pull/26969,None,,,,,
+962,https://github.com/spring-projects/spring-framework/pull/962,None,,,,,
+1034,https://github.com/spring-projects/spring-framework/pull/1034,None,,,,,
+28795,https://github.com/spring-projects/spring-framework/pull/28795,None,,,,,
+1995,https://github.com/spring-projects/spring-framework/pull/1995,None,,,,,
+26684,https://github.com/spring-projects/spring-framework/pull/26684,Maintainability,Polish TestContextAnnotationsUtilsTests,Polish,Title,,
+1963,https://github.com/spring-projects/spring-framework/pull/1963,None,,,,,
+1022,https://github.com/spring-projects/spring-framework/pull/1022,None,,,,,
+24651,https://github.com/spring-projects/spring-framework/pull/24651,Maintainability,Adding the ability to request a file's contents as a string for testing REST or WEBMVC allows for cleaner test classes and more readable code.,"cleaner, readable",Description,,
+476,https://github.com/spring-projects/spring-framework/pull/476,None,,,,,
+24781,https://github.com/spring-projects/spring-framework/pull/24781,Maintainability,"""Fix typos and improve readability in Webflux documentation""","typos, readability, documentation",Title,type:documentation,
+405,https://github.com/spring-projects/spring-framework/pull/405,None,,,,,
+27912,https://github.com/spring-projects/spring-framework/pull/27912,None,,,,,
+1235,https://github.com/spring-projects/spring-framework/pull/1235,None,,,,,
+1534,https://github.com/spring-projects/spring-framework/pull/1534,None,,,,,
+26323,https://github.com/spring-projects/spring-framework/pull/26323,None,,,,,
+24815,https://github.com/spring-projects/spring-framework/pull/24815,Maintainability,"""Fix typo in webflux-cors.adoc""",typo,Title,type:task,
+776,https://github.com/spring-projects/spring-framework/pull/776,None,,,,,
+25453,https://github.com/spring-projects/spring-framework/pull/25453,None,,,,,
+1439,https://github.com/spring-projects/spring-framework/pull/1439,Performance,"""SPR-15602 - Optimize DefaultUserDestinationResolver.resolveDestination()""",optimize,Title,,
+222,https://github.com/spring-projects/spring-framework/pull/222,None,,,,,
+24311,https://github.com/spring-projects/spring-framework/pull/24311,None,,,,,
+71,https://github.com/spring-projects/spring-framework/pull/71,Robustness,"""I have cloned the Spring Framework Git repository and tried to build branch 3.1.x from command line with Ant, then got the error above.
+Environment: Ubuntu 12.04, Apache Ant (both versions 1.8.1 and 1.8.2 produce the same result), Java HotSpot(TM) 64-Bit Server VM (build 20.1-b02, mixed mode).""","error, build",Comment,,
+1275,https://github.com/spring-projects/spring-framework/pull/1275,None,,,,,
+24694,https://github.com/spring-projects/spring-framework/pull/24694,Performance,"""Reduce byte array allocations in StompEncoder"", ""The use of an okio.Buffer instead of an ByteArrayOutputStream will reduce
+the amount of allocated byte arrays by 50% to 66%."", In our case (because our stomp-headers are bigger than 128 byte), the current implementation allocates 3 byte arrays for each stomp message we send:
+
+The initial internal buffer of the ByteArrayOutputStream (initialized as 128 + payload.length) (20.0%, 14414 samples)
+The grown internal buffer of the ByteArrayOutputStream, which is needed because we write more than payload.length + 128 bytes. (22.5%, 16233 samples)
+The result array which is created as subsequence copy of the internal buffer (34.9%, 25101 samples)
+""","buffer, reduce, payload, byte, encoder, %, length, allocate","Tittle, description, comment",type:messaging,
+25051,https://github.com/spring-projects/spring-framework/pull/25051,Maintainability,"""Fix typo in RmiSupportTests""",typo,Tittle ,,
+619,https://github.com/spring-projects/spring-framework/pull/619,Robustness,"""SPR-12068 Added exception tracking to JamonPerformanceMonitorInterceptor"", ""The property below 'trackExceptions' controls this behaviour.""","exception, behavior, interceptor","Title, comments",,
+366,https://github.com/spring-projects/spring-framework/pull/366,None,,,,,
+628,https://github.com/spring-projects/spring-framework/pull/628,None,,,,,
+1652,https://github.com/spring-projects/spring-framework/pull/1652,None,,,,,
+1060,https://github.com/spring-projects/spring-framework/pull/1060,None,,,,,
+24437,https://github.com/spring-projects/spring-framework/pull/24437,None,,,,,
+25298,https://github.com/spring-projects/spring-framework/pull/25298,None,,,,,
+1873,https://github.com/spring-projects/spring-framework/pull/1873,Performance,"""improve performance of projection instantiation""","improve, performance",Title,,
+22711,https://github.com/spring-projects/spring-framework/pull/22711,None,,,,,
+649,https://github.com/spring-projects/spring-framework/pull/649,None,,,,,
+539,https://github.com/spring-projects/spring-framework/pull/539,None,,,,,
+769,https://github.com/spring-projects/spring-framework/pull/769,None,,,,,
+22515,https://github.com/spring-projects/spring-framework/pull/22515,Maintainability,"""URL Cleanup"", ""Fixed URLs""",cleanup,"Title, description",,
+28401,https://github.com/spring-projects/spring-framework/pull/28401,None,,,,,
+2022,https://github.com/spring-projects/spring-framework/pull/2022,None,,,,,
+259,https://github.com/spring-projects/spring-framework/pull/259,None,,,,,
+22354,https://github.com/spring-projects/spring-framework/pull/22354,None,,,,,
+1102,https://github.com/spring-projects/spring-framework/pull/1102,None,,,,,
+1555,https://github.com/spring-projects/spring-framework/pull/1555,None,,,,,
+1320,https://github.com/spring-projects/spring-framework/pull/1320,None,,,,,
+495,https://github.com/spring-projects/spring-framework/pull/495,None,,,,,
+26674,https://github.com/spring-projects/spring-framework/pull/26674,None,,,,,
+1037,https://github.com/spring-projects/spring-framework/pull/1037,None,,,,,
+1094,https://github.com/spring-projects/spring-framework/pull/1094,None,,,,,
+1251,https://github.com/spring-projects/spring-framework/pull/1251,None,,,,,
+1864,https://github.com/spring-projects/spring-framework/pull/1864,None,,,,,
+158,https://github.com/spring-projects/spring-framework/pull/158,None,,,,,
+25554,https://github.com/spring-projects/spring-framework/pull/25554,None,,,,,
+1625,https://github.com/spring-projects/spring-framework/pull/1625,None,,,,,
+27779,https://github.com/spring-projects/spring-framework/pull/27779,None,,,,,
+68,https://github.com/spring-projects/spring-framework/pull/68,None,,,,,
+24864,https://github.com/spring-projects/spring-framework/pull/24864,None,,,,,
+1539,https://github.com/spring-projects/spring-framework/pull/1539,None,,,,,
+860,https://github.com/spring-projects/spring-framework/pull/860,None,,,,,
+27830,https://github.com/spring-projects/spring-framework/pull/27830,Maintainability,"""Improve tests and Javadoc on binding to a property of type javax.servlet.Part""","improve, tests, javadoc",Title,,
+27468,https://github.com/spring-projects/spring-framework/pull/27468,None,,,,,
+22523,https://github.com/spring-projects/spring-framework/pull/22523,Maintainability,"""URL Cleanup"", ""Fixed URLs""",cleanup,"Title, description",,
+26340,https://github.com/spring-projects/spring-framework/pull/26340,None,,,,,
+28014,https://github.com/spring-projects/spring-framework/pull/28014,None,,,,,
+28652,https://github.com/spring-projects/spring-framework/pull/28652,None,,,,,
+1190,https://github.com/spring-projects/spring-framework/pull/1190,None,,,,,
+1106,https://github.com/spring-projects/spring-framework/pull/1106,None,,,,,
+24682,https://github.com/spring-projects/spring-framework/pull/24682,Maintainability,"""Improve javadoc in RollbackRuleAttribute regarding nested classes"", ""Please introduce a test which demonstrates that an enclosing class would result in a positive match.""","improve, javadoc, test","Title, comment",,
+529,https://github.com/spring-projects/spring-framework/pull/529,None,,,,,
+27466,https://github.com/spring-projects/spring-framework/pull/27466,Performance,"""Optimize header removal in ForwardedHeaderFilter"", ""The current implementation suggests that the request's headers are not
+expected to change. Hence, it's not necessary to copy them.
+Furthermore, it might be costly to do so if there are many headers.
+Instead, cache only the request's header names for method getHeaderNames.""","optimize, costly, cache","Title, description",,
+22546,https://github.com/spring-projects/spring-framework/pull/22546,None,,,,,
+1746,https://github.com/spring-projects/spring-framework/pull/1746,None,,,,,
+26211,https://github.com/spring-projects/spring-framework/pull/26211,None,,,,,
+749,https://github.com/spring-projects/spring-framework/pull/749,None,,,,,
+1804,https://github.com/spring-projects/spring-framework/pull/1804,None,,,,,
+372,https://github.com/spring-projects/spring-framework/pull/372,None,,,,,
+26569,https://github.com/spring-projects/spring-framework/pull/26569,None,,,,,
+505,https://github.com/spring-projects/spring-framework/pull/505,None,,,,,
+933,https://github.com/spring-projects/spring-framework/pull/933,None,,,,,
+24337,https://github.com/spring-projects/spring-framework/pull/24337,Robustness,"""Update throwable to SQLException"", ""To be as specific as possible in catching exceptions.
+As far as I can see, there is no problem.""","throwable, exception, catching","Title, description",in:Data,
+25604,https://github.com/spring-projects/spring-framework/pull/25604,None,,,,,
+3,https://github.com/spring-projects/spring-framework/pull/3,None,,,,,
+1504,https://github.com/spring-projects/spring-framework/pull/1504,None,,,,,
+24746,https://github.com/spring-projects/spring-framework/pull/24746,None,,,,,
+23582,https://github.com/spring-projects/spring-framework/pull/23582,None,,,,,
+826,https://github.com/spring-projects/spring-framework/pull/826,None,,,,,
+2071,https://github.com/spring-projects/spring-framework/pull/2071,None,,,,,
+22668,https://github.com/spring-projects/spring-framework/pull/22668,Security,This commit updates URLs to prefer the https protocol.,prefer the https protocol,description,,
+26484,https://github.com/spring-projects/spring-framework/pull/26484,None,,,,,
+1724,https://github.com/spring-projects/spring-framework/pull/1724,None,,,,,
+28265,https://github.com/spring-projects/spring-framework/pull/28265,None,,,,,
+1428,https://github.com/spring-projects/spring-framework/pull/1428,Robustness,"RestTemplate is missing ""Typed"" error handler
+
+The default error handler creates a String body from the output source. It would be nice if there were an alternative ""Typed"" Error handler that could use the same HttpMessageConverterExtractor to non-success states that handle JSON/XML responses.",error handler,"title, description",,
+25463,https://github.com/spring-projects/spring-framework/pull/25463,None,,,,,
+890,https://github.com/spring-projects/spring-framework/pull/890,None,,,,,
+1671,https://github.com/spring-projects/spring-framework/pull/1671,Robustness,source code*,"try, finally",source code,,Texto da issue vago. Fui olhar no código fonte. Daí entendi que era robustez.
+530,https://github.com/spring-projects/spring-framework/pull/530,None,,,,,
+22593,https://github.com/spring-projects/spring-framework/pull/22593,None,,,,,
+154,https://github.com/spring-projects/spring-framework/pull/154,Robustness,"Chain exception cause on create failure
+
+Propogate root cause of exceptions thrown from createCollection
+and createMap.","chain exception, propagate root cause","title, description",,
+159,https://github.com/spring-projects/spring-framework/pull/159,None,,,,,
+28853,https://github.com/spring-projects/spring-framework/pull/28853,None,,,,,
+728,https://github.com/spring-projects/spring-framework/pull/728,None,,,,,
+1366,https://github.com/spring-projects/spring-framework/pull/1366,None,,,,,
+705,https://github.com/spring-projects/spring-framework/pull/705,Robustness,Lately I'm using http 422 Unprocessable Entity for returning validation errors. instead of a 400. It seems many public api's are changing to this (like github api).,returning validation errors,description,,
+24266,https://github.com/spring-projects/spring-framework/pull/24266,None,,,,,
+1356,https://github.com/spring-projects/spring-framework/pull/1356,None,,,,,
+74,https://github.com/spring-projects/spring-framework/pull/74,None,,,,,
+26574,https://github.com/spring-projects/spring-framework/pull/26574,Robustness,"ClassLoader.getResource can throw IllegalArgumentException
+
+According to its javadoc, resolveURL should return null if not resolvable, so catch the IllegalArgumentException and return null.","throw, catch","title, description",,
+1222,https://github.com/spring-projects/spring-framework/pull/1222,None,,,,,
+1805,https://github.com/spring-projects/spring-framework/pull/1805,Performance,"SPR-16766 - Improve performance of StringUtils#trimWhitespace
+
+Cutting whitespaces once prevents calling System#arrayCopy on every deleted char. With using String#substring method it would be called just once.","performance, called just once","title, description",,
+23341,https://github.com/spring-projects/spring-framework/pull/23341,Performance,What we specifically need is a way to predict the bean type in a way that's very fast to call during condition evaluation and doesn't cause any early initialization of any beans (including FactoryBeans).,early inititalization,description,,Precisei olhar para uma issue citada (#23056)
+1435,https://github.com/spring-projects/spring-framework/pull/1435,None,,,,,
+1813,https://github.com/spring-projects/spring-framework/pull/1813,None,,,,,
+224,https://github.com/spring-projects/spring-framework/pull/224,None,,,,,
+24758,https://github.com/spring-projects/spring-framework/pull/24758,None,,,,,
+24900,https://github.com/spring-projects/spring-framework/pull/24900,None,,,,,
+568,https://github.com/spring-projects/spring-framework/pull/568,Robustness,This commit adds a check for this exception and returns null in that case,adds a check for this exception,description,,
+23053,https://github.com/spring-projects/spring-framework/pull/23053,None,,,,,
+23176,https://github.com/spring-projects/spring-framework/pull/23176,None,,,,,
+23458,https://github.com/spring-projects/spring-framework/pull/23458,Performance,What we specifically need is a way to predict the bean type in a way that's very fast to call during condition evaluation and doesn't cause any early initialization of any beans (including FactoryBeans).,early initialization,description,,Precisei olhar para uma issue citada (#23056)
+24588,https://github.com/spring-projects/spring-framework/pull/24588,Robustness,"Thanks for the PR but none of the changed places are exposed to NullPointerException and the current checks are fine, even a little shorter, so we'll keep them as they are.","exposed to NullPointerException, checks",comment,,
+751,https://github.com/spring-projects/spring-framework/pull/751,None,,,,,
+2015,https://github.com/spring-projects/spring-framework/pull/2015,None,,,,,
+1929,https://github.com/spring-projects/spring-framework/pull/1929,None,,,,,
+1448,https://github.com/spring-projects/spring-framework/pull/1448,None,,,,,
+26779,https://github.com/spring-projects/spring-framework/pull/26779,None,,,,,
+27015,https://github.com/spring-projects/spring-framework/pull/27015,None,,,,,
+26575,https://github.com/spring-projects/spring-framework/pull/26575,None,,,,,
+27417,https://github.com/spring-projects/spring-framework/pull/27417,None,,,,,
+292,https://github.com/spring-projects/spring-framework/pull/292,None,,,,,
+22778,https://github.com/spring-projects/spring-framework/pull/22778,None,,,,,
+28428,https://github.com/spring-projects/spring-framework/pull/28428,None,,,,,
+28056,https://github.com/spring-projects/spring-framework/pull/28056,None,,,,,
+133,https://github.com/spring-projects/spring-framework/pull/133,None,,,,,
+1620,https://github.com/spring-projects/spring-framework/pull/1620,None,,,,,
+23345,https://github.com/spring-projects/spring-framework/pull/23345,Performance,"Introduce interface cache for proxied EntityManager and Query types.
+These caches prevent excessive object allocations","interface cache, prevent excessive object reallocations","title, description",,
+1957,https://github.com/spring-projects/spring-framework/pull/1957,None,,,,,
+27469,https://github.com/spring-projects/spring-framework/pull/27469,None,,,,"Titulo em chinês, sem descrição",
+22606,https://github.com/spring-projects/spring-framework/pull/22606,None,,,,,
+1412,https://github.com/spring-projects/spring-framework/pull/1412,None,,,,,
+1955,https://github.com/spring-projects/spring-framework/pull/1955,None,,,,,
+841,https://github.com/spring-projects/spring-framework/pull/841,None,,,,,
+27536,https://github.com/spring-projects/spring-framework/pull/27536,None,,,,,
+474,https://github.com/spring-projects/spring-framework/pull/474,None,,,,,
+591,https://github.com/spring-projects/spring-framework/pull/591,None,,,,,
+23729,https://github.com/spring-projects/spring-framework/pull/23729,None,,,,,
+23506,https://github.com/spring-projects/spring-framework/pull/23506,Maintainability,This simplifies the ajc configuration by using the external io.freefair.aspectj gradle plugin.,simplifies the ajc configuration,Description,,
+26752,https://github.com/spring-projects/spring-framework/pull/26752,None,,,,,
+282,https://github.com/spring-projects/spring-framework/pull/282,None,,,,,
+23645,https://github.com/spring-projects/spring-framework/pull/23645,Maintainability,"Prior to this commit, customizing the extraction of RSocket metadata
+from frames would require developers to override the default
+MetadataExtractor while configuring RSocketStrategies.
+This touches on many infrastructure parts, whereas the goal is just to
+configure an extra metadata entry extractor using already configured
+codecs.",require developers overriding,Description,,
+1173,https://github.com/spring-projects/spring-framework/pull/1173,None,,,,,
+507,https://github.com/spring-projects/spring-framework/pull/507,None,,,,,
+1802,https://github.com/spring-projects/spring-framework/pull/1802,Robustness,Make sure the constructor of CacheControl being invoked only once.,invoked only once,description,,
+1821,https://github.com/spring-projects/spring-framework/pull/1821,None,,,,,
+1447,https://github.com/spring-projects/spring-framework/pull/1447,Maintainability,Refact iterator of Map with Java 8 forEach,refact,title,,
+1936,https://github.com/spring-projects/spring-framework/pull/1936,Robustness,"More defensive about bad URLs 
+We can safely catch Throwable here without affecting the logic","defensive, catch","title, description",,
+2024,https://github.com/spring-projects/spring-framework/pull/2024,Maintainability,"Uses Function.identity instead of n->n
+This PR just polishes DefaultServerResponseBuilder - it replaces all uses of
+","uses Function.identity instead of, polishes, replaces all uses","title, description",,
+1405,https://github.com/spring-projects/spring-framework/pull/1405,Performance,Lazily initialize Environment in GenericFilterBean,Lazily inititalize,title,,
+1108,https://github.com/spring-projects/spring-framework/pull/1108,None,,,,,
+25540,https://github.com/spring-projects/spring-framework/pull/25540,None,,,,,
+22571,https://github.com/spring-projects/spring-framework/pull/22571,None,,,,,
+23290,https://github.com/spring-projects/spring-framework/pull/23290,None,,,,,
+28113,https://github.com/spring-projects/spring-framework/pull/28113,Performance,Avoid multiple invocations of private lifecycle method ,Avoid multiple invocations,,,
+23914,https://github.com/spring-projects/spring-framework/pull/23914,"Maintainability","""The original map named earlyProxyReferences seems to stores the target object, not the proxy object.""",,Title,type:task,
+184,https://github.com/spring-projects/spring-framework/pull/184,None,,,,,
+25321,https://github.com/spring-projects/spring-framework/pull/25321,"Maintainability, Robustness","""I had an issue where System.currentTimeMillis() was a bad seed when a few tests were running in parallel.""","Bad seed, tests",Description,type:enhancement,
+1244,https://github.com/spring-projects/spring-framework/pull/1244,None,,,,,
+2002,https://github.com/spring-projects/spring-framework/pull/2002,None,,,,,
+23066,https://github.com/spring-projects/spring-framework/pull/23066,None,,,,,
+1800,https://github.com/spring-projects/spring-framework/pull/1800,None,,,,,
+359,https://github.com/spring-projects/spring-framework/pull/359,Robustness,"""Now the DispatcherServlet can be configured to throw a
+NoHandlerFoundException, when the throwExceptionIfNoHandlerFound
+property is set to ""true"".""",Throw,Description,,
+24661,https://github.com/spring-projects/spring-framework/pull/24661,None,,,,,
+1790,https://github.com/spring-projects/spring-framework/pull/1790,None,,,,,
+22254,https://github.com/spring-projects/spring-framework/pull/22254,None,,,,,
+28448,https://github.com/spring-projects/spring-framework/pull/28448,Maintainability,"""Update javadoc as type-level @Controller is now required""",Javadoc,Title,type:task,
+26383,https://github.com/spring-projects/spring-framework/pull/26383,None,,,,,
+22728,https://github.com/spring-projects/spring-framework/pull/22728,Robustness,"""The use case is an error from the writeFunction, e.g. if Reactor Netty fails to flush the response status and the headers before consuming the cached item.""",Error,Review,type:bug,
+1949,https://github.com/spring-projects/spring-framework/pull/1949,None,,,,,
+1304,https://github.com/spring-projects/spring-framework/pull/1304,None,,,,,
+26700,https://github.com/spring-projects/spring-framework/pull/26700,Robustness,"""If the ThreadPoolTaskExecutor is dynamically changed with an invalid value
+the state of the ThreadPoolTaskExecutor does no longer correctly represent
+the state of the underlying ThreadPoolExecutor""",Invalid value,Description,type:enhancement,
+929,https://github.com/spring-projects/spring-framework/pull/929,"Maintainability, Robustness","""SPR-13752: MockHttpServletResponse.setIntHeader does not support 'Content-Length' header""","Robustness: Support
+Maintainability: Exception","Robustness: Description
+Maintainability: Issue",,
+291,https://github.com/spring-projects/spring-framework/pull/291,None,,,,,
+865,https://github.com/spring-projects/spring-framework/pull/865,None,,,,,
+586,https://github.com/spring-projects/spring-framework/pull/586,None,,,,,
+1376,https://github.com/spring-projects/spring-framework/pull/1376,Robustness,"""SPR-14925: Return 5xx HTTP status for invalid target types with Jackson""",Return,Title,,
+23521,https://github.com/spring-projects/spring-framework/pull/23521,Maintainability,"""Use dependency management in Framework build""",Build,Title,type:task,
+1354,https://github.com/spring-projects/spring-framework/pull/1354,None,,,,,
+381,https://github.com/spring-projects/spring-framework/pull/381,None,,,,,
+24792,https://github.com/spring-projects/spring-framework/pull/24792,Maintainability,"""Fix broken link in Javadoc for DynamicPropertySource""",Javadoc,Title,type:task,
+23050,https://github.com/spring-projects/spring-framework/pull/23050,None,,,,,
+22516,https://github.com/spring-projects/spring-framework/pull/22516,"Maintainability, Security","""This commit updates URLs to prefer the https protocol. Redirects are not followed to avoid accidentally expanding intentionally shortened URLs (i.e. if using a URL shortener).""",HTTPS,Description,type:task,
+1990,https://github.com/spring-projects/spring-framework/pull/1990,None,,,,,
+28836,https://github.com/spring-projects/spring-framework/pull/28836,"Robustness, Security","""Fixing internal error, when the message of an exception doesn't contain any text.
+
+In my application, this probably caused a memory leak. ""","Robustness: Internal error
+Security: Memory leak",Description,type:bug,
+756,https://github.com/spring-projects/spring-framework/pull/756,None,,,,,
+1885,https://github.com/spring-projects/spring-framework/pull/1885,None,,,,,
+1777,https://github.com/spring-projects/spring-framework/pull/1777,None,,,,,
+25570,https://github.com/spring-projects/spring-framework/pull/25570,Performance,"""Optimize single character equality checks""",Optimize,Title,,
+1324,https://github.com/spring-projects/spring-framework/pull/1324,None,,,,,
+28792,https://github.com/spring-projects/spring-framework/pull/28792,None,,,,,
+1618,https://github.com/spring-projects/spring-framework/pull/1618,None,,,,,
+23815,https://github.com/spring-projects/spring-framework/pull/23815,Robustness,"""Changed the default character encoding to UTF-8 in both the exceptions""",Exception,Title,,
+726,https://github.com/spring-projects/spring-framework/pull/726,None,,,,,
+573,https://github.com/spring-projects/spring-framework/pull/573,Maintainability,"""Support asserting JSON regardless of order and formatting.""",Support,Description,,
+27804,https://github.com/spring-projects/spring-framework/pull/27804,Maintainability,"""Fix javadoc reference to ThrowsAdvice """,Javadoc,Title,type:documentation,
+629,https://github.com/spring-projects/spring-framework/pull/629,Performance,"""Use putIfAbsent in CachedIntrospectionResults to avoid writing to the map. This change results in less volatile field updates increasing get performance (which is far more common).""",Performance,Description,,
+26442,https://github.com/spring-projects/spring-framework/pull/26442,Performance,"""Introduce 'idleReceivesPerTaskLimit' in DefaultMessageListenerContainer""",Limit,Title,type:enhancement,
+27992,https://github.com/spring-projects/spring-framework/pull/27992,"Robustness, Performance","""Hence,
+the possibility to find several matching signatures by just using
+the schema name, catalog name and procedure/function name is real.""",,,,
+28658,https://github.com/spring-projects/spring-framework/pull/28658,None,,,,,
+23762,https://github.com/spring-projects/spring-framework/pull/23762,None,,,,,
+1655,https://github.com/spring-projects/spring-framework/pull/1655,None,,,,,
+23847,https://github.com/spring-projects/spring-framework/pull/23847,None,,,,,
+62,https://github.com/spring-projects/spring-framework/pull/62,None,,,,,
+25062,https://github.com/spring-projects/spring-framework/pull/25062,Performance,"""Reduce unnecessary loops in PostProcessorRegistrationDelegate""",Reduce,Title,,
+22334,https://github.com/spring-projects/spring-framework/pull/22334,None,,,,,
+25951,https://github.com/spring-projects/spring-framework/pull/25951,None,,,,,
+829,https://github.com/spring-projects/spring-framework/pull/829,Maintainability,"""Instead of having to use the default constructor then calling #setObjectMapper(ObjectMapper), this constructor allows the MappingJackson2JsonView to be created and configured with the desired object mapper in one step.""",Allows,Description,,
+1455,https://github.com/spring-projects/spring-framework/pull/1455,None,,,,,
+273,https://github.com/spring-projects/spring-framework/pull/273,Maintainability,"""Support specifying time zone for @Scheduled cron""",Support,Title,,
+325,https://github.com/spring-projects/spring-framework/pull/325,None,,,,,
+345,https://github.com/spring-projects/spring-framework/pull/345,Robustness,"""Fix NPE in JettyRequestUpgradeStrategy""",Fix,Title,,
+27494,https://github.com/spring-projects/spring-framework/pull/27494,None,,,,,
+27334,https://github.com/spring-projects/spring-framework/pull/27334,Maintainability,"""simplify if statement""",Simplify,Title,,
+1976,https://github.com/spring-projects/spring-framework/pull/1976,None,,,,,
+971,https://github.com/spring-projects/spring-framework/pull/971,None,,,,,
+1611,https://github.com/spring-projects/spring-framework/pull/1611,None,,,,,
+1795,https://github.com/spring-projects/spring-framework/pull/1795,None,,,,,
+1865,https://github.com/spring-projects/spring-framework/pull/1865,None,,,,,
+2060,https://github.com/spring-projects/spring-framework/pull/2060,Maintainability,"""These mechanisms can be used in other test frameworks, and are already very well documented and tested.""",Test,Description,type:enhancement,
+27567,https://github.com/spring-projects/spring-framework/pull/27567,Robustness,"""Fix assertion failure messages in DefaultDataBuffer.checkIndex()""",Failure,Title,type:bug,
+24344,https://github.com/spring-projects/spring-framework/pull/24344,None,,,,,
+823,https://github.com/spring-projects/spring-framework/pull/823,None,,,,,
+27442,https://github.com/spring-projects/spring-framework/pull/27442,None,,,,,
+27891,https://github.com/spring-projects/spring-framework/pull/27891,None,,,,,
+1943,https://github.com/spring-projects/spring-framework/pull/1943,None,,,,,
+26487,https://github.com/spring-projects/spring-framework/pull/26487,Robustness,"""As a result, Spring RSocket app that has ProtobufDecoder configured can not receive a payload with application/vnd.google.protobuf data mime type.""",Payload,Description,type:enhancement,
+26641,https://github.com/spring-projects/spring-framework/pull/26641,Robustness,"""No need to invoke doResolveDependency() repeatedly since target is already created.""",Repeatedly ,Description,,
+1486,https://github.com/spring-projects/spring-framework/pull/1486,None,,,,,
+924,https://github.com/spring-projects/spring-framework/pull/924,Robustness,"""This ultimately lead to problems with the GenericConversionService cache returning the ""wrong"" conditional converter in my application.""",Problems,Description,,
+1070,https://github.com/spring-projects/spring-framework/pull/1070,Robustness,"""MethodBasedEvaluationContext.lazyLoadArguments fails for an empty variable arguments method call
+java.lang.ArrayIndexOutOfBoundsException at MethodBasedEvaluationContextTests.java:70""",Fails,Description,,
+1229,https://github.com/spring-projects/spring-framework/pull/1229,None,,,,,
+27291,https://github.com/spring-projects/spring-framework/pull/27291,None,-,-,-,-,-
+1981,https://github.com/spring-projects/spring-framework/pull/1981,Performance,Allow applications that use uber jar to benefit from cached entries rather than using the slow jar lookup for component scanning.,benefit from cached entries rather than using the slow jar lookup,Descrição da PR,,
+1719,https://github.com/spring-projects/spring-framework/pull/1719,Maintainability,Polish: constant names should comply with a naming convention,naming convention,Título da PR,-,"Não foi feito, pois era um padrão diferente do projeto"
+194,https://github.com/spring-projects/spring-framework/pull/194,Robustness,Previously CallableProcessingInterceptor and DeferredResultProcessingInterceptor did not have support for capturing the state of the original Thread just prior to processing. This made it  difficult to transfer the state of one Thread (i.e. ThreadLocal) to the Thread used to process the Callable.,"This made it
+difficult to transfer the state of one Thread (i.e. ThreadLocal) to the
+Thread used to process the Callable.",Descrição da PR,,
+421,https://github.com/spring-projects/spring-framework/pull/421,None,-,-,-,-,-
+1920,https://github.com/spring-projects/spring-framework/pull/1920,None,-,-,-,-,-
+1269,https://github.com/spring-projects/spring-framework/pull/1269,Performance,We have large result sets that are affected by the inefficiency of the LinkedCaseInsensitiveMap returned by the ColumnMapRowMapper. The problem can be fixed if we can just override getColumnMapRowMapper().,affected by the inefficiency,Descrição da PR,,
+1628,https://github.com/spring-projects/spring-framework/pull/1628,Robustness,Refactor getMethodIfAvailable to not cause NoSuchMethodExceptions,to not cause NoSuchMethodExceptions,Título da PR,,
+25170,https://github.com/spring-projects/spring-framework/pull/25170,None,-,-,-,-,-
+1638,https://github.com/spring-projects/spring-framework/pull/1638,None,-,-,-,-,-
+270,https://github.com/spring-projects/spring-framework/pull/270,Robustness,Improve failure mode when depends-on cycle exists,Improve failure mode,Título da PR,,
+1524,https://github.com/spring-projects/spring-framework/pull/1524,Maintainability,Documentation readability improvements,Documentation readability improvements,Título da PR,,
+23455,https://github.com/spring-projects/spring-framework/pull/23455,"Maintainability, Performance",Avoid storing unnecessary beanName in ApplicationListenerDetector,Avoid storing unnecessary,Título da PR,,
+1459,https://github.com/spring-projects/spring-framework/pull/1459,,,,,,
+1544,https://github.com/spring-projects/spring-framework/pull/1544,Maintainability,Clarify docs for usage of @Configurable objects,Clarify docs for usage,Título da PR,,
+1308,https://github.com/spring-projects/spring-framework/pull/1308,None,-,-,-,-,-
+640,https://github.com/spring-projects/spring-framework/pull/640,None,-,-,-,-,-
+27365,https://github.com/spring-projects/spring-framework/pull/27365,None,-,-,-,-,-
+26586,https://github.com/spring-projects/spring-framework/pull/26586,None,-,-,-,-,-
+24808,https://github.com/spring-projects/spring-framework/pull/24808,Maintainability,"Hello, this PR changes replace inner class with lambada to make the code more concise.",to make the code more concise,Descrição da PR,,
+24481,https://github.com/spring-projects/spring-framework/pull/24481,None,-,-,-,-,-
+26813,https://github.com/spring-projects/spring-framework/pull/26813,Maintainability,Added an easier way to set ExecuteExistingDelayedTasksAfterShutdown and ContinueExistingPeriodicTasksAfterShutdown policies. ,Added an easier way to set,Descrição da PR,,
+1732,https://github.com/spring-projects/spring-framework/pull/1732,None,-,-,-,-,-
+566,https://github.com/spring-projects/spring-framework/pull/566,None,-,-,-,-,-
+24672,https://github.com/spring-projects/spring-framework/pull/24672,Performance,Reduce String garbage in CglibAopProxy.doValidateClass(),Reduce String garbage,Título da PR,,
+23868,https://github.com/spring-projects/spring-framework/pull/23868,Robustness,hasCorsConfigurationSource() now supports HandlerExecutionChain,now supports HandlerExecutionChain,Título da PR,,
+1543,https://github.com/spring-projects/spring-framework/pull/1543,None,-,-,-,-,-
+1282,https://github.com/spring-projects/spring-framework/pull/1282,Robustness,replace usage of the double constructor of BigDecimal with the String constructor of BigDecimal in JdbcTemplateQueryTests,replace usage of the double constructor of BigDecimal with the String constructor of BigDecimal,Descrição da PR,,
+27824,https://github.com/spring-projects/spring-framework/pull/27824,"Maintainability, Performance",Use Collection factory methods,Use Collection factory methods,Título da PR,,
+26429,https://github.com/spring-projects/spring-framework/pull/26429,None,-,-,-,-,-
+26416,https://github.com/spring-projects/spring-framework/pull/26416,None,-,-,-,-,-
+1735,https://github.com/spring-projects/spring-framework/pull/1735,None,-,-,-,-,-
+27979,https://github.com/spring-projects/spring-framework/pull/27979,Maintainability,"This way, tests that need to modify the native-detection-result can interact with SpringProperties to dynamically change the value.",tests that need to modify the native-detection-result can interact,Descrição da PR,,
+27700,https://github.com/spring-projects/spring-framework/pull/27700,None,-,-,-,-,-
+233,https://github.com/spring-projects/spring-framework/pull/233,None,-,-,-,-,-
+24384,https://github.com/spring-projects/spring-framework/pull/24384,None,-,-,-,-,-
+28181,https://github.com/spring-projects/spring-framework/pull/28181,Robustness,"When new basenames are added (method addBasenames()) or changed (method setBasenames()), cache is not invalidated, although it is stale given the new basenames.",cache is not invalidated,Descrição da PR,,
+264,https://github.com/spring-projects/spring-framework/pull/264,None,-,-,-,-,-
+24403,https://github.com/spring-projects/spring-framework/pull/24403,Maintainability,Simplify GenericConversionService.getMatchableConverters(),Simplify,Título da PR,,
+24388,https://github.com/spring-projects/spring-framework/pull/24388,Performance,In cases when concatenation arguments are the same they produce equal String at each iteration. This is why we can hoist them to reduce output of String garbage.,we can hoist them to reduce output of String garbage.,Descrição da PR,,
