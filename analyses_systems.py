@@ -97,6 +97,7 @@ def get_user_quartiles_metrics(users_metrics, metrics, quartiles_metrics, refact
 
 
 def get_groups_by_nfr(nfr, dev_info):
+    print (nfr)
     list_participates = []
     list_commited = []
     list_opened = []
@@ -230,26 +231,29 @@ def combine_systems(list_systems):
 
 
 if __name__ == "__main__":
-    system = 'spring-framework'
+    system = 'spring-boot'
 
-    systems = ['spring-framework', 'spring-security']
+    systems = ['spring-framework', 'spring-security', 'spring-boot']
 
     combine_systems(systems)
+"""
+    dev_info, refactorings_info, all_metrics = load_files(system)
+    metrics_current_system = all_metrics[system]
+    users_metrics = metrics_current_system['user_metrics']
+    quartiles_metrics = define_dict_quartiles(refactorings_info=refactorings_info, users_metrics=users_metrics)
+    user_quartiles_metrics = get_user_quartiles_metrics(users_metrics, metrics_to_analyze, quartiles_metrics, refactorings_info)
+    get_groups_by_nfr("all_nfrs", dev_info)
+    print("***")
+    get_groups_by_nfr("security", dev_info)
+    print("***")
+    get_groups_by_nfr("robustness", dev_info)
+    print("***")
+    get_groups_by_nfr("maintainability", dev_info)
+    print("***")
+    get_groups_by_nfr("performance", dev_info)
+"""
 
-    # dev_info, refactorings_info, all_metrics = load_files(system)
-    # metrics_current_system = all_metrics[system]
-    # users_metrics = metrics_current_system['user_metrics']
-    # quartiles_metrics = define_dict_quartiles(refactorings_info=refactorings_info, users_metrics=users_metrics)
-    # user_quartiles_metrics = get_user_quartiles_metrics(users_metrics, metrics_to_analyze)
-    # get_groups_by_nfr("all_nfrs")
-    # print("***")
-    # get_groups_by_nfr("security")
-    # print("***")
-    # get_groups_by_nfr("robustness")
-    # print("***")
-    # get_groups_by_nfr("maintainability")
-    # print("***")
-    # get_groups_by_nfr("performance")
+
 
     # print (user_quartiles_metrics['rstoyanchev'])
     # print ("-----------------------")

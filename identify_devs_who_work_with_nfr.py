@@ -4,7 +4,7 @@ import traceback
 
 import numpy as np
 
-project = 'spring-framework'
+project = 'spring-boot'
 
 identification_file_path = f'data/identification_{project}.csv'
 pull_file_path = f'data/{project}_pulls.json'
@@ -134,8 +134,6 @@ def __define_groups_interaction(users, quartiles, task):
             users[user][f"{task}_{nfr_quartile}_medium"] = False
             users[user][f'{task}_{nfr_quartile}_never'] = False
 
-            if nfr_quartile == "all_nfrs":
-                print (users[user][f'participates_{nfr_quartile}'])
             if users[user][f'{task}_{nfr_quartile}'] == 0:
                 users[user][f'{task}_{nfr_quartile}_never'] = True
             elif users[user][f'{task}_{nfr_quartile}'] >= quartiles[nfr_quartile]['3rd']:
