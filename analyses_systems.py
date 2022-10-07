@@ -228,35 +228,41 @@ def combine_systems(list_systems):
         json.dump(user_quartiles_metrics, write_file, indent=4)
 
 
-
-
 if __name__ == "__main__":
     system = 'spring-boot'
 
-    systems = ['spring-framework', 'spring-security', 'spring-boot']
+    # systems = ['spring-framework', 'spring-security', 'spring-boot']
+    #
+    # combine_systems(systems)
 
-    combine_systems(systems)
-"""
     dev_info, refactorings_info, all_metrics = load_files(system)
     metrics_current_system = all_metrics[system]
     users_metrics = metrics_current_system['user_metrics']
     quartiles_metrics = define_dict_quartiles(refactorings_info=refactorings_info, users_metrics=users_metrics)
     user_quartiles_metrics = get_user_quartiles_metrics(users_metrics, metrics_to_analyze, quartiles_metrics, refactorings_info)
-    get_groups_by_nfr("all_nfrs", dev_info)
-    print("***")
-    get_groups_by_nfr("security", dev_info)
-    print("***")
-    get_groups_by_nfr("robustness", dev_info)
-    print("***")
-    get_groups_by_nfr("maintainability", dev_info)
-    print("***")
-    get_groups_by_nfr("performance", dev_info)
-"""
+    # get_groups_by_nfr("all_nfrs", dev_info)
+    # print("***")
+    # get_groups_by_nfr("security", dev_info)
+    # print("***")
+    # get_groups_by_nfr("robustness", dev_info)
+    # print("***")
+    # get_groups_by_nfr("maintainability", dev_info)
+    # print("***")
+    # get_groups_by_nfr("performance", dev_info)
 
+    investigated_authors_security = ['jgrandja', 'jzheaux', 'rwinch', 'eleftherias', 'marcusdacoregio',
+                                     'marcusdacoregio',
+                                     'Buzzardo', 'rh-id']
 
+    investigated_authors_framework = ['rstoyanchev', 'sbrannen', 'philwebb', 'dreis2211', 'poutsma', 'jhoeller',
+                                      'loiclefevre']
 
-    # print (user_quartiles_metrics['rstoyanchev'])
-    # print ("-----------------------")
+    investigated_authors_boot = ['izeye', 'dreis2211', 'wilkinsona', 'snicoll', 'Buzzardo', 'philwebb']
+
+    for user in investigated_authors_boot:
+        print (user)
+        print (json.dumps(user_quartiles_metrics[user], indent=2))
+        print ("-----------------------")
     # print (user_quartiles_metrics['sbrannen'])
 
 

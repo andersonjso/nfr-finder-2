@@ -3,7 +3,7 @@ NUMBER_ISSUE,URL,NFR_TYPE,PHRASE,KEYWORDS,LOCATION,LABEL,OBS
 8418,https://github.com/spring-projects/spring-security/pull/8418,Robustness,"""CommunicationException is thrown"", 
 "" introduce a new error message""","""thrown"", ""error""","Description, Discussion",-,-
 8590,https://github.com/spring-projects/spring-security/pull/8590,Robustness,"""will result in a null pointer exception""","""null pointer exception""",Title,-,-
-84,https://github.com/spring-projects/spring-security/pull/84,Security,"""SEC-2560""",-,Title,-,The NFR is infered by the tag SEC-2560 mentioned in the title
+84,https://github.com/spring-projects/spring-security/pull/84,Security,"""SEC-2560""",-,Title,-,The NFR is infered by the tag SEC-2560 mentioned in the Title
 7491,https://github.com/spring-projects/spring-security/pull/7491,Security,"""validate saml2 signatures""","""validate"", ""saml2""",Title,in: saml2,SAML 2.0 is an XML-based protocol that uses security tokens
 8501,https://github.com/spring-projects/spring-security/pull/8501,"Security, Maintainability","Security: ""OAuth 2.0 Authorization Server Metadata"",
 ""Validate OidcIdToken""
@@ -68,9 +68,9 @@ Robustness: ""error""",Discussion,in: oauth2,-
 7813,https://github.com/spring-projects/spring-security/pull/7813,Security,"""deployments for OAuth2LoginAuthenticationFilter ""","""oauth2""",Title,in: oauth2,
 8319,https://github.com/spring-projects/spring-security/pull/8319,None,-,-,-,-,
 6116,https://github.com/spring-projects/spring-security/pull/6116,None,,,,,
-10372,https://github.com/spring-projects/spring-security/pull/10372,Maintainability,"""Simple link fix in .editorconfig for fellow developers""",""".editorconfig""",Discussui,,
+10372,https://github.com/spring-projects/spring-security/pull/10372,Maintainability,"""Simple link fix in .editorconfig for fellow developers""",""".editorconfig""",Discussion,,
 9654,https://github.com/spring-projects/spring-security/pull/9654,None,,,,,
-11291,https://github.com/spring-projects/spring-security/pull/11291,Maintainability,"""The title of Digest Authentication document doesn't render properly""","""Documentation"", ""Document""",Discussion,in:docs,
+11291,https://github.com/spring-projects/spring-security/pull/11291,Maintainability,"""The Title of Digest Authentication document doesn't render properly""","""Documentation"", ""Document""",Discussion,in:docs,
 30,https://github.com/spring-projects/spring-security/pull/30,"Security, Robustness","Security: ""Session""
 Robustness: "" ensure the onSessionChange method does not throw a NullPointerException""","""Session"", ""NullPointerException""","Title, Discussion",,
 7780,https://github.com/spring-projects/spring-security/pull/7780,None,,,,,
@@ -107,7 +107,7 @@ Robustness: "" ensure the onSessionChange method does not throw a NullPointerExc
 7643,https://github.com/spring-projects/spring-security/pull/7643,Maintainability,"""Corrected some typos in the documentation and added an example TenantRepository""","""Documentation""","Title, Description",,
 252,https://github.com/spring-projects/spring-security/pull/252,Security,"""SEC-3190: Add support for colons in remember-me token values""","""Token""",Title,,
 6956,https://github.com/spring-projects/spring-security/pull/6956,None,,,,,
-7098,https://github.com/spring-projects/spring-security/pull/7098,Security,"""More flexibility on authorizations lookup on OAuth2 resource-server""","""Authorizations""",Discussions,,
+7098,https://github.com/spring-projects/spring-security/pull/7098,Security,"""More flexibility on authorizations lookup on OAuth2 resource-server""","""Authorizations""",Discussion,,
 7691,https://github.com/spring-projects/spring-security/pull/7691,Maintainability,"""Migrate LDAP integration tests groovy->java""","""Migrate"", ""Tests""",Title,,
 8805,https://github.com/spring-projects/spring-security/pull/8805,None,,,,,
 4670,https://github.com/spring-projects/spring-security/pull/4670,None,,,,,
@@ -167,7 +167,7 @@ In my opinion it's kind of surprising that setting session authorization disable
 6870,https://github.com/spring-projects/spring-security/pull/6870,Security,Added support for providing custom parameters to an OAuth 2.0 token introspection request. This is done by explicitly instantiating a NimbusOAuth2TokenIntrospectionClient instance and then setting a custom Converter implementation.,"OAuth, token",Description,in: oauth2,
 107,https://github.com/spring-projects/spring-security/pull/107,Security,SEC-2189: Modifed the AbstractAuthorizeTag#authorizeUsingUrlCheck,"SEC, Authorize",Title,-,-
 4895,https://github.com/spring-projects/spring-security/pull/4895,None,-,-,-,-,-
-6850,https://github.com/spring-projects/spring-security/pull/6850,"Security, Maintainability, Robustness","""I think that along with that we should update the documentation to explain that when extending WebSecurityConfigurerAdapter is needed too (i.e. when we need to modify the default behavior of web based security)."", ""This is explained in chapters 6.2 - 6.5. You may be right that this documentation fragment is not perfect and it could use some refactoring. But the intention of this patch is just to fix an obvious bug - wrong class name used in the example.""","security, refactoring, bug, documentation",Comments,bug,-
+6850,https://github.com/spring-projects/spring-security/pull/6850,"Security, Maintainability, Robustness","""I think that along with that we should update the documentation to explain that when extending WebSecurityConfigurerAdapter is needed too (i.e. when we need to modify the default behavior of web based security)."", ""This is explained in chapters 6.2 - 6.5. You may be right that this documentation fragment is not perfect and it could use some refactoring. But the intention of this patch is just to fix an obvious bug - wrong class name used in the example.""","security, refactoring, bug, documentation",Comment,bug,-
 4135,https://github.com/spring-projects/spring-security/pull/4135,Maintainability,"""Polish Documentation"", ""This PR fixes some typos and polishes trivial stuff.""","polish, documentation, typos","Title, Description",docs,-
 6649,https://github.com/spring-projects/spring-security/pull/6649,Maintainability,"""URL Cleanup""",cleanup,Title,-,-
 8436,https://github.com/spring-projects/spring-security/pull/8436,None,-,-,-,-,-
@@ -180,22 +180,22 @@ In my opinion it's kind of surprising that setting session authorization disable
 100,https://github.com/spring-projects/spring-security/pull/100,Security,"""SEC-2656: fix and unit test""",SEC,Title,,
 8796,https://github.com/spring-projects/spring-security/pull/8796,"Robustness, Security","""Without the change the prefix role is default ""ROLE_ and the demo throws the following exception:
 org.springframework.security.access.AccessDeniedException: Access is denied
-while access to /post.html?id=1&amount=20.00."", ""Thanks for the PR. I changed the method based security to use hasAuthority to be consistent with the web layer. See 9c33a86""","throws, denied, security, authority",Comments,-,-
+while access to /post.html?id=1&amount=20.00."", ""Thanks for the PR. I changed the method based security to use hasAuthority to be consistent with the web layer. See 9c33a86""","throws, denied, security, authority",Comment,-,-
 261,https://github.com/spring-projects/spring-security/pull/261,None,-,-,-,-,-
 53,https://github.com/spring-projects/spring-security/pull/53,Security,"""Added RememberMeAuthenticationException constructor which keeps the root cause of the exception""",exception,Description,-,-
 3863,https://github.com/spring-projects/spring-security/pull/3863,None,-,-,-,-,-
-10348,https://github.com/spring-projects/spring-security/pull/10348,Maintainability,"""And tell me please, is it OK to do some small organizational PR like fix broken javadoc links or typos in some small files (like in plugin configs).""","javadoc, typos",Comments,-,-
+10348,https://github.com/spring-projects/spring-security/pull/10348,Maintainability,"""And tell me please, is it OK to do some small organizational PR like fix broken javadoc links or typos in some small files (like in plugin configs).""","javadoc, typos",Comment,-,-
 3717,https://github.com/spring-projects/spring-security/pull/3717,None,-,-,-,-,-
 11433,https://github.com/spring-projects/spring-security/pull/11433,None,-,-,-,-,-
-7012,https://github.com/spring-projects/spring-security/pull/7012,Security,"""I've made the assumption that the query parameters here have already been decoded and therefore can be validated against a pattern.""","validated, pattern",Comments,-,-
-9128,https://github.com/spring-projects/spring-security/pull/9128,"Security, Robustness","""Catch iIlegalStateException when session is already invalidate"", ""When a session is already invalidated then an uncaught exception is thrown. "", ""Or, since it appears to be caused by a race condition, perhaps that can be addressed instead.""","invalidate, exception, thrown, condition","Title, Description, Comments",-,-
+7012,https://github.com/spring-projects/spring-security/pull/7012,Security,"""I've made the assumption that the query parameters here have already been decoded and therefore can be validated against a pattern.""","validated, pattern",Comment,-,-
+9128,https://github.com/spring-projects/spring-security/pull/9128,"Security, Robustness","""Catch iIlegalStateException when session is already invalidate"", ""When a session is already invalidated then an uncaught exception is thrown. "", ""Or, since it appears to be caused by a race condition, perhaps that can be addressed instead.""","invalidate, exception, thrown, condition","Title, Description, Comment",-,-
 6093,https://github.com/spring-projects/spring-security/pull/6093,None,-,-,-,-,-
 10924,https://github.com/spring-projects/spring-security/pull/10924,None,-,-,-,-,-
 7663,https://github.com/spring-projects/spring-security/pull/7663,Maintainability,"""Fix minor typo in HttpSecurity documentation""","documentation, typo",Title,docs,
 10278,https://github.com/spring-projects/spring-security/pull/10278,None,-,-,-,-,-
 4331,https://github.com/spring-projects/spring-security/pull/4331,None,-,-,-,-,-
 7183,https://github.com/spring-projects/spring-security/pull/7183,None,-,-,-,-,-
-14,https://github.com/spring-projects/spring-security/pull/14,Security,"""SEC-1987 & SEC-1986"", ""I add the CasRememberMeAccessDeniedHandler class to handle CAS remember-me authentication when access is denied"", ""The CasAccessDeniedHandler does not differentiate between access denied due to the user is anonymous and a missing role role (or any other type of failure). Consider trying to access the extreme secure page as scott / scott when scott is ""remembered"". "", ""The use of the CasRememberMeAccessDeniedHandler has to be configured according to the rest of the security configuration, it may (will ?) be tricky.""","access, secure, security, SEC, denied","Title, Description, Comments",-,Discussão interessante
+14,https://github.com/spring-projects/spring-security/pull/14,Security,"""SEC-1987 & SEC-1986"", ""I add the CasRememberMeAccessDeniedHandler class to handle CAS remember-me authentication when access is denied"", ""The CasAccessDeniedHandler does not differentiate between access denied due to the user is anonymous and a missing role role (or any other type of failure). Consider trying to access the extreme secure page as scott / scott when scott is ""remembered"". "", ""The use of the CasRememberMeAccessDeniedHandler has to be configured according to the rest of the security configuration, it may (will ?) be tricky.""","access, secure, security, SEC, denied","Title, Description, Comment",-,Discussão interessante
 11366,https://github.com/spring-projects/spring-security/pull/5376,None,-,-,-,-,-
 5376,,None,-,-,-,-,-
 9453,https://github.com/spring-projects/spring-security/pull/9453,None,-,-,-,-,-
@@ -204,7 +204,7 @@ while access to /post.html?id=1&amount=20.00."", ""Thanks for the PR. I changed 
 8771,https://github.com/spring-projects/spring-security/pull/8771,None,-,-,-,-,-
 5536,https://github.com/spring-projects/spring-security/pull/5536,None,-,-,-,-,-
 8424,https://github.com/spring-projects/spring-security/pull/8424,None,-,-,-,-,-
-7013,https://github.com/spring-projects/spring-security/pull/7013,Security,"""Should it retrieve the OAuth2AuthorizedClient again if the token is expired?"", ""If the grant type is PASSWORD doesn't it need to use a OAuth2PasswordGrantRequest to request a new token?"", ""No. For expired access tokens, the RefreshTokenOAuth2AuthorizedClientProvider handles this. The PasswordOAuth2AuthorizedClientProvider only handles getting a new access token (if client is not authorized)""","token, oauth, password, authorized",Comments,-,-
+7013,https://github.com/spring-projects/spring-security/pull/7013,Security,"""Should it retrieve the OAuth2AuthorizedClient again if the token is expired?"", ""If the grant type is PASSWORD doesn't it need to use a OAuth2PasswordGrantRequest to request a new token?"", ""No. For expired access tokens, the RefreshTokenOAuth2AuthorizedClientProvider handles this. The PasswordOAuth2AuthorizedClientProvider only handles getting a new access token (if client is not authorized)""","token, oauth, password, authorized",Comment,-,-
 41,https://github.com/spring-projects/spring-security/pull/41,None,-,-,-,-,-
 201,https://github.com/spring-projects/spring-security/pull/201,None,-,-,-,-,-
 6269,https://github.com/spring-projects/spring-security/pull/6269,Maintainability,"""making it hard to usefully extend. Breaking it up into overridable methods.""","""extend""",Description,-,Discussão ocorre na issue relacionada
@@ -219,48 +219,48 @@ while access to /post.html?id=1&amount=20.00."", ""Thanks for the PR. I changed 
 7996,https://github.com/spring-projects/spring-security/pull/7996,Performance,"""Add lazy Exception instantiation and reduce amount of
 reactor operators to reduce allocations""","""reduce allocations"", ""lazy exceptions""","Description, Discussion",-,
 6563,https://github.com/spring-projects/spring-security/pull/6563,Maintainability,"""This allows for an easy integration""","""easy integration""",discussion,-,
-7597,https://github.com/spring-projects/spring-security/pull/7597,Maintainability,"""This PR also refactors the OAuth2ResourceServerConfigurer to make better use of the newly introduced way of managing aforementioned converters.""","""refactors"" ""to make better use""",description,-,"ok, é uma manutenção, mas não fica claro para mim se a principal contribuição é melhor a manutenibilidade"
+7597,https://github.com/spring-projects/spring-security/pull/7597,Maintainability,"""This PR also refactors the OAuth2ResourceServerConfigurer to make better use of the newly introduced way of managing aforementioned converters.""","""refactors"" ""to make better use""",Description,-,"ok, é uma manutenção, mas não fica claro para mim se a principal contribuição é melhor a manutenibilidade"
 8698,https://github.com/spring-projects/spring-security/pull/8698,None,,,,-,
 5728,https://github.com/spring-projects/spring-security/pull/5728,Security,"This makes so that WebFlux OAuth 2.0 Resource Server configuration
-will pick up a ReactiveJwtDecoder exposed as a bean.","""exposed as a bean""",description,-,
+will pick up a ReactiveJwtDecoder exposed as a bean.","""exposed as a bean""",Description,-,
 5307,https://github.com/spring-projects/spring-security/pull/5307,Maintainability,"""InMemoryOAuth2AuthorizedClientService cannot contain the logic for storing in the HttpSession. It breaks the rule of single responsibility.""","""single responsibility""",discussion,-,
 10225,https://github.com/spring-projects/spring-security/pull/10225,None,,,,-,não vi nada aqui sobre NFR
 10111,https://github.com/spring-projects/spring-security/pull/10111,None,,,,-,idem
 7333,https://github.com/spring-projects/spring-security/pull/7333,None,,,,-,idem
 11309,https://github.com/spring-projects/spring-security/pull/11309,None,,,,-,idem
-4266,https://github.com/spring-projects/spring-security/pull/4266,Maintainability,"""It is anoying to have to copy the code just because its package-private.""","""copy of the code""",descritpion,-,não foi aceito
+4266,https://github.com/spring-projects/spring-security/pull/4266,Maintainability,"""It is anoying to have to copy the code just because its package-private.""","""copy of the code""",Description,-,não foi aceito
 231,https://github.com/spring-projects/spring-security/pull/231,None,,,,-,
-4436,https://github.com/spring-projects/spring-security/pull/4436,Maintainability,"""This small pull request updates the (outdated?) JavaDoc in Pbkdf2PasswordEncoder, so that it uses the actual values for the default number of iterations and hash width""","""outdated JavaDoc""",description,-,é uma interepretação pessoal que a documentação desatualizada irá impactar na manutenibilidade
+4436,https://github.com/spring-projects/spring-security/pull/4436,Maintainability,"""This small pull request updates the (outdated?) JavaDoc in Pbkdf2PasswordEncoder, so that it uses the actual values for the default number of iterations and hash width""","""outdated JavaDoc""",Description,-,é uma interepretação pessoal que a documentação desatualizada irá impactar na manutenibilidade
 174,https://github.com/spring-projects/spring-security/pull/174,None,,,,-,
-171,https://github.com/spring-projects/spring-security/pull/171,Robustness,If token not present into request generate the InvalidCsrfTokenException always,"""generate the ...expection""",descritpion,-,não foi aceito
+171,https://github.com/spring-projects/spring-security/pull/171,Robustness,If token not present into request generate the InvalidCsrfTokenException always,"""generate the ...expection""",Description,-,não foi aceito
 6878,https://github.com/spring-projects/spring-security/pull/6878,None,,,,-,"falta clareza, tem a ver com javadoc"
-7221,https://github.com/spring-projects/spring-security/pull/7221,Security,"""Add support to avoid timing attacks in the csrf tokens""","""timing attacks""",title,-,não foi implementado
+7221,https://github.com/spring-projects/spring-security/pull/7221,Security,"""Add support to avoid timing attacks in the csrf tokens""","""timing attacks""",Title,-,não foi implementado
 10588,https://github.com/spring-projects/spring-security/pull/10588,None,,,,-,
 5150,https://github.com/spring-projects/spring-security/pull/5150,None,,,,-,
 8756,https://github.com/spring-projects/spring-security/pull/8756,Performance,"""Use memory-saving Collections.singletonList in JdbcAclService.readAclById()""
-""We don't need array-based Arrays.asList() as we always have only one instance ObjectIdentity at call site.""","""memory-saving"" ""only one instance""","title, description",-,
-7080,https://github.com/spring-projects/spring-security/pull/7080,Maintainability,"""Changed docs to reflect that init should apply configurers""","""reflect""",title,-,é uma interepretação pessoal que a documentação desatualizada irá impactar na manutenibilidade
-11464,https://github.com/spring-projects/spring-security/pull/11464,Security,"""Add SHA256 as an algorithm option for Remember Me token hashing""","""SHA256"" 'token hashing""",title,-,
+""We don't need array-based Arrays.asList() as we always have only one instance ObjectIdentity at call site.""","""memory-saving"" ""only one instance""","Title, Description",-,
+7080,https://github.com/spring-projects/spring-security/pull/7080,Maintainability,"""Changed docs to reflect that init should apply configurers""","""reflect""",Title,-,é uma interepretação pessoal que a documentação desatualizada irá impactar na manutenibilidade
+11464,https://github.com/spring-projects/spring-security/pull/11464,Security,"""Add SHA256 as an algorithm option for Remember Me token hashing""","""SHA256"" 'token hashing""",Title,-,
 9335,https://github.com/spring-projects/spring-security/pull/9335,None,,,,-,
 8350,https://github.com/spring-projects/spring-security/pull/8350,None,,,,-,
-4074,https://github.com/spring-projects/spring-security/pull/4074,Security,"""Add open redirect prevention""","""open redirect"" ""prevention""",title,-,
-7238,https://github.com/spring-projects/spring-security/pull/7238,Maintainability,"""Cleanup Code Style Issues""","""code style"" ""cleanup""",title,-,os títulos dos commits fazem menção a outros termos interessantes
-218,https://github.com/spring-projects/spring-security/pull/218,Robustness,"""Fix NullPointerException""","""NullPointerExcpetion""",title,-,
+4074,https://github.com/spring-projects/spring-security/pull/4074,Security,"""Add open redirect prevention""","""open redirect"" ""prevention""",Title,-,
+7238,https://github.com/spring-projects/spring-security/pull/7238,Maintainability,"""Cleanup Code Style Issues""","""code style"" ""cleanup""",Title,-,os títulos dos commits fazem menção a outros termos interessantes
+218,https://github.com/spring-projects/spring-security/pull/218,Robustness,"""Fix NullPointerException""","""NullPointerExcpetion""",Title,-,
 7762,https://github.com/spring-projects/spring-security/pull/7762,None,,,,-,"o autor cite outro PR original, cuja descrição sugere manutenibilidade"
 9333,https://github.com/spring-projects/spring-security/pull/9333,None,,,,-,
 10151,https://github.com/spring-projects/spring-security/pull/10151,None,,,,-,
 3744,https://github.com/spring-projects/spring-security/pull/3744,None,,,,-,"No entanto, a PR não foi aceita devido à questões de segurança"
 8959,https://github.com/spring-projects/spring-security/pull/8959,None,,,,-,
 11187,https://github.com/spring-projects/spring-security/pull/11187,None,,,,-,
-6969,https://github.com/spring-projects/spring-security/pull/6969,Security,"""Add extra salt length check for BCrypt.""","""salt length check""",title,-,
+6969,https://github.com/spring-projects/spring-security/pull/6969,Security,"""Add extra salt length check for BCrypt.""","""salt length check""",Title,-,
 4621,https://github.com/spring-projects/spring-security/pull/4621,None,,,,-,
 7231,https://github.com/spring-projects/spring-security/pull/7231,None,,,,-,
-11081,https://github.com/spring-projects/spring-security/pull/11081,Security,"""Remove SAML Deprecations""","""SAML Deprecations""",title,-,
+11081,https://github.com/spring-projects/spring-security/pull/11081,Security,"""Remove SAML Deprecations""","""SAML Deprecations""",Title,-,
 6918,https://github.com/spring-projects/spring-security/pull/6918,None,,,,-,
 3955,https://github.com/spring-projects/spring-security/pull/3955,None,,,,-,
 4,https://github.com/spring-projects/spring-security/pull/4,None,,,,-,
 9327,https://github.com/spring-projects/spring-security/pull/9327,None,,,,-,
-7419,https://github.com/spring-projects/spring-security/pull/7419,Security,"""Bearer WebClient Filter Authentication Propagation""","""Authentication Propagation""",title,-,
+7419,https://github.com/spring-projects/spring-security/pull/7419,Security,"""Bearer WebClient Filter Authentication Propagation""","""Authentication Propagation""",Title,-,
 10046,https://github.com/spring-projects/spring-security/pull/10046,Maintainability,"""Otherwise we would need to document the new handler""","""document""",Discussion,-,
 6509,https://github.com/spring-projects/spring-security/pull/6509,Maintainability,"""Please give some idea how I can write test""
 ""Also, I added a polish commit of 2b960b0 for the Java Config test - please take a look at the commit message for future reference.""","""test""
@@ -389,7 +389,7 @@ Robustness: ""handlers""",Title,-,
 8434,https://github.com/spring-projects/spring-security/pull/8434,Performance,"""once they will throw exceptions this PR will be completed.""","""Missing"", ""Exception"", ""Throw""",Discussion,,
 6765,https://github.com/spring-projects/spring-security/pull/6765,None,,,,,
 6526,https://github.com/spring-projects/spring-security/pull/6526,Security,"""ServletOAuth2AuthorizedClientExchangeFilterFunction Does Not Work For Chained Reactive Methods""",,Title,type:bug,
-6297,https://github.com/spring-projects/spring-security/pull/6297,Maintainability,"""removes existence validation of a method only available in Servlet 3.1 ... is no longer required""","""No required"", ""Remove support""",Discusison,,
+6297,https://github.com/spring-projects/spring-security/pull/6297,Maintainability,"""removes existence validation of a method only available in Servlet 3.1 ... is no longer required""","""No required"", ""Remove support""",Discussion,,
 9513,https://github.com/spring-projects/spring-security/pull/9513,None,,,,,
 5656,https://github.com/spring-projects/spring-security/pull/5656,None,,,,,
 7260,https://github.com/spring-projects/spring-security/pull/7260,None,,,,,
@@ -420,14 +420,14 @@ the AbstractAuthenticationProcessingFilter.requiresAuthentication() method modif
 6050,https://github.com/spring-projects/spring-security/pull/6050,None,-,-,-,,"Mesmo caso do anterior, um bug que causava um crash com uma exceção. A solução foi consertar o bug."
 6189,https://github.com/spring-projects/spring-security/pull/6189,Security,…y Auth0 and OneLogin),Auth0 and OneLogin,"Title?, Description",,"Caso estranho, a descrição é somente uma continuação do título pois faltou espaço, então é possível supor que em outros casos essa informação talvez estivesse no título"
 7826,https://github.com/spring-projects/spring-security/pull/7826,"Security, Robustness",Improve Bearer Token Error Handling,"Error Handling, Token, Bearer",Title,,
-6352,,Security,"""Add Support for Opaque OAuth2 Tokens to Resource Server"", ""supporting oauth2 log in and resource server do we want them to have to configure the client id/secret twice?"",","oauth2, server, secret","Title, comments",in: oauth,-
+6352,,Security,"""Add Support for Opaque OAuth2 Tokens to Resource Server"", ""supporting oauth2 log in and resource server do we want them to have to configure the client id/secret twice?"",","oauth2, server, secret","Title, Comment",in: oauth,-
 10339,,Security,"""Add postProcess support to Saml2LogoutConfigurer, closes gh-10311""",saml2,Title,in:saml2,-
 6623,,None,-,-,-,-,-
-6485,,Security,"""Add client support for PKCE"", ""Bottom line: I don't think this is the target use-case for spring security client PKCE support but could be used in theory."", ""thereby making the client_secret unviable and PKCE a good fit. Turning non-web apps into web ones feels a bit heavy but simple."",""These authorization request"", ""We probably don't need PKCE support."", ""Is this the best way to determine if PKCE should be used? This seems implicit rather than explicit which can lead to problems later on (if there are other reasons the client secret can be empty). Additionally implicit options in security tends to lead to security vulnerabilities."", ""PKCE is meant to be used for Public Clients leveraging the Authorization Code grant. Public Clients are not assigned full credentials (no client secret). So I guess I'm confused with what the user is saying."", ""Looking at the Okta developer guide for Authorization Code Flow with PKCE, you will see that the client authentication is not required (so no client_secret)."", ""And for the standard Authorization Code Flow, you will see that the client authentication is required as this flow is targeted for confidential clients."",""The current best practices for OAuth security specifies that PKCE should also be used for webapps:"", ""supported by popular OAuth 2.0 Providers. "", so on","PKCE, security, oauth2, client_secret, vulnerabilities, public clients, authorization","Title, Description, Comments",-,Discussão bem interessante
+6485,,Security,"""Add client support for PKCE"", ""Bottom line: I don't think this is the target use-case for spring security client PKCE support but could be used in theory."", ""thereby making the client_secret unviable and PKCE a good fit. Turning non-web apps into web ones feels a bit heavy but simple."",""These authorization request"", ""We probably don't need PKCE support."", ""Is this the best way to determine if PKCE should be used? This seems implicit rather than explicit which can lead to problems later on (if there are other reasons the client secret can be empty). Additionally implicit options in security tends to lead to security vulnerabilities."", ""PKCE is meant to be used for Public Clients leveraging the Authorization Code grant. Public Clients are not assigned full credentials (no client secret). So I guess I'm confused with what the user is saying."", ""Looking at the Okta developer guide for Authorization Code Flow with PKCE, you will see that the client authentication is not required (so no client_secret)."", ""And for the standard Authorization Code Flow, you will see that the client authentication is required as this flow is targeted for confidential clients."",""The current best practices for OAuth security specifies that PKCE should also be used for webapps:"", ""supported by popular OAuth 2.0 Providers. "", so on","PKCE, security, oauth2, client_secret, vulnerabilities, public clients, authorization","Title, Description, Comment",-,Discussão bem interessante
 255,,Security,"""In case you don't use a message digest - leaking the length of the password could be useful for an attacker."", ""Some of this has to do with the complexities of cryptography"", ""Clearly it should. When dealing with frameworks especially, framework developers should address all known security vulnerabilities because one cannot possibly be aware of all your client's threat models."", ""Also, the timing differences per character are sub-nanosecond IIRC. Very very small. So unless you're on the local network with a vulnerable string comparison running on a slow 8-bit processor (think IoT), then you're probably not vulnerable."", ""So it would seem if we want to prevent the length from leaking,"", ""In shared hosting, one can't guarantee that an attacker does not have an instance on the same LAN or even on the same host as the victim.'","leaking, password, attacker, cryptography, vulnerabilities, threat, vulnerable, leaking, victim","Title, Description",-,Discussão bem interessante
 9483,,None,-,-,-,-,-
 7116,,None,-,-,-,-,-
-9865,,Maintainability,"""Now I see the confusion: The Spring JavaFormat covers and reports other errors apart of the whitespace format control, I remember clearly 2 right now:"", ""that's why I created the new Formatting section"", ""Leave the Formatting section, but reword it with an emphasis on preparing the contribution, for example:"", ""Remove the Mind the Whitespace section (the above would replace it). At this point, it doesn't seem that AnyEdit is necessary to meet the Spring Security formatting guidelines.""","javaformat, whitespace format, formatting, anyedit, guidelines",Comments,in:docs,-
+9865,,Maintainability,"""Now I see the confusion: The Spring JavaFormat covers and reports other errors apart of the whitespace format control, I remember clearly 2 right now:"", ""that's why I created the new Formatting section"", ""Leave the Formatting section, but reword it with an emphasis on preparing the contribution, for example:"", ""Remove the Mind the Whitespace section (the above would replace it). At this point, it doesn't seem that AnyEdit is necessary to meet the Spring Security formatting guidelines.""","javaformat, whitespace format, formatting, anyedit, guidelines",Comment,in:docs,-
 3812,,None,-,-,-,-,-
 7756,,None,-,-,-,-,-
 3764,,None,-,-,-,-,-
@@ -437,14 +437,14 @@ the AbstractAuthenticationProcessingFilter.requiresAuthentication() method modif
 5356,,None,-,-,-,-,-
 9055,,Security,"""This isn't thread-safe. Because the decrypter instance is changed with each authentication, two concurrent authentication attempts will clobber each other's value here.
 
-Instead, the default values below will need to construct a Decrypter using the details from Saml2AuthenticationToken. For assertionDecrypter, I think this will look something like:"", ""doing the elements decryption. Is there a reason this check was added?', "" Thus having an unsigned SAML Response with an encrypted signed Assertion should still decrypt the assertion and then checking that it has been signed before throwing the error""","thread, safe, decrypter, authentication, saml2, saml",Comments,in:saml2,-
+Instead, the default values below will need to construct a Decrypter using the details from Saml2AuthenticationToken. For assertionDecrypter, I think this will look something like:"", ""doing the elements decryption. Is there a reason this check was added?', "" Thus having an unsigned SAML Response with an encrypted signed Assertion should still decrypt the assertion and then checking that it has been signed before throwing the error""","thread, safe, decrypter, authentication, saml2, saml",Comment,in:saml2,-
 5624,https://github.com/spring-projects/spring-security/pull/5624,Security,"""Jwt Claim Validation""","""jwt"", ""validation""",Title,,
 5353,https://github.com/spring-projects/spring-security/pull/5353,None,,,,,
 10432,,,,,,,
 9520,https://github.com/spring-projects/spring-security/pull/9520,Security,"""Add Jwt Client Authentication support""","""jwt"", ""Authentication""",Title,,
 7240,https://github.com/spring-projects/spring-security/pull/7240,Performance,"""just provides slightly better performance.""","""performance""",Discussion,,
 10060,https://github.com/spring-projects/spring-security/pull/10060,"Security, Maintainability","""Add Saml2AuthenticationRequestRepository""
-""In addition to the comments, please also add DSL support and docs""","Security: ""saml2""
+""In addition to the Comment, please also add DSL support and docs""","Security: ""saml2""
 Maintainability: ""docs""","Title, Discussion","in: saml2, type: enhancement",
 3938,https://github.com/spring-projects/spring-security/pull/3938,None,,,,,
 5918,https://github.com/spring-projects/spring-security/pull/5918,None,,,,,
@@ -479,17 +479,17 @@ IllegalArgumentException to be thrown when resolving an HttpStatus.""","""Illega
 8667,https://github.com/spring-projects/spring-Security/pull/8667,None,,,,-,"tem a ver com a recuperação de atributos na authenticação, não entendi como uma issue propriamente de segurança"
 7693,https://github.com/spring-projects/spring-Security/pull/7693,None,,,,-,
 4257,https://github.com/spring-projects/spring-Security/pull/4257,None,,,,-,"como permite autenticação externa, entendi como uma evolução de features e não como uma questão necessariamente de segurança"
-7329,https://github.com/spring-projects/spring-Security/pull/7329,Security,"""Authorization Response should also match on query parameters"" ""When a service is registered with redirect_uri that has query parameter (e.g: http://some/auth?param=foo), current OAuth2AuthorizationCodeGrantFilter doesn't work well.""","""doesn't work well"" ""authorization resonse should also match""","title, description",-,
+7329,https://github.com/spring-projects/spring-Security/pull/7329,Security,"""Authorization Response should also match on query parameters"" ""When a service is registered with redirect_uri that has query parameter (e.g: http://some/auth?param=foo), current OAuth2AuthorizationCodeGrantFilter doesn't work well.""","""doesn't work well"" ""authorization resonse should also match""","Title, Description",-,
 4238,https://github.com/spring-projects/spring-Security/pull/4238,,,,,-,
 5476,https://github.com/spring-projects/spring-Security/pull/5476,Security,"""Introduce support for OAuth 2.0 Bearer Token Authentication with JWT-encoded bearer tokens. This includes support for remote JWK set signature verification.""","""JWK""
-""Token Authentication""",description,-,
+""Token Authentication""",Description,-,
 8507,,,,,,-,
 8082,https://github.com/spring-projects/spring-Security/pull/8082,Security,"""Fixes gh-4001 : CSRF token BREACH Attack ""
-","""Attack"" ""breach"" ""CSRF""",title,-,
-215,https://github.com/spring-projects/spring-Security/pull/215,Robustness,"""Resolves SEC-3066 by handling exception"" ""SEC-3066: DefaultMethodSecurityExpressionHandler does not handle NotFoundException when using a PermissionCacheOptimizer""","""handling exception"" ""does not handle""","title, comment",-,
-5509,https://github.com/spring-projects/spring-Security/pull/5509,Robustness,"""Override the key to avoid CookieTheftException""","""avoid CookieTheftExcetion""",title,-,
-6813,https://github.com/spring-projects/spring-Security/pull/6813,Robustness,"""Detect authorization bearer token properly"" ""DefaultBearerTokenResolver has a bug that makes it miss authorization bearer tokens, if the ""Bearer"" is written in lower case as ""bearer"".""","""bearer token propperly"" ""miss authorization bearer tokens""","title, description",-,"o contexto é de segurança, mas entendi como um problema de robustez por não tratar lowercase"
+","""Attack"" ""breach"" ""CSRF""",Title,-,
+215,https://github.com/spring-projects/spring-Security/pull/215,Robustness,"""Resolves SEC-3066 by handling exception"" ""SEC-3066: DefaultMethodSecurityExpressionHandler does not handle NotFoundException when using a PermissionCacheOptimizer""","""handling exception"" ""does not handle""","Title, comment",-,
+5509,https://github.com/spring-projects/spring-Security/pull/5509,Robustness,"""Override the key to avoid CookieTheftException""","""avoid CookieTheftExcetion""",Title,-,
+6813,https://github.com/spring-projects/spring-Security/pull/6813,Robustness,"""Detect authorization bearer token properly"" ""DefaultBearerTokenResolver has a bug that makes it miss authorization bearer tokens, if the ""Bearer"" is written in lower case as ""bearer"".""","""bearer token propperly"" ""miss authorization bearer tokens""","Title, Description",-,"o contexto é de segurança, mas entendi como um problema de robustez por não tratar lowercase"
 6901,https://github.com/spring-projects/spring-Security/pull/6901,None,,,,-,
 8752,https://github.com/spring-projects/spring-Security/pull/8752,Security,"""Add support for dynamic JWS signature algorithm with JWKs (2)""
-""This PR adds support for creating a JWSVerificationKeySelector dynamically based on the availability of JWK algorithms from a given JWK Set provided by an OIDC discovery document (Issue 7160). Non-standard or unknown algorithms will be silently ignored (see SignatureAlgorithm class). A warning log has also been added to let developers know if there was a problem fetching the JWK Set, although this does not halt the application from starting.""","""JWS"" ""JWK"" ""non-standard or unknown alorithms will be silently ignored""","ttitle, description",-,
-9737,https://github.com/spring-projects/spring-Security/pull/9737,Security,"""Create SecurityMockMvcResultHandlers to define Security related MockMvc ResultHandlers""","""define Security""",description,-,"aparentemente possui finalidade de segurança, mas não fica claro o que é ""define Security"""
+""This PR adds support for creating a JWSVerificationKeySelector dynamically based on the availability of JWK algorithms from a given JWK Set provided by an OIDC discovery document (Issue 7160). Non-standard or unknown algorithms will be silently ignored (see SignatureAlgorithm class). A warning log has also been added to let developers know if there was a problem fetching the JWK Set, although this does not halt the application from starting.""","""JWS"" ""JWK"" ""non-standard or unknown alorithms will be silently ignored""","Title, Description",-,
+9737,https://github.com/spring-projects/spring-Security/pull/9737,Security,"""Create SecurityMockMvcResultHandlers to define Security related MockMvc ResultHandlers""","""define Security""",Description,-,"aparentemente possui finalidade de segurança, mas não fica claro o que é ""define Security"""

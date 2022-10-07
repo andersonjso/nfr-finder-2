@@ -122,7 +122,7 @@ Performance: ""loop""","Title, Discussion",-,-
 41,https://github.com/spring-projects/spring-framework/pull/41,None,,,,,
 22647,https://github.com/spring-projects/spring-framework/pull/22647,None,,,,,
 26816,https://github.com/spring-projects/spring-framework/pull/26816,None,,,,,
-24926,https://github.com/spring-projects/spring-framework/pull/24926,Maintainability,"""spring-test HtmlUnit does not recognize files for multipart uploading""","""spring-test""",Descriptiom,in:test,Os detalhes mais importantes estão na issue referenciada.
+24926,https://github.com/spring-projects/spring-framework/pull/24926,Maintainability,"""spring-test HtmlUnit does not recognize files for multipart uploading""","""spring-test""",Description,in:test,Os detalhes mais importantes estão na issue referenciada.
 1071,https://github.com/spring-projects/spring-framework/pull/1071,None,,,,,Sem informação suficiente.
 744,https://github.com/spring-projects/spring-framework/pull/744,Maintainability,"""a simple refactor to extract the application of default configuration to into a separate method""","""extract"", ""refactoring""",Description,,
 27614,https://github.com/spring-projects/spring-framework/pull/27614,None,,,,,
@@ -275,9 +275,9 @@ the amount of allocated byte arrays by 50% to 66%."", In our case (because our s
 The initial internal buffer of the ByteArrayOutputStream (initialized as 128 + payload.length) (20.0%, 14414 samples)
 The grown internal buffer of the ByteArrayOutputStream, which is needed because we write more than payload.length + 128 bytes. (22.5%, 16233 samples)
 The result array which is created as subsequence copy of the internal buffer (34.9%, 25101 samples)
-""","buffer, reduce, payload, byte, encoder, %, length, allocate","Tittle, description, comment",type:messaging,
-25051,https://github.com/spring-projects/spring-framework/pull/25051,Maintainability,"""Fix typo in RmiSupportTests""",typo,Tittle ,,
-619,https://github.com/spring-projects/spring-framework/pull/619,Robustness,"""SPR-12068 Added exception tracking to JamonPerformanceMonitorInterceptor"", ""The property below 'trackExceptions' controls this behaviour.""","exception, behavior, interceptor","Title, comments",,
+""","buffer, reduce, payload, byte, encoder, %, length, allocate","Title, description, comment",type:messaging,
+25051,https://github.com/spring-projects/spring-framework/pull/25051,Maintainability,"""Fix typo in RmiSupportTests""",typo,Title ,,
+619,https://github.com/spring-projects/spring-framework/pull/619,Robustness,"""SPR-12068 Added exception tracking to JamonPerformanceMonitorInterceptor"", ""The property below 'trackExceptions' controls this behaviour.""","exception, behavior, interceptor","Title, Comment",,
 366,https://github.com/spring-projects/spring-framework/pull/366,None,,,,,
 628,https://github.com/spring-projects/spring-framework/pull/628,None,,,,,
 1652,https://github.com/spring-projects/spring-framework/pull/1652,None,,,,,
@@ -526,44 +526,44 @@ the schema name, catalog name and procedure/function name is real.""",,,,
 java.lang.ArrayIndexOutOfBoundsException at MethodBasedEvaluationContextTests.java:70""",Fails,Description,,
 1229,https://github.com/spring-projects/spring-framework/pull/1229,None,,,,,
 27291,https://github.com/spring-projects/spring-framework/pull/27291,None,-,-,-,-,-
-1981,https://github.com/spring-projects/spring-framework/pull/1981,Performance,Allow applications that use uber jar to benefit from cached entries rather than using the slow jar lookup for component scanning.,benefit from cached entries rather than using the slow jar lookup,Descrição da PR,,
-1719,https://github.com/spring-projects/spring-framework/pull/1719,Maintainability,Polish: constant names should comply with a naming convention,naming convention,Título da PR,-,"Não foi feito, pois era um padrão diferente do projeto"
+1981,https://github.com/spring-projects/spring-framework/pull/1981,Performance,Allow applications that use uber jar to benefit from cached entries rather than using the slow jar lookup for component scanning.,benefit from cached entries rather than using the slow jar lookup,Description,,
+1719,https://github.com/spring-projects/spring-framework/pull/1719,Maintainability,Polish: constant names should comply with a naming convention,naming convention,Title,-,"Não foi feito, pois era um padrão diferente do projeto"
 194,https://github.com/spring-projects/spring-framework/pull/194,Robustness,Previously CallableProcessingInterceptor and DeferredResultProcessingInterceptor did not have support for capturing the state of the original Thread just prior to processing. This made it  difficult to transfer the state of one Thread (i.e. ThreadLocal) to the Thread used to process the Callable.,"This made it
 difficult to transfer the state of one Thread (i.e. ThreadLocal) to the
-Thread used to process the Callable.",Descrição da PR,,
+Thread used to process the Callable.",Description,,
 421,https://github.com/spring-projects/spring-framework/pull/421,None,-,-,-,-,-
 1920,https://github.com/spring-projects/spring-framework/pull/1920,None,-,-,-,-,-
-1269,https://github.com/spring-projects/spring-framework/pull/1269,Performance,We have large result sets that are affected by the inefficiency of the LinkedCaseInsensitiveMap returned by the ColumnMapRowMapper. The problem can be fixed if we can just override getColumnMapRowMapper().,affected by the inefficiency,Descrição da PR,,
-1628,https://github.com/spring-projects/spring-framework/pull/1628,Robustness,Refactor getMethodIfAvailable to not cause NoSuchMethodExceptions,to not cause NoSuchMethodExceptions,Título da PR,,
+1269,https://github.com/spring-projects/spring-framework/pull/1269,Performance,We have large result sets that are affected by the inefficiency of the LinkedCaseInsensitiveMap returned by the ColumnMapRowMapper. The problem can be fixed if we can just override getColumnMapRowMapper().,affected by the inefficiency,Description,,
+1628,https://github.com/spring-projects/spring-framework/pull/1628,Robustness,Refactor getMethodIfAvailable to not cause NoSuchMethodExceptions,to not cause NoSuchMethodExceptions,Title,,
 25170,https://github.com/spring-projects/spring-framework/pull/25170,None,-,-,-,-,-
 1638,https://github.com/spring-projects/spring-framework/pull/1638,None,-,-,-,-,-
-270,https://github.com/spring-projects/spring-framework/pull/270,Robustness,Improve failure mode when depends-on cycle exists,Improve failure mode,Título da PR,,
-1524,https://github.com/spring-projects/spring-framework/pull/1524,Maintainability,Documentation readability improvements,Documentation readability improvements,Título da PR,,
-23455,https://github.com/spring-projects/spring-framework/pull/23455,"Maintainability, Performance",Avoid storing unnecessary beanName in ApplicationListenerDetector,Avoid storing unnecessary,Título da PR,,
+270,https://github.com/spring-projects/spring-framework/pull/270,Robustness,Improve failure mode when depends-on cycle exists,Improve failure mode,Title,,
+1524,https://github.com/spring-projects/spring-framework/pull/1524,Maintainability,Documentation readability improvements,Documentation readability improvements,Title,,
+23455,https://github.com/spring-projects/spring-framework/pull/23455,"Maintainability, Performance",Avoid storing unnecessary beanName in ApplicationListenerDetector,Avoid storing unnecessary,Title,,
 1459,https://github.com/spring-projects/spring-framework/pull/1459,,,,,,
-1544,https://github.com/spring-projects/spring-framework/pull/1544,Maintainability,Clarify docs for usage of @Configurable objects,Clarify docs for usage,Título da PR,,
+1544,https://github.com/spring-projects/spring-framework/pull/1544,Maintainability,Clarify docs for usage of @Configurable objects,Clarify docs for usage,Title,,
 1308,https://github.com/spring-projects/spring-framework/pull/1308,None,-,-,-,-,-
 640,https://github.com/spring-projects/spring-framework/pull/640,None,-,-,-,-,-
 27365,https://github.com/spring-projects/spring-framework/pull/27365,None,-,-,-,-,-
 26586,https://github.com/spring-projects/spring-framework/pull/26586,None,-,-,-,-,-
-24808,https://github.com/spring-projects/spring-framework/pull/24808,Maintainability,"Hello, this PR changes replace inner class with lambada to make the code more concise.",to make the code more concise,Descrição da PR,,
+24808,https://github.com/spring-projects/spring-framework/pull/24808,Maintainability,"Hello, this PR changes replace inner class with lambada to make the code more concise.",to make the code more concise,Description,,
 24481,https://github.com/spring-projects/spring-framework/pull/24481,None,-,-,-,-,-
-26813,https://github.com/spring-projects/spring-framework/pull/26813,Maintainability,Added an easier way to set ExecuteExistingDelayedTasksAfterShutdown and ContinueExistingPeriodicTasksAfterShutdown policies. ,Added an easier way to set,Descrição da PR,,
+26813,https://github.com/spring-projects/spring-framework/pull/26813,Maintainability,Added an easier way to set ExecuteExistingDelayedTasksAfterShutdown and ContinueExistingPeriodicTasksAfterShutdown policies. ,Added an easier way to set,Description,,
 1732,https://github.com/spring-projects/spring-framework/pull/1732,None,-,-,-,-,-
 566,https://github.com/spring-projects/spring-framework/pull/566,None,-,-,-,-,-
-24672,https://github.com/spring-projects/spring-framework/pull/24672,Performance,Reduce String garbage in CglibAopProxy.doValidateClass(),Reduce String garbage,Título da PR,,
-23868,https://github.com/spring-projects/spring-framework/pull/23868,Robustness,hasCorsConfigurationSource() now supports HandlerExecutionChain,now supports HandlerExecutionChain,Título da PR,,
+24672,https://github.com/spring-projects/spring-framework/pull/24672,Performance,Reduce String garbage in CglibAopProxy.doValidateClass(),Reduce String garbage,Title,,
+23868,https://github.com/spring-projects/spring-framework/pull/23868,Robustness,hasCorsConfigurationSource() now supports HandlerExecutionChain,now supports HandlerExecutionChain,Title,,
 1543,https://github.com/spring-projects/spring-framework/pull/1543,None,-,-,-,-,-
-1282,https://github.com/spring-projects/spring-framework/pull/1282,Robustness,replace usage of the double constructor of BigDecimal with the String constructor of BigDecimal in JdbcTemplateQueryTests,replace usage of the double constructor of BigDecimal with the String constructor of BigDecimal,Descrição da PR,,
-27824,https://github.com/spring-projects/spring-framework/pull/27824,"Maintainability, Performance",Use Collection factory methods,Use Collection factory methods,Título da PR,,
+1282,https://github.com/spring-projects/spring-framework/pull/1282,Robustness,replace usage of the double constructor of BigDecimal with the String constructor of BigDecimal in JdbcTemplateQueryTests,replace usage of the double constructor of BigDecimal with the String constructor of BigDecimal,Description,,
+27824,https://github.com/spring-projects/spring-framework/pull/27824,"Maintainability, Performance",Use Collection factory methods,Use Collection factory methods,Title,,
 26429,https://github.com/spring-projects/spring-framework/pull/26429,None,-,-,-,-,-
 26416,https://github.com/spring-projects/spring-framework/pull/26416,None,-,-,-,-,-
 1735,https://github.com/spring-projects/spring-framework/pull/1735,None,-,-,-,-,-
-27979,https://github.com/spring-projects/spring-framework/pull/27979,Maintainability,"This way, tests that need to modify the native-detection-result can interact with SpringProperties to dynamically change the value.",tests that need to modify the native-detection-result can interact,Descrição da PR,,
+27979,https://github.com/spring-projects/spring-framework/pull/27979,Maintainability,"This way, tests that need to modify the native-detection-result can interact with SpringProperties to dynamically change the value.",tests that need to modify the native-detection-result can interact,Description,,
 27700,https://github.com/spring-projects/spring-framework/pull/27700,None,-,-,-,-,-
 233,https://github.com/spring-projects/spring-framework/pull/233,None,-,-,-,-,-
 24384,https://github.com/spring-projects/spring-framework/pull/24384,None,-,-,-,-,-
-28181,https://github.com/spring-projects/spring-framework/pull/28181,Robustness,"When new basenames are added (method addBasenames()) or changed (method setBasenames()), cache is not invalidated, although it is stale given the new basenames.",cache is not invalidated,Descrição da PR,,
+28181,https://github.com/spring-projects/spring-framework/pull/28181,Robustness,"When new basenames are added (method addBasenames()) or changed (method setBasenames()), cache is not invalidated, although it is stale given the new basenames.",cache is not invalidated,Description,,
 264,https://github.com/spring-projects/spring-framework/pull/264,None,-,-,-,-,-
-24403,https://github.com/spring-projects/spring-framework/pull/24403,Maintainability,Simplify GenericConversionService.getMatchableConverters(),Simplify,Título da PR,,
-24388,https://github.com/spring-projects/spring-framework/pull/24388,Performance,In cases when concatenation arguments are the same they produce equal String at each iteration. This is why we can hoist them to reduce output of String garbage.,we can hoist them to reduce output of String garbage.,Descrição da PR,,
+24403,https://github.com/spring-projects/spring-framework/pull/24403,Maintainability,Simplify GenericConversionService.getMatchableConverters(),Simplify,Title,,
+24388,https://github.com/spring-projects/spring-framework/pull/24388,Performance,In cases when concatenation arguments are the same they produce equal String at each iteration. This is why we can hoist them to reduce output of String garbage.,we can hoist them to reduce output of String garbage.,Description,,
