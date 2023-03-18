@@ -4,11 +4,13 @@ import traceback
 
 import numpy as np
 
-project = 'spring-security'
+project = 'spring-framework'
 
-# identification_file_path = f'data/identification_{project}.csv'
-identification_file_path = f'data/nfrs_pulls_with_issues_{project}.csv'
+identification_file_path = f'data/identification_{project}.csv'
 pull_file_path = f'data/{project}_pulls.json'
+
+devs_interest = ['jgrandja', 'Buzzardo', 'rwinch', 'dreis2211', 'jzheaux', 'eleftherias', 'philwebb', 'izeye',
+                 'wilkinsona', 'rstoyanchev']
 
 with open(pull_file_path) as json_input:
     pull_file = json.load(json_input)
@@ -54,7 +56,14 @@ def __identify_tasks_times(dict_users, user_name, nfrs, task):
         print(traceback.format_exc())
 
 
-def __identify_users_on_pull(pull_number, nfrs, dict_output):
+def __identify_users_on_pull(pull_number, nfrs, list_output):
+    if project == 'spring-boot':
+        url = "https://github.com/spring-projects/spring-boot/pull"
+    elif project == 'spring-framework':
+        url = "https://github.com/spring-projects/spring-framework/pull"
+    elif project == 'spring-security':
+        url = "https://github.com/spring-projects/spring-security/pull"
+
     for pull in pull_file['pulls']:
         if pull["number"] == int(pull_number):
             user_opened = [pull['user_login']]
@@ -64,34 +73,17 @@ def __identify_users_on_pull(pull_number, nfrs, dict_output):
 
             users_participating = set(user_opened + users_commented + users_reviewed + users_commited)
 
+            if 'None' not in nfrs:
+                for interest in devs_interest:
+                    if interest in users_participating:
+                        dict_output = {}
+                        dict_output['number'] = pull['number']
+                        dict_output['url'] = f"{url}/{pull['number']}"
+                        dict_output['developers'] = list(set(devs_interest) & set(users_participating))
+                        dict_output['nfrs'] = str(nfrs)
 
-            try:
-                for current_user in users_participating:
-                    __identify_participation_times(dict_output, current_user, nfrs, 'participates')
-
-                for current_user in user_opened:
-                    # __identify_tasks_times(dict_output, current_user, nfrs, "opened_discussion")
-                    __identify_participation_times(dict_output, current_user, nfrs, 'opened_discussion')
-
-                for current_user in users_commented:
-                    # __identify_tasks_times(dict_output, current_user, nfrs, "commented")
-                    __identify_participation_times(dict_output, current_user, nfrs, 'commented')
-
-                for current_user in users_reviewed:
-                    # __identify_tasks_times(dict_output, current_user, nfrs, "reviewed")
-                    __identify_participation_times(dict_output, current_user, nfrs, 'reviewed')
-
-                for current_user in users_commited:
-                    # __identify_tasks_times(dict_output, current_user, nfrs, "commited")
-                    __identify_participation_times(dict_output, current_user, nfrs, 'commited')
-            except Exception as e:
-                print (e)
-                break
-
-            return user_opened, users_commented, users_reviewed, users_commited
-
-    return [], [], []
-
+                        list_output.append(dict_output)
+                        break
 
 def __get_quartiles_group(list_nfr):
     out = {}
@@ -148,23 +140,19 @@ def __define_groups_interaction(users, quartiles, task):
 with open(identification_file_path, mode='r', encoding="utf8") as identification_file:
     reader = csv.DictReader(identification_file)
 
-    output = {}
+    output = []
     for row in reader:
         if row['NFR_TYPE']:
             nfrs = row['NFR_TYPE'].replace(" ", "").replace("-", "None").split(",")
-            __identify_users_on_pull(row["NUMBER_PR"], nfrs, output)
-            # __identify_users_tasks(row["NUMBER_ISSUE"], nfrs, output)
+            __identify_users_on_pull(row["NUMBER_ISSUE"], nfrs, output)
 
-    tasks = ['commited', 'opened_discussion', 'commented', 'reviewed', 'participates']
+    import pandas as pd
 
-    for task in tasks:
-        quartiles = __define_quartiles(output, task)
-        __define_groups_interaction(output, quartiles, task)
+    df = pd.DataFrame(output)
+    df.to_csv(f'{project}.csv', index=False, header=True)
 
-# with open(f"output/{project}_info_devs.json", "w") as write_file:
+# with open(f"output/{project}_neuro.json", "w") as write_file:
 #     json.dump(output, write_file, indent=4)
 
-with open(f"output/{project}_info_devs_links.json", "w") as write_file:
-    json.dump(output, write_file, indent=4)
 
 

@@ -1,0 +1,37 @@
+NUMBER_PR,SYSTEM,URL,NFR_TYPE,PHRASE,KEYWORDS,LOCATION,OBS,ISSUE
+4119,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4119,None,-,-,-,Added support for detecting the DB2 Universal JDBC driver,https://github.com/spring-projects/spring-boot/issues/4114
+15954,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15954,None,-,-,-,-,https://github.com/spring-projects/spring-boot/issues/15897
+1597,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1597,None,-,-,-,-,https://github.com/spring-projects/spring-boot/issues/545
+607,Spring Boot,https://github.com/spring-projects/spring-boot/pull/607,None,-,-,-,-,https://github.com/spring-projects/spring-boot/issues/337
+7787,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7787,None,-,-,-,-,https://github.com/spring-projects/spring-boot/issues/6223
+17617,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17617,None,-,-,-,-,https://github.com/spring-projects/spring-boot/issues/2652
+16873,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16873,Performance,"""This commit makes the repackager thread-safe when it is invoked concurrently in the same lifecycle."", 
+""I still don't understand how synchronized""","""thread-safe"", ""sychronized""","Description, Discussion",-,https://github.com/spring-projects/spring-boot/issues/16828
+10546,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10546,Robustness,"""Fix NPE if no database url is given""","""NPE""",Title,-,https://github.com/spring-projects/spring-boot/issues/8690
+7881,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7881,None,,,,,https://github.com/spring-projects/spring-boot/issues/7868
+24314,Spring Boot,https://github.com/spring-projects/spring-boot/pull/24314,None,,,,,https://github.com/spring-projects/spring-boot/issues/24265
+11948,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11948,None,,,,,https://github.com/spring-projects/spring-boot/issues/11939
+8486,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8486,None,,,,,https://github.com/spring-projects/spring-boot/issues/8480
+21492,Spring Boot,https://github.com/spring-projects/spring-boot/pull/21492,None,,,,,https://github.com/spring-projects/spring-boot/issues/16230
+18675,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18675,None,,,,,https://github.com/spring-projects/spring-boot/issues/18653
+7655,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7655,None,,,,,https://github.com/spring-projects/spring-boot/issues/7629
+14173,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14173,None,,,,,https://github.com/spring-projects/spring-boot/issues/13913
+3926,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3926,None,,,,,https://github.com/spring-projects/spring-boot/issues/3924
+17330,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17330,None,,,,,https://github.com/spring-projects/spring-boot/issues/17315
+17488,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17488,None,,,,,https://github.com/spring-projects/spring-boot/issues/17464
+19327,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19327,None,,,,,https://github.com/spring-projects/spring-boot/issues/19321
+8474,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8474,None,,,,,https://github.com/spring-projects/spring-boot/issues/8396
+2799,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2799,None,,,,,https://github.com/spring-projects/spring-boot/issues/2331
+1545,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1545,Security,Added store type and store provider properties to ssl config,ssl,Title,,https://github.com/spring-projects/spring-boot/issues/1544
+5512,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5512,None,,,,,https://github.com/spring-projects/spring-boot/issues/5465
+31140,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31140,None,,,,,https://github.com/spring-projects/spring-boot/issues/31123
+17805,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17805,None,,,,,https://github.com/spring-projects/spring-boot/issues/17802
+19901,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19901,Robustness,Spring Webflux ignores message of custom exception when annotated with @ResponseStatus,message + exception,Title,,https://github.com/spring-projects/spring-boot/issues/19846
+15965,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15965,None,,,,,https://github.com/spring-projects/spring-boot/issues/15701
+5289,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5289,None,,,,,https://github.com/spring-projects/spring-boot/issues/5287
+5806,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5806,None,,,,,https://github.com/spring-projects/spring-boot/issues/5800
+1770,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1770,None,,,,,https://github.com/spring-projects/spring-boot/issues/1612
+31676,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31676,None,,,,,https://github.com/spring-projects/spring-boot/issues/29640
+4454,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4454,None,,,,,https://github.com/spring-projects/spring-boot/issues/4320
+13033,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13033,None,,,,,https://github.com/spring-projects/spring-boot/issues/8607
+21658,Spring Boot,https://github.com/spring-projects/spring-boot/pull/21658,None,,,,,https://github.com/spring-projects/spring-boot/issues/21616

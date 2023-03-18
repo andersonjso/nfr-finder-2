@@ -1,472 +1,472 @@
-NUMBER_ISSUE,URL,NFR_TYPE,PHRASE,KEYWORDS,LOCATION,LABEL,OBS
-4119,https://github.com/spring-projects/spring-boot/pull/4119,None,-,-,-,-,Added support for detecting the DB2 Universal JDBC driver
-3160,https://github.com/spring-projects/spring-boot/pull/3160,Maintainability,"""Fix default value""","""fix default""",Title,-,
-4618,https://github.com/spring-projects/spring-boot/pull/4618,Maintainability,""" be a little brittle and had to maintain""","""maintain""",Discussion,-,-
-22164,https://github.com/spring-projects/spring-boot/pull/22164,Maintainability,"""favour of it being maintained by the Atomikos team""","""maintained""",Discussion,-,-
-15594,https://github.com/spring-projects/spring-boot/pull/15594,None,-,-,-,-,-
-26311,https://github.com/spring-projects/spring-boot/pull/26311,None,-,-,-,-,-
-118,https://github.com/spring-projects/spring-boot/pull/118,Robustness,"""should fails fast"", ""the application starts and only the exception is logged"",
+NUMBER_ISSUE,System,URL,NFR_TYPE,PHRASE,KEYWORDS,LOCATION,LABEL,OBS
+4119,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4119,None,-,-,-,-,Added support for detecting the DB2 Universal JDBC driver
+3160,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3160,Maintainability,"""Fix default value""","""fix default""",Title,-,
+4618,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4618,Maintainability,""" be a little brittle and had to maintain""","""maintain""",Discussion,-,-
+22164,Spring Boot,https://github.com/spring-projects/spring-boot/pull/22164,Maintainability,"""favour of it being maintained by the Atomikos team""","""maintained""",Discussion,-,-
+15594,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15594,None,-,-,-,-,-
+26311,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26311,None,-,-,-,-,-
+118,Spring Boot,https://github.com/spring-projects/spring-boot/pull/118,Robustness,"""should fails fast"", ""the application starts and only the exception is logged"",
 "" re-throws the Excpetion, ""shuts down""","""should fail"", ""exception"", ""re-throws"", ""shuts down""","Title, Description ",-,-
-10000,https://github.com/spring-projects/spring-boot/pull/10000,Security,"""Add protected logger""","""protected""",Title,-,-
-17591,https://github.com/spring-projects/spring-boot/pull/17591,None,-,-,-,-,-
-11431,https://github.com/spring-projects/spring-boot/pull/11431,None,-,-,-,-,-
-6367,https://github.com/spring-projects/spring-boot/pull/6367,None,-,-,-,-,-
-14471,https://github.com/spring-projects/spring-boot/pull/14471,None,-,-,-,-,-
-9052,https://github.com/spring-projects/spring-boot/pull/9052,Maintainability,"""Fixes configuration properties output for actuator ""","""configuration properties""",Title,-,-
-31172,https://github.com/spring-projects/spring-boot/pull/31172,None,-,-,-,-,-
-20002,https://github.com/spring-projects/spring-boot/pull/20002,None,-,-,-,-,-
-15954,https://github.com/spring-projects/spring-boot/pull/15954,None,-,-,-,-,-
-11365,https://github.com/spring-projects/spring-boot/pull/11365,None,-,-,-,-,-
-4120,https://github.com/spring-projects/spring-boot/pull/4120,None,-,-,-,-,-
-16446,https://github.com/spring-projects/spring-boot/pull/16446,Maintainability,"""Small code cleanups such as removing a redundant class cast, null check and making fields final that can be final""","""clean""",Description,-,
-7216,https://github.com/spring-projects/spring-boot/pull/7216,None,-,-,-,-,-
-17703,https://github.com/spring-projects/spring-boot/pull/17703,None,-,-,-,-,-
-13078,https://github.com/spring-projects/spring-boot/pull/13078,None,-,-,-,-,-
-15823,https://github.com/spring-projects/spring-boot/pull/15823,None,-,-,-,-,-
-28779,https://github.com/spring-projects/spring-boot/pull/28779,None,-,-,-,-,-
-29703,https://github.com/spring-projects/spring-boot/pull/29703,None,-,-,-,-,-
-14497,https://github.com/spring-projects/spring-boot/pull/14497,None,-,-,-,-,-
-6576,https://github.com/spring-projects/spring-boot/pull/6576,Maintainability,"""Adding a Tip about the trigger-file""","""tip""",Description,type: documentation,-
-18166,https://github.com/spring-projects/spring-boot/pull/18166,Maintainability,"""Simplify code""","""simplify""",Title,-,-
-14212,https://github.com/spring-projects/spring-boot/pull/14212,None,-,-,-,-,-
-19905,https://github.com/spring-projects/spring-boot/pull/19905,None,-,-,-,-,-
-4411,https://github.com/spring-projects/spring-boot/pull/4411,Performance,""" feature because of performance concern""","""performance""",Discussion,-,-
-2998,https://github.com/spring-projects/spring-boot/pull/2998,None,-,-,-,-,-
-14937,https://github.com/spring-projects/spring-boot/pull/14937,Maintainability,"""replace lambda""","""replace""",Title,-,-
-6672,https://github.com/spring-projects/spring-boot/pull/6672,None,-,-,-,-,-
-7316,https://github.com/spring-projects/spring-boot/pull/7316,None,-,-,-,-,-
-6410,https://github.com/spring-projects/spring-boot/pull/6410,Maintainability,"""Fixed ServletContextInitializer documentation""","""documentation""",Title,-,-
-6782,https://github.com/spring-projects/spring-boot/pull/6782,None,-,-,-,-,-
-5852,https://github.com/spring-projects/spring-boot/pull/5852,Security,"""Use trust store of SSL store provider to set trust store in""","""SSL""",Title,-,-
-7022,https://github.com/spring-projects/spring-boot/pull/7022,None,-,-,-,-,-
-899,https://github.com/spring-projects/spring-boot/pull/899,None,-,-,-,-,-
-6579,https://github.com/spring-projects/spring-boot/pull/6579,None,-,-,-,-,-
-5041,https://github.com/spring-projects/spring-boot/pull/5041,Maintainability,"""Improve systemd service documentation""","""documentation""",Title,type: documentation,-
-11604,https://github.com/spring-projects/spring-boot/pull/11604,Maintainability,"""This pull request clarifies TestRestTemplate documentation""","""documentation""",Description,type: enhancement,
-20495,https://github.com/spring-projects/spring-boot/pull/20495,None,-,-,-,-,-
-5197,https://github.com/spring-projects/spring-boot/pull/5197,Maintainability,"""Update Readme.adoc""","""readme""",Title,-,
-1120,https://github.com/spring-projects/spring-boot/pull/1120,None,-,-,-,-,-
-19211,https://github.com/spring-projects/spring-boot/pull/19211,Maintainability,"""Improve documentation coverage ""","""documentation""",Title,-,-
-13614,https://github.com/spring-projects/spring-boot/pull/13614,None,-,-,-,-,-
-10708,https://github.com/spring-projects/spring-boot/pull/10708,None,-,-,-,-,-
-6539,https://github.com/spring-projects/spring-boot/pull/6539,Maintainability,"""Enhanced documentation regarding ""","""documentation""",Title,type: documentation,-
-23540,https://github.com/spring-projects/spring-boot/pull/23540,None,-,-,-,-,-
-10833,https://github.com/spring-projects/spring-boot/pull/10833,None,-,-,-,-,-
-8585,https://github.com/spring-projects/spring-boot/pull/8585,None,-,-,-,-,-
-5627,https://github.com/spring-projects/spring-boot/pull/5627,None,-,-,-,-,-
-11388,https://github.com/spring-projects/spring-boot/pull/11388,None,-,-,-,-,-
-8161,https://github.com/spring-projects/spring-boot/pull/8161,None,-,-,-,-,-
-14592,https://github.com/spring-projects/spring-boot/pull/14592,None,-,-,-,-,-
-12635,https://github.com/spring-projects/spring-boot/pull/12635,None,-,-,-,-,-
-11451,https://github.com/spring-projects/spring-boot/pull/11451,None,-,-,-,-,-
-3942,https://github.com/spring-projects/spring-boot/pull/3942,None,-,-,-,-,-
-11762,https://github.com/spring-projects/spring-boot/pull/11762,Maintainability,"""Fixing duplication of String literals""","""duplication""",-,-,-
-1597,https://github.com/spring-projects/spring-boot/pull/1597,None,-,-,-,-,-
-3014,https://github.com/spring-projects/spring-boot/pull/3014,None,-,-,-,-,-
-607,https://github.com/spring-projects/spring-boot/pull/607,None,-,-,-,-,-
-25781,https://github.com/spring-projects/spring-boot/pull/25781,None,-,-,-,-,-
-20141,https://github.com/spring-projects/spring-boot/pull/20141,None,-,-,-,-,-
-22256,https://github.com/spring-projects/spring-boot/pull/22256,Robustness,"""throws an exception when the configuration includes a valid mongo-URI""","""throws"", ""exception""",Description,-,-
-15666,https://github.com/spring-projects/spring-boot/pull/15666,None,-,-,-,-,-
-10721,https://github.com/spring-projects/spring-boot/pull/10721,None,-,-,-,-,-
-25810,https://github.com/spring-projects/spring-boot/pull/25810,None,-,-,-,-,-
-28796,https://github.com/spring-projects/spring-boot/pull/28796,None,-,-,-,-,-
-14582,https://github.com/spring-projects/spring-boot/pull/14582,None,-,-,-,-,-
-10495,https://github.com/spring-projects/spring-boot/pull/10495,None,-,-,-,-,-
-6707,https://github.com/spring-projects/spring-boot/pull/6707,None,-,-,-,-,-
-4362,https://github.com/spring-projects/spring-boot/pull/4362,None,-,-,-,-,-
-8683,https://github.com/spring-projects/spring-boot/pull/8683,None,-,-,-,-,-
-9445,https://github.com/spring-projects/spring-boot/pull/9445,None,-,-,-,-,-
-25115,https://github.com/spring-projects/spring-boot/pull/25115,None,-,-,-,-,-
-17239,https://github.com/spring-projects/spring-boot/pull/17239,None,-,-,-,-,-
-7787,https://github.com/spring-projects/spring-boot/pull/7787,None,-,-,-,-,-
-25116,https://github.com/spring-projects/spring-boot/pull/25116,Maintainability,""" exclude the duplicate legal files in the few problematic places""","""duplicated""",Description,-,-
-23104,https://github.com/spring-projects/spring-boot/pull/23104,None,-,-,-,-,-
-11871,https://github.com/spring-projects/spring-boot/pull/11871,None,-,-,-,-,-
-11518,https://github.com/spring-projects/spring-boot/pull/11518,None,-,-,-,-,-
-25598,https://github.com/spring-projects/spring-boot/pull/25598,None,-,-,-,-,-
-20917,https://github.com/spring-projects/spring-boot/pull/20917,None,-,-,-,-,-
-4327,https://github.com/spring-projects/spring-boot/pull/4327,None,-,-,-,-,-
-23636,https://github.com/spring-projects/spring-boot/pull/23636,None,-,-,-,-,-
-1031,https://github.com/spring-projects/spring-boot/pull/1031,Performance,"""The double evaluation then causes injection
+10000,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10000,Security,"""Add protected logger""","""protected""",Title,-,-
+17591,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17591,None,-,-,-,-,-
+11431,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11431,None,-,-,-,-,-
+6367,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6367,None,-,-,-,-,-
+14471,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14471,None,-,-,-,-,-
+9052,Spring Boot,https://github.com/spring-projects/spring-boot/pull/9052,Maintainability,"""Fixes configuration properties output for actuator ""","""configuration properties""",Title,-,-
+31172,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31172,None,-,-,-,-,-
+20002,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20002,None,-,-,-,-,-
+15954,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15954,None,-,-,-,-,-
+11365,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11365,None,-,-,-,-,-
+4120,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4120,None,-,-,-,-,-
+16446,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16446,Maintainability,"""Small code cleanups such as removing a redundant class cast, null check and making fields final that can be final""","""clean""",Description,-,
+7216,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7216,None,-,-,-,-,-
+17703,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17703,None,-,-,-,-,-
+13078,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13078,None,-,-,-,-,-
+15823,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15823,None,-,-,-,-,-
+28779,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28779,None,-,-,-,-,-
+29703,Spring Boot,https://github.com/spring-projects/spring-boot/pull/29703,None,-,-,-,-,-
+14497,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14497,None,-,-,-,-,-
+6576,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6576,Maintainability,"""Adding a Tip about the trigger-file""","""tip""",Description,type: documentation,-
+18166,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18166,Maintainability,"""Simplify code""","""simplify""",Title,-,-
+14212,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14212,None,-,-,-,-,-
+19905,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19905,None,-,-,-,-,-
+4411,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4411,Performance,""" feature because of performance concern""","""performance""",Discussion,-,-
+2998,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2998,None,-,-,-,-,-
+14937,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14937,Maintainability,"""replace lambda""","""replace""",Title,-,-
+6672,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6672,None,-,-,-,-,-
+7316,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7316,None,-,-,-,-,-
+6410,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6410,Maintainability,"""Fixed ServletContextInitializer documentation""","""documentation""",Title,-,-
+6782,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6782,None,-,-,-,-,-
+5852,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5852,Security,"""Use trust store of SSL store provider to set trust store in""","""SSL""",Title,-,-
+7022,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7022,None,-,-,-,-,-
+899,Spring Boot,https://github.com/spring-projects/spring-boot/pull/899,None,-,-,-,-,-
+6579,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6579,None,-,-,-,-,-
+5041,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5041,Maintainability,"""Improve systemd service documentation""","""documentation""",Title,type: documentation,-
+11604,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11604,Maintainability,"""This pull request clarifies TestRestTemplate documentation""","""documentation""",Description,type: enhancement,
+20495,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20495,None,-,-,-,-,-
+5197,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5197,Maintainability,"""Update Readme.adoc""","""readme""",Title,-,
+1120,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1120,None,-,-,-,-,-
+19211,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19211,Maintainability,"""Improve documentation coverage ""","""documentation""",Title,-,-
+13614,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13614,None,-,-,-,-,-
+10708,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10708,None,-,-,-,-,-
+6539,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6539,Maintainability,"""Enhanced documentation regarding ""","""documentation""",Title,type: documentation,-
+23540,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23540,None,-,-,-,-,-
+10833,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10833,None,-,-,-,-,-
+8585,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8585,None,-,-,-,-,-
+5627,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5627,None,-,-,-,-,-
+11388,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11388,None,-,-,-,-,-
+8161,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8161,None,-,-,-,-,-
+14592,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14592,None,-,-,-,-,-
+12635,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12635,None,-,-,-,-,-
+11451,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11451,None,-,-,-,-,-
+3942,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3942,None,-,-,-,-,-
+11762,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11762,Maintainability,"""Fixing duplication of String literals""","""duplication""",-,-,-
+1597,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1597,None,-,-,-,-,-
+3014,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3014,None,-,-,-,-,-
+607,Spring Boot,https://github.com/spring-projects/spring-boot/pull/607,None,-,-,-,-,-
+25781,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25781,None,-,-,-,-,-
+20141,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20141,None,-,-,-,-,-
+22256,Spring Boot,https://github.com/spring-projects/spring-boot/pull/22256,Robustness,"""throws an exception when the configuration includes a valid mongo-URI""","""throws"", ""exception""",Description,-,-
+15666,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15666,None,-,-,-,-,-
+10721,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10721,None,-,-,-,-,-
+25810,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25810,None,-,-,-,-,-
+28796,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28796,None,-,-,-,-,-
+14582,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14582,None,-,-,-,-,-
+10495,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10495,None,-,-,-,-,-
+6707,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6707,None,-,-,-,-,-
+4362,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4362,None,-,-,-,-,-
+8683,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8683,None,-,-,-,-,-
+9445,Spring Boot,https://github.com/spring-projects/spring-boot/pull/9445,None,-,-,-,-,-
+25115,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25115,None,-,-,-,-,-
+17239,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17239,None,-,-,-,-,-
+7787,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7787,None,-,-,-,-,-
+25116,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25116,Maintainability,""" exclude the duplicate legal files in the few problematic places""","""duplicated""",Description,-,-
+23104,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23104,None,-,-,-,-,-
+11871,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11871,None,-,-,-,-,-
+11518,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11518,None,-,-,-,-,-
+25598,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25598,None,-,-,-,-,-
+20917,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20917,None,-,-,-,-,-
+4327,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4327,None,-,-,-,-,-
+23636,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23636,None,-,-,-,-,-
+1031,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1031,Performance,"""The double evaluation then causes injection
 ambiguities as we now get multiple beans ""","""multiple beans""",Description,-,-
-19850,https://github.com/spring-projects/spring-boot/pull/19850,Robustness,"""Additionally catch NoSuchFileException in IndexedLayers""","""catch""",Title,-,-
-13966,https://github.com/spring-projects/spring-boot/pull/13966,None,-,-,-,-,-
-12449,https://github.com/spring-projects/spring-boot/pull/12449,Robustness,"""methods should throw NoSuchElementException""","""throw""",Title,-,-
-17617,https://github.com/spring-projects/spring-boot/pull/17617,None,-,-,-,-,-
-13837,https://github.com/spring-projects/spring-boot/pull/13837,None,-,-,-,-,-
-20230,https://github.com/spring-projects/spring-boot/pull/20230,Robustness,"""I am seeing the following failure when running this test:""","""failure""",Discussion,-,-
-6770,https://github.com/spring-projects/spring-boot/pull/6770,Maintainability,"""but I think the documentation could be a bit more clear.""","""documentation""",Description,-,-
-2245,https://github.com/spring-projects/spring-boot/pull/2245,Robustness,"""fixed jetty9 MalformedURLException"", ""My Jetty 9 application throws"", ""attach the stacktrace""","""throws"", ""stacktrace""","Title, Description ",-,-
-17913,https://github.com/spring-projects/spring-boot/pull/17913,None,-,-,-,-,-
-23050,https://github.com/spring-projects/spring-boot/pull/23050,None,-,-,-,-,-
-6851,https://github.com/spring-projects/spring-boot/pull/6851,None,-,-,-,-,-
-16873,https://github.com/spring-projects/spring-boot/pull/16873,Performance,"""This commit makes the repackager thread-safe when it is invoked concurrently in the same lifecycle."", 
+19850,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19850,Robustness,"""Additionally catch NoSuchFileException in IndexedLayers""","""catch""",Title,-,-
+13966,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13966,None,-,-,-,-,-
+12449,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12449,Robustness,"""methods should throw NoSuchElementException""","""throw""",Title,-,-
+17617,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17617,None,-,-,-,-,-
+13837,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13837,None,-,-,-,-,-
+20230,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20230,Robustness,"""I am seeing the following failure when running this test:""","""failure""",Discussion,-,-
+6770,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6770,Maintainability,"""but I think the documentation could be a bit more clear.""","""documentation""",Description,-,-
+2245,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2245,Robustness,"""fixed jetty9 MalformedURLException"", ""My Jetty 9 application throws"", ""attach the stacktrace""","""throws"", ""stacktrace""","Title, Description ",-,-
+17913,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17913,None,-,-,-,-,-
+23050,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23050,None,-,-,-,-,-
+6851,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6851,None,-,-,-,-,-
+16873,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16873,Performance,"""This commit makes the repackager thread-safe when it is invoked concurrently in the same lifecycle."", 
 ""I still don't understand how synchronized""","""thread-safe"", ""sychronized""","Description, Discussion",,-
-31327,https://github.com/spring-projects/spring-boot/pull/31327,None,-,-,-,-,-
-13159,https://github.com/spring-projects/spring-boot/pull/13159,None,-,-,-,-,-
-7801,https://github.com/spring-projects/spring-boot/pull/7801,None,-,-,-,-,-
-10546,https://github.com/spring-projects/spring-boot/pull/10546,Robustness,"""Fix NPE if no database url is given""","""NPE""",Title,-,-
-18632,https://github.com/spring-projects/spring-boot/pull/18632,,,,,,
-25726,https://github.com/spring-projects/spring-boot/pull/25726,Performance,"""they aren't ready to handle traffic""","""traffic""",Discussion,-,-
-8911,https://github.com/spring-projects/spring-boot/pull/8911,None,-,-,-,-,-
-19955,https://github.com/spring-projects/spring-boot/pull/19955,None,-,-,-,-,-
-16472,https://github.com/spring-projects/spring-boot/pull/16472,None,-,-,-,-,-
-7241,https://github.com/spring-projects/spring-boot/pull/7241,None,-,-,-,-,-
-28400,https://github.com/spring-projects/spring-boot/pull/28400,None,-,-,-,-,-
-16583,https://github.com/spring-projects/spring-boot/pull/16583,None,-,-,-,-,-
-16180,https://github.com/spring-projects/spring-boot/pull/16180,None,-,-,-,-,-
-16285,https://github.com/spring-projects/spring-boot/pull/16285,Maintainability,"""URL Cleanup""","""cleanup""",Title,-,
-3283,https://github.com/spring-projects/spring-boot/pull/3283,None,-,-,-,-,-
-16733,https://github.com/spring-projects/spring-boot/pull/16733,None,,,,,
-10177,https://github.com/spring-projects/spring-boot/pull/10177,None,,,,,
-8392,https://github.com/spring-projects/spring-boot/pull/8392,None,,,,,
-28801,https://github.com/spring-projects/spring-boot/pull/28801,None,,,,,
-16080,https://github.com/spring-projects/spring-boot/pull/16080,None,,,,,
-6414,https://github.com/spring-projects/spring-boot/pull/6414,None,,,,,
-26441,https://github.com/spring-projects/spring-boot/pull/26441,Maintainability,"""Remove unnecessary throws declaration in tests""","""remove"",""unecessary""",Title,,
-742,https://github.com/spring-projects/spring-boot/pull/742,None,,,,,
-23080,https://github.com/spring-projects/spring-boot/pull/23080,None,,,,,
-31151,https://github.com/spring-projects/spring-boot/pull/31151,None,,,,,
-16560,https://github.com/spring-projects/spring-boot/pull/16560,None,,,,,
-9557,https://github.com/spring-projects/spring-boot/pull/9557,None,,,,,
-23766,https://github.com/spring-projects/spring-boot/pull/23766,None,,,,,
-7881,https://github.com/spring-projects/spring-boot/pull/7881,None,,,,,
-75,https://github.com/spring-projects/spring-boot/pull/75,None,,,,,
-19898,https://github.com/spring-projects/spring-boot/pull/19898,None,,,,,
-22397,https://github.com/spring-projects/spring-boot/pull/22397,None,,,,,
-3534,https://github.com/spring-projects/spring-boot/pull/3534,None,,,,,
-7533,https://github.com/spring-projects/spring-boot/pull/7533,None,,,,,
-13536,https://github.com/spring-projects/spring-boot/pull/13536,None,,,,,
-17952,https://github.com/spring-projects/spring-boot/pull/17952,Security,"""When both properties jwk-set-uri and issuer-uri are set, it will create a JwtDecoder using jwk-set-uri and adds an issuer validation using the issuer-uri.""","""JWT""",Description,,
-15770,https://github.com/spring-projects/spring-boot/pull/15770,Performance,"""Right now, invoking the health endpoint lead to a synchronous invocation of all underlying HealthIndicator instance(s) that have been configured. It would be nice to offer an option to run these in parallel instead.""","""paralel"", ""synchronous""",Description,,
-16083,https://github.com/spring-projects/spring-boot/pull/16083,None,,,,,
-6075,https://github.com/spring-projects/spring-boot/pull/6075,None,,,,,
-11825,https://github.com/spring-projects/spring-boot/pull/11825,None,,,,,
-6117,https://github.com/spring-projects/spring-boot/pull/6117,None,,,,,
-2520,https://github.com/spring-projects/spring-boot/pull/2520,None,,,,,
-623,https://github.com/spring-projects/spring-boot/pull/623,None,,,,,
-2280,https://github.com/spring-projects/spring-boot/pull/2280,None,,,,,
-30078,https://github.com/spring-projects/spring-boot/pull/30078,Maintainability,"""DataFetcherExceptionResolver beans are not considered in GraphQlTester slice tests""","""tests""",Title,,
-13483,https://github.com/spring-projects/spring-boot/pull/13483,None,,,,,
-29755,https://github.com/spring-projects/spring-boot/pull/29755,None,,,,,
-17473,https://github.com/spring-projects/spring-boot/pull/17473,None,,,,,
-24314,https://github.com/spring-projects/spring-boot/pull/24314,None,,,,,
-12117,https://github.com/spring-projects/spring-boot/pull/12117,None,,,,,
-17238,https://github.com/spring-projects/spring-boot/pull/17238,None,,,,,
-2816,https://github.com/spring-projects/spring-boot/pull/2816,Security,"""Without security, other sensitive endpoints like /autoconfig should not be exposed unless its sensitive is set to false explicitly.""","""security"",""exposed""",Description,,
-27736,https://github.com/spring-projects/spring-boot/pull/27736,None,,,,,
-13019,https://github.com/spring-projects/spring-boot/pull/13019,None,,,,,
-31304,https://github.com/spring-projects/spring-boot/pull/31304,Robustness,"""Add null check on throws exception indicating malformed json if null""","""throws"",""exception"", ""null""",Title,,
-11055,https://github.com/spring-projects/spring-boot/pull/11055,None,,,,,
-7851,https://github.com/spring-projects/spring-boot/pull/7851,Performance,"""Reduce memory footprint of AsciiBytes.hashCode(int hash, String string)""","""memory""",Title,,
-14056,https://github.com/spring-projects/spring-boot/pull/14056,Performance,"""replaces a few loops over enumerations with Collections.list() where possible.""",,Description,,
-8904,https://github.com/spring-projects/spring-boot/pull/8904,None,,,,,
-16246,https://github.com/spring-projects/spring-boot/pull/16246,None,,,,,
-20592,https://github.com/spring-projects/spring-boot/pull/20592,None,,,,,
-31660,https://github.com/spring-projects/spring-boot/pull/31660,None,,,,,
-29182,https://github.com/spring-projects/spring-boot/pull/29182,None,,,,,
-11439,https://github.com/spring-projects/spring-boot/pull/11439,Maintainability,"""Move CorsEndpointProperties to the upper package""",,Title,,
-11948,https://github.com/spring-projects/spring-boot/pull/11948,None,,,,,
-19913,https://github.com/spring-projects/spring-boot/pull/19913,None,,,,,
-2592,https://github.com/spring-projects/spring-boot/pull/2592,None,,,,,
-28170,https://github.com/spring-projects/spring-boot/pull/28170,None,,,,,
-20242,https://github.com/spring-projects/spring-boot/pull/20242,None,,,,,
-23799,https://github.com/spring-projects/spring-boot/pull/23799,None,,,,,
-24661,https://github.com/spring-projects/spring-boot/pull/24661,Maintainability,"""Remove redundant judgment conditions in DefaultErrorAttributes""",,Title,,
-28123,https://github.com/spring-projects/spring-boot/pull/28123,Maintainability,"""Support PEM format for Kafka SSL certificates and private key""",,Title,,
-23575,https://github.com/spring-projects/spring-boot/pull/23575,None,,,,,
-14518,https://github.com/spring-projects/spring-boot/pull/14518,None,,,,,
-8486,https://github.com/spring-projects/spring-boot/pull/8486,None,,,,,
-2533,https://github.com/spring-projects/spring-boot/pull/2533,None,,,,,
-20047,https://github.com/spring-projects/spring-boot/pull/20047,None,,,,,
-26448,https://github.com/spring-projects/spring-boot/pull/26448,Maintainability,"""Redundant suppression in test""",,Title,,
-4486,https://github.com/spring-projects/spring-boot/pull/4486,None,,,,,
-12732,https://github.com/spring-projects/spring-boot/pull/12732,Maintainability,"""Fix Document cache in ConfigFileApplicationListener""","""fix""",Title,,
-18446,https://github.com/spring-projects/spring-boot/pull/18446,None,,,,,
-13438,https://github.com/spring-projects/spring-boot/pull/13438,None,,,,,
-21492,https://github.com/spring-projects/spring-boot/pull/21492,None,,,,,
-17939,https://github.com/spring-projects/spring-boot/pull/17939,Security,"""Additional sanitization for URI being exposed over Endpoints""","""exposed""",Title,,
-28239,https://github.com/spring-projects/spring-boot/pull/28239,None,,,,,
-17106,https://github.com/spring-projects/spring-boot/pull/17106,None,,,,,
-31448,https://github.com/spring-projects/spring-boot/pull/31448,None,,,,,
-24245,https://github.com/spring-projects/spring-boot/pull/24245,None,,,,,
-25377,https://github.com/spring-projects/spring-boot/pull/25377,None,,,,,
-3866,https://github.com/spring-projects/spring-boot/pull/3866,None,,,,,
-26866,https://github.com/spring-projects/spring-boot/pull/26866,None,,,,,
-26340,https://github.com/spring-projects/spring-boot/pull/26340,None,,,,,
-1784,https://github.com/spring-projects/spring-boot/pull/1784,None,,,,,
-29033,https://github.com/spring-projects/spring-boot/pull/29033,None,,,,,
-7438,https://github.com/spring-projects/spring-boot/pull/7438,None,,,,,
-15709,https://github.com/spring-projects/spring-boot/pull/15709,Robustness,"""Unlike Jetty and Tomcat, Reactor Netty and Undertow do not cause a startup failure when SSL is enabled but no key store is configured""","""failure""",Title,,
-27940,https://github.com/spring-projects/spring-boot/pull/27940,None,,,,,
-15089,https://github.com/spring-projects/spring-boot/pull/15089,None,,,,,
-19992,https://github.com/spring-projects/spring-boot/pull/19992,None,,,,,
-21769,https://github.com/spring-projects/spring-boot/pull/21769,None,,,,,
-9928,https://github.com/spring-projects/spring-boot/pull/9928,None,,,,,
-11466,https://github.com/spring-projects/spring-boot/pull/11466,None,,,,,
-10591,https://github.com/spring-projects/spring-boot/pull/10591,None,,,,,
-14744,https://github.com/spring-projects/spring-boot/pull/14744,None,,,,,
-14985,https://github.com/spring-projects/spring-boot/pull/14985,Security,"""Allow to disable SSL client authentication on the management port""","""SSL""",Title,,
-7522,https://github.com/spring-projects/spring-boot/pull/7522,None,,,,,
-20051,https://github.com/spring-projects/spring-boot/pull/20051,None,,,,,
-4333,https://github.com/spring-projects/spring-boot/pull/4333,None,,,,,
-17293,https://github.com/spring-projects/spring-boot/pull/17293,None,,,,,
-28204,https://github.com/spring-projects/spring-boot/pull/28204,None,,,,,
-7085,https://github.com/spring-projects/spring-boot/pull/7085,None,,,,,
-18675,https://github.com/spring-projects/spring-boot/pull/18675,None,,,,,
-31574,https://github.com/spring-projects/spring-boot/pull/31574,None,,,,,
-7655,https://github.com/spring-projects/spring-boot/pull/7655,None,,,,,
-23459,https://github.com/spring-projects/spring-boot/pull/23459,None,,,,,
-21912,https://github.com/spring-projects/spring-boot/pull/21912,None,,,,,
-23633,https://github.com/spring-projects/spring-boot/pull/23633,Robustness,"""Add a FailureAnalyzer for ConfigDataNotFoundException""",,Title,,
-3224,https://github.com/spring-projects/spring-boot/pull/3224,None,,,,,
-30627,https://github.com/spring-projects/spring-boot/pull/30627,None,,,,,
-11817,https://github.com/spring-projects/spring-boot/pull/11817,None,,,,,
-10612,https://github.com/spring-projects/spring-boot/pull/10612,None,,,,,
-24106,https://github.com/spring-projects/spring-boot/pull/24106,None,,,,,
-17653,https://github.com/spring-projects/spring-boot/pull/17653,None,,,,,
-27091,https://github.com/spring-projects/spring-boot/pull/27091,None,,,,,
-14173,https://github.com/spring-projects/spring-boot/pull/14173,None,,,,,
-654,https://github.com/spring-projects/spring-boot/pull/654,None,,,,,
-16933,https://github.com/spring-projects/spring-boot/pull/16933,None,,,,,
-18612,https://github.com/spring-projects/spring-boot/pull/18612,None,,,,,
-12272,https://github.com/spring-projects/spring-boot/pull/12272,Robustness,"""UnsatisfiedDependencyException with a datasource proxy ...""","""UnsatisfiedDependencyException""",Title,,
-11369,https://github.com/spring-projects/spring-boot/pull/11369,None,,,,,
-22646,https://github.com/spring-projects/spring-boot/pull/22646,None,,,,,
-19902,https://github.com/spring-projects/spring-boot/pull/19902,None,,,,,
-16069,https://github.com/spring-projects/spring-boot/pull/16069,None,,,,,
-11121,https://github.com/spring-projects/spring-boot/pull/11121,None,,,,,
-96,https://github.com/spring-projects/spring-boot/pull/96,None,,,,,
-670,https://github.com/spring-projects/spring-boot/pull/670,Robustness,The PREFIX_ERROR_CODE format creates errors codes like:,error code,Discussion,-,"Considerei pensando naquela questão dos sub-requisitos de robustez, visto que parte da discussão foi sobre como isso afeta a formatação de mensagens de erro."
-18249,https://github.com/spring-projects/spring-boot/pull/18249,None,,,,,
-31442,https://github.com/spring-projects/spring-boot/pull/31442,None,,,,,
-13707,https://github.com/spring-projects/spring-boot/pull/13707,Maintainability,Callers for RequestMatcherAssert.doesNotMatch() have been updated to align with RequestMatcherAssert.matches() in fddc9e9 but its signature itself hasn't been updated. This PR updates its parameter order to align with its callers.,align,Description,-,
-3926,https://github.com/spring-projects/spring-boot/pull/3926,None,,,,,
-17330,https://github.com/spring-projects/spring-boot/pull/17330,None,,,,,
-7737,https://github.com/spring-projects/spring-boot/pull/7737,Maintainability,Documentation improvement for Cassandra Setup,documentation improvement,Title,-,
-6352,https://github.com/spring-projects/spring-boot/pull/6352,None,,,,,
-28767,https://github.com/spring-projects/spring-boot/pull/28767,Robustness,Warning that DefaultClientResources was not shutdown properly when using Lettuce with Actuator,warning,Title,,
-6459,https://github.com/spring-projects/spring-boot/pull/6459,None,,,,,
-15163,https://github.com/spring-projects/spring-boot/pull/15163,Security,,,Discussion,,
-22209,https://github.com/spring-projects/spring-boot/pull/22209,None,,,,,
-11158,https://github.com/spring-projects/spring-boot/pull/11158,None,,,,,
-566,https://github.com/spring-projects/spring-boot/pull/566,Maintainability,Security Documentation Cleanup,cleanup,Title,-,
-25621,https://github.com/spring-projects/spring-boot/pull/25621,Maintainability,Document how to configure Maven's Failsafe plugin when not using spring-boot-starter-parent,Document,Title,,
-27661,https://github.com/spring-projects/spring-boot/pull/27661,Performance,"this PR changes the checks for Groovy closures in BeanDefinitionLoader to a precompiled Pattern. It doesn't matter really from a performance perspective, because it's only called once in standard Boot applications. But in theory it could be called more often and then it saves the repeated pattern compilation overhead. Still very minor, so feel free to decline.",performance,Description,,
-27755,https://github.com/spring-projects/spring-boot/pull/27755,Maintainability,Document how to parameterize output directory for REST Docs with WebTestClient,document,Title,,
-1181,https://github.com/spring-projects/spring-boot/pull/1181,None,,,,,
-26813,https://github.com/spring-projects/spring-boot/pull/26813,None,,,,,
-23753,https://github.com/spring-projects/spring-boot/pull/23753,None,,,,,
-1732,https://github.com/spring-projects/spring-boot/pull/1732,Security,Support for different authentication database,authentication,Title,,
-17444,https://github.com/spring-projects/spring-boot/pull/17444,None,,,,,
-12672,https://github.com/spring-projects/spring-boot/pull/12672,None,,,,,
-13453,https://github.com/spring-projects/spring-boot/pull/13453,None,,,,,
-11120,https://github.com/spring-projects/spring-boot/pull/11120,Maintainability,Improve extension of Neo4jHealthIndicator,improve + extension,Title,,
-26713,https://github.com/spring-projects/spring-boot/pull/26713,None,,,,,
-6154,https://github.com/spring-projects/spring-boot/pull/6154,None,,,,,
-20824,https://github.com/spring-projects/spring-boot/pull/20824,None,,,,,
-391,https://github.com/spring-projects/spring-boot/pull/391,None,,,,,
-17488,https://github.com/spring-projects/spring-boot/pull/17488,None,,,,,
-20857,https://github.com/spring-projects/spring-boot/pull/20857,Maintainability,Harmonize naming of Elasticsearch auto-configuration classes,harmozine + naming,Title,,
-7166,https://github.com/spring-projects/spring-boot/pull/7166,None,,,,,
-19523,https://github.com/spring-projects/spring-boot/pull/19523,None,,,,,
-20806,https://github.com/spring-projects/spring-boot/pull/20806,None,,,,,
-2867,https://github.com/spring-projects/spring-boot/pull/2867,None,,,,,
-234,https://github.com/spring-projects/spring-boot/pull/234,None,,,,,
-19057,https://github.com/spring-projects/spring-boot/pull/19057,Maintainability,remove incorrect Javadoc part,remove + incorrect + javadoc,Description,,
-14653,https://github.com/spring-projects/spring-boot/pull/14653,Maintainability,"Changed builder methods in RestTemplateBuilder to use an overridable factory method to facilitate creation of subclasses.
+31327,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31327,None,-,-,-,-,-
+13159,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13159,None,-,-,-,-,-
+7801,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7801,None,-,-,-,-,-
+10546,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10546,Robustness,"""Fix NPE if no database url is given""","""NPE""",Title,-,-
+18632,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18632,,,,,,
+25726,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25726,Performance,"""they aren't ready to handle traffic""","""traffic""",Discussion,-,-
+8911,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8911,None,-,-,-,-,-
+19955,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19955,None,-,-,-,-,-
+16472,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16472,None,-,-,-,-,-
+7241,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7241,None,-,-,-,-,-
+28400,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28400,None,-,-,-,-,-
+16583,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16583,None,-,-,-,-,-
+16180,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16180,None,-,-,-,-,-
+16285,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16285,Maintainability,"""URL Cleanup""","""cleanup""",Title,-,
+3283,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3283,None,-,-,-,-,-
+16733,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16733,None,,,,,
+10177,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10177,None,,,,,
+8392,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8392,None,,,,,
+28801,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28801,None,,,,,
+16080,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16080,None,,,,,
+6414,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6414,None,,,,,
+26441,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26441,Maintainability,"""Remove unnecessary throws declaration in tests""","""remove"",""unecessary""",Title,,
+742,Spring Boot,https://github.com/spring-projects/spring-boot/pull/742,None,,,,,
+23080,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23080,None,,,,,
+31151,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31151,None,,,,,
+16560,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16560,None,,,,,
+9557,Spring Boot,https://github.com/spring-projects/spring-boot/pull/9557,None,,,,,
+23766,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23766,None,,,,,
+7881,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7881,None,,,,,
+75,Spring Boot,https://github.com/spring-projects/spring-boot/pull/75,None,,,,,
+19898,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19898,None,,,,,
+22397,Spring Boot,https://github.com/spring-projects/spring-boot/pull/22397,None,,,,,
+3534,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3534,None,,,,,
+7533,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7533,None,,,,,
+13536,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13536,None,,,,,
+17952,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17952,Security,"""When both properties jwk-set-uri and issuer-uri are set, it will create a JwtDecoder using jwk-set-uri and adds an issuer validation using the issuer-uri.""","""JWT""",Description,,
+15770,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15770,Performance,"""Right now, invoking the health endpoint lead to a synchronous invocation of all underlying HealthIndicator instance(s) that have been configured. It would be nice to offer an option to run these in parallel instead.""","""paralel"", ""synchronous""",Description,,
+16083,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16083,None,,,,,
+6075,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6075,None,,,,,
+11825,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11825,None,,,,,
+6117,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6117,None,,,,,
+2520,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2520,None,,,,,
+623,Spring Boot,https://github.com/spring-projects/spring-boot/pull/623,None,,,,,
+2280,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2280,None,,,,,
+30078,Spring Boot,https://github.com/spring-projects/spring-boot/pull/30078,Maintainability,"""DataFetcherExceptionResolver beans are not considered in GraphQlTester slice tests""","""tests""",Title,,
+13483,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13483,None,,,,,
+29755,Spring Boot,https://github.com/spring-projects/spring-boot/pull/29755,None,,,,,
+17473,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17473,None,,,,,
+24314,Spring Boot,https://github.com/spring-projects/spring-boot/pull/24314,None,,,,,
+12117,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12117,None,,,,,
+17238,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17238,None,,,,,
+2816,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2816,Security,"""Without security, other sensitive endpoints like /autoconfig should not be exposed unless its sensitive is set to false explicitly.""","""security"",""exposed""",Description,,
+27736,Spring Boot,https://github.com/spring-projects/spring-boot/pull/27736,None,,,,,
+13019,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13019,None,,,,,
+31304,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31304,Robustness,"""Add null check on throws exception indicating malformed json if null""","""throws"",""exception"", ""null""",Title,,
+11055,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11055,None,,,,,
+7851,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7851,Performance,"""Reduce memory footprint of AsciiBytes.hashCode(int hash, String string)""","""memory""",Title,,
+14056,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14056,Performance,"""replaces a few loops over enumerations with Collections.list() where possible.""",,Description,,
+8904,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8904,None,,,,,
+16246,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16246,None,,,,,
+20592,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20592,None,,,,,
+31660,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31660,None,,,,,
+29182,Spring Boot,https://github.com/spring-projects/spring-boot/pull/29182,None,,,,,
+11439,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11439,Maintainability,"""Move CorsEndpointProperties to the upper package""",,Title,,
+11948,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11948,None,,,,,
+19913,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19913,None,,,,,
+2592,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2592,None,,,,,
+28170,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28170,None,,,,,
+20242,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20242,None,,,,,
+23799,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23799,None,,,,,
+24661,Spring Boot,https://github.com/spring-projects/spring-boot/pull/24661,Maintainability,"""Remove redundant judgment conditions in DefaultErrorAttributes""",,Title,,
+28123,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28123,Maintainability,"""Support PEM format for Kafka SSL certificates and private key""",,Title,,
+23575,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23575,None,,,,,
+14518,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14518,None,,,,,
+8486,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8486,None,,,,,
+2533,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2533,None,,,,,
+20047,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20047,None,,,,,
+26448,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26448,Maintainability,"""Redundant suppression in test""",,Title,,
+4486,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4486,None,,,,,
+12732,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12732,Maintainability,"""Fix Document cache in ConfigFileApplicationListener""","""fix""",Title,,
+18446,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18446,None,,,,,
+13438,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13438,None,,,,,
+21492,Spring Boot,https://github.com/spring-projects/spring-boot/pull/21492,None,,,,,
+17939,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17939,Security,"""Additional sanitization for URI being exposed over Endpoints""","""exposed""",Title,,
+28239,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28239,None,,,,,
+17106,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17106,None,,,,,
+31448,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31448,None,,,,,
+24245,Spring Boot,https://github.com/spring-projects/spring-boot/pull/24245,None,,,,,
+25377,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25377,None,,,,,
+3866,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3866,None,,,,,
+26866,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26866,None,,,,,
+26340,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26340,None,,,,,
+1784,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1784,None,,,,,
+29033,Spring Boot,https://github.com/spring-projects/spring-boot/pull/29033,None,,,,,
+7438,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7438,None,,,,,
+15709,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15709,Robustness,"""Unlike Jetty and Tomcat, Reactor Netty and Undertow do not cause a startup failure when SSL is enabled but no key store is configured""","""failure""",Title,,
+27940,Spring Boot,https://github.com/spring-projects/spring-boot/pull/27940,None,,,,,
+15089,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15089,None,,,,,
+19992,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19992,None,,,,,
+21769,Spring Boot,https://github.com/spring-projects/spring-boot/pull/21769,None,,,,,
+9928,Spring Boot,https://github.com/spring-projects/spring-boot/pull/9928,None,,,,,
+11466,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11466,None,,,,,
+10591,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10591,None,,,,,
+14744,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14744,None,,,,,
+14985,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14985,Security,"""Allow to disable SSL client authentication on the management port""","""SSL""",Title,,
+7522,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7522,None,,,,,
+20051,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20051,None,,,,,
+4333,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4333,None,,,,,
+17293,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17293,None,,,,,
+28204,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28204,None,,,,,
+7085,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7085,None,,,,,
+18675,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18675,None,,,,,
+31574,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31574,None,,,,,
+7655,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7655,None,,,,,
+23459,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23459,None,,,,,
+21912,Spring Boot,https://github.com/spring-projects/spring-boot/pull/21912,None,,,,,
+23633,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23633,Robustness,"""Add a FailureAnalyzer for ConfigDataNotFoundException""",,Title,,
+3224,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3224,None,,,,,
+30627,Spring Boot,https://github.com/spring-projects/spring-boot/pull/30627,None,,,,,
+11817,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11817,None,,,,,
+10612,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10612,None,,,,,
+24106,Spring Boot,https://github.com/spring-projects/spring-boot/pull/24106,None,,,,,
+17653,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17653,None,,,,,
+27091,Spring Boot,https://github.com/spring-projects/spring-boot/pull/27091,None,,,,,
+14173,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14173,None,,,,,
+654,Spring Boot,https://github.com/spring-projects/spring-boot/pull/654,None,,,,,
+16933,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16933,None,,,,,
+18612,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18612,None,,,,,
+12272,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12272,Robustness,"""UnsatisfiedDependencyException with a datasource proxy ...""","""UnsatisfiedDependencyException""",Title,,
+11369,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11369,None,,,,,
+22646,Spring Boot,https://github.com/spring-projects/spring-boot/pull/22646,None,,,,,
+19902,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19902,None,,,,,
+16069,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16069,None,,,,,
+11121,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11121,None,,,,,
+96,Spring Boot,https://github.com/spring-projects/spring-boot/pull/96,None,,,,,
+670,Spring Boot,https://github.com/spring-projects/spring-boot/pull/670,Robustness,The PREFIX_ERROR_CODE format creates errors codes like:,error code,Discussion,-,"Considerei pensando naquela questão dos sub-requisitos de robustez, visto que parte da discussão foi sobre como isso afeta a formatação de mensagens de erro."
+18249,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18249,None,,,,,
+31442,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31442,None,,,,,
+13707,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13707,Maintainability,Callers for RequestMatcherAssert.doesNotMatch() have been updated to align with RequestMatcherAssert.matches() in fddc9e9 but its signature itself hasn't been updated. This PR updates its parameter order to align with its callers.,align,Description,-,
+3926,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3926,None,,,,,
+17330,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17330,None,,,,,
+7737,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7737,Maintainability,Documentation improvement for Cassandra Setup,documentation improvement,Title,-,
+6352,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6352,None,,,,,
+28767,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28767,Robustness,Warning that DefaultClientResources was not shutdown properly when using Lettuce with Actuator,warning,Title,,
+6459,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6459,None,,,,,
+15163,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15163,Security,,,Discussion,,
+22209,Spring Boot,https://github.com/spring-projects/spring-boot/pull/22209,None,,,,,
+11158,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11158,None,,,,,
+566,Spring Boot,https://github.com/spring-projects/spring-boot/pull/566,Maintainability,Security Documentation Cleanup,cleanup,Title,-,
+25621,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25621,Maintainability,Document how to configure Maven's Failsafe plugin when not using spring-boot-starter-parent,Document,Title,,
+27661,Spring Boot,https://github.com/spring-projects/spring-boot/pull/27661,Performance,"this PR changes the checks for Groovy closures in BeanDefinitionLoader to a precompiled Pattern. It doesn't matter really from a performance perspective, because it's only called once in standard Boot applications. But in theory it could be called more often and then it saves the repeated pattern compilation overhead. Still very minor, so feel free to decline.",performance,Description,,
+27755,Spring Boot,https://github.com/spring-projects/spring-boot/pull/27755,Maintainability,Document how to parameterize output directory for REST Docs with WebTestClient,document,Title,,
+1181,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1181,None,,,,,
+26813,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26813,None,,,,,
+23753,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23753,None,,,,,
+1732,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1732,Security,Support for different authentication database,authentication,Title,,
+17444,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17444,None,,,,,
+12672,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12672,None,,,,,
+13453,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13453,None,,,,,
+11120,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11120,Maintainability,Improve extension of Neo4jHealthIndicator,improve + extension,Title,,
+26713,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26713,None,,,,,
+6154,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6154,None,,,,,
+20824,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20824,None,,,,,
+391,Spring Boot,https://github.com/spring-projects/spring-boot/pull/391,None,,,,,
+17488,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17488,None,,,,,
+20857,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20857,Maintainability,Harmonize naming of Elasticsearch auto-configuration classes,harmozine + naming,Title,,
+7166,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7166,None,,,,,
+19523,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19523,None,,,,,
+20806,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20806,None,,,,,
+2867,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2867,None,,,,,
+234,Spring Boot,https://github.com/spring-projects/spring-boot/pull/234,None,,,,,
+19057,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19057,Maintainability,remove incorrect Javadoc part,remove + incorrect + javadoc,Description,,
+14653,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14653,Maintainability,"Changed builder methods in RestTemplateBuilder to use an overridable factory method to facilitate creation of subclasses.
 Previously, a subclass of RestTemplateBuilder would no longer be used if a non-overriden builder method was used.",facilitate + creation ,Description,,
-11751,https://github.com/spring-projects/spring-boot/pull/11751,None,,,,,
-1596,https://github.com/spring-projects/spring-boot/pull/1596,None,,,,,
-7596,https://github.com/spring-projects/spring-boot/pull/7596,None,,,,,
-16322,https://github.com/spring-projects/spring-boot/pull/16322,None,,,,,
-10322,https://github.com/spring-projects/spring-boot/pull/10322,None,,,,,
-19327,https://github.com/spring-projects/spring-boot/pull/19327,None,,,,,
-9989,https://github.com/spring-projects/spring-boot/pull/9989,None,,,,,
-2252,https://github.com/spring-projects/spring-boot/pull/2252,None,,,,,
-19581,https://github.com/spring-projects/spring-boot/pull/19581,None,,,,,
-6224,https://github.com/spring-projects/spring-boot/pull/6224,None,,,,,
-14043,https://github.com/spring-projects/spring-boot/pull/14043,None,,,,,
-3254,https://github.com/spring-projects/spring-boot/pull/3254,None,,,,,
-29085,https://github.com/spring-projects/spring-boot/pull/29085,None,,,,,
-23008,https://github.com/spring-projects/spring-boot/pull/23008,None,,,,,
-11182,https://github.com/spring-projects/spring-boot/pull/11182,None,,,,,
-13446,https://github.com/spring-projects/spring-boot/pull/13446,None,,,,,
-9455,https://github.com/spring-projects/spring-boot/pull/9455,None,,,,,
-14152,https://github.com/spring-projects/spring-boot/pull/14152,None,,,,,
-19817,https://github.com/spring-projects/spring-boot/pull/19817,None,,,,,
-8474,https://github.com/spring-projects/spring-boot/pull/8474,None,,,,,
-3032,https://github.com/spring-projects/spring-boot/pull/3032,None,,,,,
-2799,https://github.com/spring-projects/spring-boot/pull/2799,None,,,,,
-1545,https://github.com/spring-projects/spring-boot/pull/1545,Security,Added store type and store provider properties to ssl config,ssl,Title,,
-14499,https://github.com/spring-projects/spring-boot/pull/14499,None,,,,,
-12324,https://github.com/spring-projects/spring-boot/pull/12324,Maintainability,Improve docs on custom metrics,improve + docs,,,
-20747,https://github.com/spring-projects/spring-boot/pull/20747,Security,use the applications rest template for the autoconfigured jwks receiver,jwks,Title,,
-79,https://github.com/spring-projects/spring-boot/pull/79,None,,,,,
-22919,https://github.com/spring-projects/spring-boot/pull/22919,None,,,,,
-3384,https://github.com/spring-projects/spring-boot/pull/3384,None,,,,,
-22258,https://github.com/spring-projects/spring-boot/pull/22258,None,,,,,
-5512,https://github.com/spring-projects/spring-boot/pull/5512,None,,,,,
-31140,https://github.com/spring-projects/spring-boot/pull/31140,None,,,,,
-22736,https://github.com/spring-projects/spring-boot/pull/22736,None,,,,,
-29201,https://github.com/spring-projects/spring-boot/pull/29201,None,,,,,
-8429,https://github.com/spring-projects/spring-boot/pull/8429,None,,,,,
-12135,https://github.com/spring-projects/spring-boot/pull/12135,None,,,,,
-11108,https://github.com/spring-projects/spring-boot/pull/11108,None,,,,,
-2266,https://github.com/spring-projects/spring-boot/pull/2266,None,,,,,
-2779,https://github.com/spring-projects/spring-boot/pull/2779,Maintainability,Document MultipartProperties,document,Title,,
-2922,https://github.com/spring-projects/spring-boot/pull/2922,Security,Sanitize all properties from specific PropertySources,sanitize,Title,,
-16719,https://github.com/spring-projects/spring-boot/pull/16719,None,,,,,
-29736,https://github.com/spring-projects/spring-boot/pull/29736,None,,,,,
-781,https://github.com/spring-projects/spring-boot/pull/781,None,,,,,
-20596,https://github.com/spring-projects/spring-boot/pull/20596,None,,,,,
-3848,https://github.com/spring-projects/spring-boot/pull/3848,None,,,,,
-31713,https://github.com/spring-projects/spring-boot/pull/31713,None,,,,,
-1748,https://github.com/spring-projects/spring-boot/pull/1748,None,,,,,
-12202,https://github.com/spring-projects/spring-boot/pull/12202,None,,,,,
-5158,https://github.com/spring-projects/spring-boot/pull/5158,None,,,,,
-17805,https://github.com/spring-projects/spring-boot/pull/17805,None,,,,,
-2913,https://github.com/spring-projects/spring-boot/pull/2913,None,,,,,
-15478,https://github.com/spring-projects/spring-boot/pull/15478,None,,,,,
-6876,https://github.com/spring-projects/spring-boot/pull/6876,Security,sanitize by default a key containing uri or url,,,,
-30186,https://github.com/spring-projects/spring-boot/pull/30186,None,,,,,
-19901,https://github.com/spring-projects/spring-boot/pull/19901,Robustness,Spring Webflux ignores message of custom exception when annotated with @ResponseStatus,message + exception,Title,,
-15965,https://github.com/spring-projects/spring-boot/pull/15965,None,,,,,
-10514,https://github.com/spring-projects/spring-boot/pull/10514,Maintainability,"In mi opinion, this is a very long method, with some if-else, what make easy to loose the track. Might it be separated in meaningful methods what make the method more readable? What do you think?","long method, readable",Discussion,,
-19863,https://github.com/spring-projects/spring-boot/pull/19863,None,,,,,
-15554,https://github.com/spring-projects/spring-boot/pull/15554,None,,,,,
-336,https://github.com/spring-projects/spring-boot/pull/336,None,,,,,
-3122,https://github.com/spring-projects/spring-boot/pull/3122,None,,,,,
-19171,https://github.com/spring-projects/spring-boot/pull/19171,None,,,,,
-7608,https://github.com/spring-projects/spring-boot/pull/7608,None,,,,,
-10538,https://github.com/spring-projects/spring-boot/pull/10538,None,,,,,
-25817,https://github.com/spring-projects/spring-boot/pull/25817,None,,,,,
-8818,https://github.com/spring-projects/spring-boot/pull/8818,None,,,,,
-10309,https://github.com/spring-projects/spring-boot/pull/10309,None,,,,,
-8157,https://github.com/spring-projects/spring-boot/pull/8157,None,,,,,
-7262,https://github.com/spring-projects/spring-boot/pull/7262,Robustness,"Currently, validation errors manifest as unhandled javax.validation.ConstraintViolationException's and end up being returned as nondescript HTTP 500 errors.
+11751,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11751,None,,,,,
+1596,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1596,None,,,,,
+7596,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7596,None,,,,,
+16322,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16322,None,,,,,
+10322,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10322,None,,,,,
+19327,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19327,None,,,,,
+9989,Spring Boot,https://github.com/spring-projects/spring-boot/pull/9989,None,,,,,
+2252,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2252,None,,,,,
+19581,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19581,None,,,,,
+6224,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6224,None,,,,,
+14043,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14043,None,,,,,
+3254,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3254,None,,,,,
+29085,Spring Boot,https://github.com/spring-projects/spring-boot/pull/29085,None,,,,,
+23008,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23008,None,,,,,
+11182,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11182,None,,,,,
+13446,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13446,None,,,,,
+9455,Spring Boot,https://github.com/spring-projects/spring-boot/pull/9455,None,,,,,
+14152,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14152,None,,,,,
+19817,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19817,None,,,,,
+8474,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8474,None,,,,,
+3032,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3032,None,,,,,
+2799,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2799,None,,,,,
+1545,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1545,Security,Added store type and store provider properties to ssl config,ssl,Title,,
+14499,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14499,None,,,,,
+12324,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12324,Maintainability,Improve docs on custom metrics,improve + docs,,,
+20747,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20747,Security,use the applications rest template for the autoconfigured jwks receiver,jwks,Title,,
+79,Spring Boot,https://github.com/spring-projects/spring-boot/pull/79,None,,,,,
+22919,Spring Boot,https://github.com/spring-projects/spring-boot/pull/22919,None,,,,,
+3384,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3384,None,,,,,
+22258,Spring Boot,https://github.com/spring-projects/spring-boot/pull/22258,None,,,,,
+5512,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5512,None,,,,,
+31140,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31140,None,,,,,
+22736,Spring Boot,https://github.com/spring-projects/spring-boot/pull/22736,None,,,,,
+29201,Spring Boot,https://github.com/spring-projects/spring-boot/pull/29201,None,,,,,
+8429,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8429,None,,,,,
+12135,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12135,None,,,,,
+11108,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11108,None,,,,,
+2266,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2266,None,,,,,
+2779,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2779,Maintainability,Document MultipartProperties,document,Title,,
+2922,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2922,Security,Sanitize all properties from specific PropertySources,sanitize,Title,,
+16719,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16719,None,,,,,
+29736,Spring Boot,https://github.com/spring-projects/spring-boot/pull/29736,None,,,,,
+781,Spring Boot,https://github.com/spring-projects/spring-boot/pull/781,None,,,,,
+20596,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20596,None,,,,,
+3848,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3848,None,,,,,
+31713,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31713,None,,,,,
+1748,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1748,None,,,,,
+12202,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12202,None,,,,,
+5158,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5158,None,,,,,
+17805,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17805,None,,,,,
+2913,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2913,None,,,,,
+15478,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15478,None,,,,,
+6876,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6876,Security,sanitize by default a key containing uri or url,,,,
+30186,Spring Boot,https://github.com/spring-projects/spring-boot/pull/30186,None,,,,,
+19901,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19901,Robustness,Spring Webflux ignores message of custom exception when annotated with @ResponseStatus,message + exception,Title,,
+15965,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15965,None,,,,,
+10514,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10514,Maintainability,"In mi opinion, this is a very long method, with some if-else, what make easy to loose the track. Might it be separated in meaningful methods what make the method more readable? What do you think?","long method, readable",Discussion,,
+19863,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19863,None,,,,,
+15554,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15554,None,,,,,
+336,Spring Boot,https://github.com/spring-projects/spring-boot/pull/336,None,,,,,
+3122,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3122,None,,,,,
+19171,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19171,None,,,,,
+7608,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7608,None,,,,,
+10538,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10538,None,,,,,
+25817,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25817,None,,,,,
+8818,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8818,None,,,,,
+10309,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10309,None,,,,,
+8157,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8157,None,,,,,
+7262,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7262,Robustness,"Currently, validation errors manifest as unhandled javax.validation.ConstraintViolationException's and end up being returned as nondescript HTTP 500 errors.
 
 Spring validation (which includes JSR-303) should be handled on beforeCreate/beforeSave so validation errors get handled by org.springframework.data.rest.webmvc.RepositoryRestExceptionHandler resulting in HTTP 400 errors with helpful descriptive bodies.","errors, unhandled",Description,,
-5289,https://github.com/spring-projects/spring-boot/pull/5289,None,,,,,
-5500,https://github.com/spring-projects/spring-boot/pull/5500,None,,,,,
-10152,https://github.com/spring-projects/spring-boot/pull/10152,None,,,,,
-5026,https://github.com/spring-projects/spring-boot/pull/5026,None,,,,,
-26145,https://github.com/spring-projects/spring-boot/pull/26145,None,,,,,
-7120,https://github.com/spring-projects/spring-boot/pull/7120,None,,,,,
-25,https://github.com/spring-projects/spring-boot/pull/25,None,,,,,
-15653,https://github.com/spring-projects/spring-boot/pull/15653,None,,,,,
-6648,https://github.com/spring-projects/spring-boot/pull/6648,None,,,,,
-20390,https://github.com/spring-projects/spring-boot/pull/20390,None,,,,,
-14486,https://github.com/spring-projects/spring-boot/pull/14486,None,,,,,
-20384,https://github.com/spring-projects/spring-boot/pull/20384,None,,,,,
-8475,https://github.com/spring-projects/spring-boot/pull/8475,None,,,,,
-5773,https://github.com/spring-projects/spring-boot/pull/5773,None,,,,,
-7739,https://github.com/spring-projects/spring-boot/pull/7739,None,,,,,
-17,https://github.com/spring-projects/spring-boot/pull/17,None,,,,,
-17389,https://github.com/spring-projects/spring-boot/pull/17389,None,,,,,
-18702,https://github.com/spring-projects/spring-boot/pull/18702,None,,,,,
-15006,https://github.com/spring-projects/spring-boot/pull/15006,Robustness,"""Added the failure analyzer for StrategySelectionException. Hibernate is throwing StrategySelectionException for the missing dialect value.""","throwing, failure",Description,,
-5806,https://github.com/spring-projects/spring-boot/pull/5806,None,,,,,
-28668,https://github.com/spring-projects/spring-boot/pull/28668,None,,,,,
-26085,https://github.com/spring-projects/spring-boot/pull/26085,None,,,,,
-16047,https://github.com/spring-projects/spring-boot/pull/16047,None,,,,,
-13582,https://github.com/spring-projects/spring-boot/pull/13582,None,,,,,
-10225,https://github.com/spring-projects/spring-boot/pull/10225,None,,,,,
-16947,https://github.com/spring-projects/spring-boot/pull/16947,None,,,,,
-10033,https://github.com/spring-projects/spring-boot/pull/10033,None,,,,,
-27105,https://github.com/spring-projects/spring-boot/pull/27105,None,,,,,
-31242,https://github.com/spring-projects/spring-boot/pull/31242,None,,,,,
-5641,https://github.com/spring-projects/spring-boot/pull/5641,None,,,,,
-6040,https://github.com/spring-projects/spring-boot/pull/6040,None,,,,,
-24636,https://github.com/spring-projects/spring-boot/pull/24636,None,,,,,
-31037,https://github.com/spring-projects/spring-boot/pull/31037,None,,,,,
-1770,https://github.com/spring-projects/spring-boot/pull/1770,None,,,,,
-11815,https://github.com/spring-projects/spring-boot/pull/11815,None,,,,,
-23502,https://github.com/spring-projects/spring-boot/pull/23502,None,,,,,
-11779,https://github.com/spring-projects/spring-boot/pull/11779,None,,,,,
-6304,https://github.com/spring-projects/spring-boot/pull/6304,None,,,,,
-31676,https://github.com/spring-projects/spring-boot/pull/31676,None,,,,,
-29499,https://github.com/spring-projects/spring-boot/pull/29499,None,,,,,
-9002,https://github.com/spring-projects/spring-boot/pull/9002,None,,,,,
-14291,https://github.com/spring-projects/spring-boot/pull/14291,None,,,,,
-24470,https://github.com/spring-projects/spring-boot/pull/24470,None,,,,,
-10537,https://github.com/spring-projects/spring-boot/pull/10537,None,,,,,
-3706,https://github.com/spring-projects/spring-boot/pull/3706,None,,,,,
-14707,https://github.com/spring-projects/spring-boot/pull/14707,None,,,,,
-20192,https://github.com/spring-projects/spring-boot/pull/20192,None,,,,,
-7234,https://github.com/spring-projects/spring-boot/pull/7234,None,,,,,
-4454,https://github.com/spring-projects/spring-boot/pull/4454,None,,,,,
-11294,https://github.com/spring-projects/spring-boot/pull/11294,None,,,,,
-12150,https://github.com/spring-projects/spring-boot/pull/12150,None,,,,,
-28526,https://github.com/spring-projects/spring-boot/pull/28526,None,,,,,
-4311,https://github.com/spring-projects/spring-boot/pull/4311,None,,,,,
-7299,https://github.com/spring-projects/spring-boot/pull/7299,None,,,,,
-16717,https://github.com/spring-projects/spring-boot/pull/16717,Performance,"""Optimize CacheKey handling in SpringIterableConfigurationPropertySource""",optimize,Title,theme:performance,
-19101,https://github.com/spring-projects/spring-boot/pull/19101,None,,,,,
-371,https://github.com/spring-projects/spring-boot/pull/371,None,,,,,
-523,https://github.com/spring-projects/spring-boot/pull/523,None,,,,,
-13870,https://github.com/spring-projects/spring-boot/pull/13870,None,,,,,
-18962,https://github.com/spring-projects/spring-boot/pull/18962,None,,,,,
-9970,https://github.com/spring-projects/spring-boot/pull/9970,None,,,,,
-16213,https://github.com/spring-projects/spring-boot/pull/16213,None,,,,,
-14496,https://github.com/spring-projects/spring-boot/pull/14496,None,,,,,
-7403,https://github.com/spring-projects/spring-boot/pull/7403,None,,,,,
-20660,https://github.com/spring-projects/spring-boot/pull/20660,None,,,,,
-4319,https://github.com/spring-projects/spring-boot/pull/4319,None,,,,,
-4573,https://github.com/spring-projects/spring-boot/pull/4573,None,,,,,
-30776,https://github.com/spring-projects/spring-boot/pull/30776,None,,,,,
-12217,https://github.com/spring-projects/spring-boot/pull/12217,None,,,,,
-18536,https://github.com/spring-projects/spring-boot/pull/18536,None,,,,,
-11624,https://github.com/spring-projects/spring-boot/pull/11624,None,,,,,
-27366,https://github.com/spring-projects/spring-boot/pull/27366,None,,,,,
-24241,https://github.com/spring-projects/spring-boot/pull/24241,None,,,,,
-15943,https://github.com/spring-projects/spring-boot/pull/15943,None,,,,,
-27310,https://github.com/spring-projects/spring-boot/pull/27310,None,,,,,
-1492,https://github.com/spring-projects/spring-boot/pull/1492,None,,,,,
-20704,https://github.com/spring-projects/spring-boot/pull/20704,Maintainability,"""Fix typos"", ""this PR fixes a couple of typos. I should note that the particular sentence in spring-boot-features still doesn't make a lot of sense to me even after the fix, but as I'm not a native speaker I wasn't sure if it might be correct.""",typos,"Title, description",,
-5832,https://github.com/spring-projects/spring-boot/pull/5832,None,,,,,
-16065,https://github.com/spring-projects/spring-boot/pull/16065,None,,,,,
-13033,https://github.com/spring-projects/spring-boot/pull/13033,None,,,,,
-11128,https://github.com/spring-projects/spring-boot/pull/11128,Maintainability,"""replaced explicit null-checks by @NonNull for target method parameters"", ""less code (it's not necessary to write Assert.notNull())
+5289,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5289,None,,,,,
+5500,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5500,None,,,,,
+10152,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10152,None,,,,,
+5026,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5026,None,,,,,
+26145,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26145,None,,,,,
+7120,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7120,None,,,,,
+25,Spring Boot,https://github.com/spring-projects/spring-boot/pull/25,None,,,,,
+15653,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15653,None,,,,,
+6648,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6648,None,,,,,
+20390,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20390,None,,,,,
+14486,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14486,None,,,,,
+20384,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20384,None,,,,,
+8475,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8475,None,,,,,
+5773,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5773,None,,,,,
+7739,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7739,None,,,,,
+17,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17,None,,,,,
+17389,Spring Boot,https://github.com/spring-projects/spring-boot/pull/17389,None,,,,,
+18702,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18702,None,,,,,
+15006,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15006,Robustness,"""Added the failure analyzer for StrategySelectionException. Hibernate is throwing StrategySelectionException for the missing dialect value.""","throwing, failure",Description,,
+5806,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5806,None,,,,,
+28668,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28668,None,,,,,
+26085,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26085,None,,,,,
+16047,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16047,None,,,,,
+13582,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13582,None,,,,,
+10225,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10225,None,,,,,
+16947,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16947,None,,,,,
+10033,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10033,None,,,,,
+27105,Spring Boot,https://github.com/spring-projects/spring-boot/pull/27105,None,,,,,
+31242,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31242,None,,,,,
+5641,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5641,None,,,,,
+6040,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6040,None,,,,,
+24636,Spring Boot,https://github.com/spring-projects/spring-boot/pull/24636,None,,,,,
+31037,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31037,None,,,,,
+1770,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1770,None,,,,,
+11815,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11815,None,,,,,
+23502,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23502,None,,,,,
+11779,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11779,None,,,,,
+6304,Spring Boot,https://github.com/spring-projects/spring-boot/pull/6304,None,,,,,
+31676,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31676,None,,,,,
+29499,Spring Boot,https://github.com/spring-projects/spring-boot/pull/29499,None,,,,,
+9002,Spring Boot,https://github.com/spring-projects/spring-boot/pull/9002,None,,,,,
+14291,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14291,None,,,,,
+24470,Spring Boot,https://github.com/spring-projects/spring-boot/pull/24470,None,,,,,
+10537,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10537,None,,,,,
+3706,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3706,None,,,,,
+14707,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14707,None,,,,,
+20192,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20192,None,,,,,
+7234,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7234,None,,,,,
+4454,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4454,None,,,,,
+11294,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11294,None,,,,,
+12150,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12150,None,,,,,
+28526,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28526,None,,,,,
+4311,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4311,None,,,,,
+7299,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7299,None,,,,,
+16717,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16717,Performance,"""Optimize CacheKey handling in SpringIterableConfigurationPropertySource""",optimize,Title,theme:performance,
+19101,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19101,None,,,,,
+371,Spring Boot,https://github.com/spring-projects/spring-boot/pull/371,None,,,,,
+523,Spring Boot,https://github.com/spring-projects/spring-boot/pull/523,None,,,,,
+13870,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13870,None,,,,,
+18962,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18962,None,,,,,
+9970,Spring Boot,https://github.com/spring-projects/spring-boot/pull/9970,None,,,,,
+16213,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16213,None,,,,,
+14496,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14496,None,,,,,
+7403,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7403,None,,,,,
+20660,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20660,None,,,,,
+4319,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4319,None,,,,,
+4573,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4573,None,,,,,
+30776,Spring Boot,https://github.com/spring-projects/spring-boot/pull/30776,None,,,,,
+12217,Spring Boot,https://github.com/spring-projects/spring-boot/pull/12217,None,,,,,
+18536,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18536,None,,,,,
+11624,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11624,None,,,,,
+27366,Spring Boot,https://github.com/spring-projects/spring-boot/pull/27366,None,,,,,
+24241,Spring Boot,https://github.com/spring-projects/spring-boot/pull/24241,None,,,,,
+15943,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15943,None,,,,,
+27310,Spring Boot,https://github.com/spring-projects/spring-boot/pull/27310,None,,,,,
+1492,Spring Boot,https://github.com/spring-projects/spring-boot/pull/1492,None,,,,,
+20704,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20704,Maintainability,"""Fix typos"", ""this PR fixes a couple of typos. I should note that the particular sentence in spring-boot-features still doesn't make a lot of sense to me even after the fix, but as I'm not a native speaker I wasn't sure if it might be correct.""",typos,"Title, description",,
+5832,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5832,None,,,,,
+16065,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16065,None,,,,,
+13033,Spring Boot,https://github.com/spring-projects/spring-boot/pull/13033,None,,,,,
+11128,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11128,Maintainability,"""replaced explicit null-checks by @NonNull for target method parameters"", ""less code (it's not necessary to write Assert.notNull())
 better contract definition - it's immediately clear that particular method parameter should not be null""","replaced, null-checks, non-null, assert","Description, comments",,
-3917,https://github.com/spring-projects/spring-boot/pull/3917,None,,,,,
-14886,https://github.com/spring-projects/spring-boot/pull/14886,None,,,,,
-15836,https://github.com/spring-projects/spring-boot/pull/15836,None,,,,,
-10959,https://github.com/spring-projects/spring-boot/pull/10959,None,,,,,
-20755,https://github.com/spring-projects/spring-boot/pull/20755,Performance,"""Improve Binder performance slightly"", ""I'm currently trying to improve the startup of a medium sized app and found a couple of minor optimization opportunities in the Binder logic:"", ""Applying this patch shows me the following results for the initializr benchmarks we used in the past already:""","improve, performance, optimization, benchmark","Title, description",,
-20346,https://github.com/spring-projects/spring-boot/pull/20346,None,,,,,
-31459,https://github.com/spring-projects/spring-boot/pull/31459,None,,,,,
-28464,https://github.com/spring-projects/spring-boot/pull/28464,None,,,,,
-24160,https://github.com/spring-projects/spring-boot/pull/24160,None,,,,,
-10921,https://github.com/spring-projects/spring-boot/pull/10921,None,,,,,
-23215,https://github.com/spring-projects/spring-boot/pull/23215,None,,,,,
-18718,https://github.com/spring-projects/spring-boot/pull/18718,None,,,,,
-7552,https://github.com/spring-projects/spring-boot/pull/7552,None,,,,,
-16889,https://github.com/spring-projects/spring-boot/pull/16889,None,,,,,
-5311,https://github.com/spring-projects/spring-boot/pull/5311,None,,,,,
-7526,https://github.com/spring-projects/spring-boot/pull/7526,None,,,,,
-20537,https://github.com/spring-projects/spring-boot/pull/20537,None,,,,,
-472,https://github.com/spring-projects/spring-boot/pull/472,None,,,,,
-15841,https://github.com/spring-projects/spring-boot/pull/15841,None,,,,,
-21658,https://github.com/spring-projects/spring-boot/pull/21658,None,,,,,
-30356,https://github.com/spring-projects/spring-boot/pull/30356,None,,,,,
-4495,https://github.com/spring-projects/spring-boot/pull/4495,None,,,,,
-26200,https://github.com/spring-projects/spring-boot/pull/26200,None,,,,,
-19008,https://github.com/spring-projects/spring-boot/pull/19008,None,,,,,
-27737,https://github.com/spring-projects/spring-boot/pull/27737,Maintainability,"""Only link to the two alternative formats from each format of the reference documentation"", ""This PR's mixing improvements to the links to the other forms of the documentation with some general editing of the multi-page documentation's index.""","documentation, improvement, editing","Title, comments",,
-4500,https://github.com/spring-projects/spring-boot/pull/4500,None,,,,,
-11809,https://github.com/spring-projects/spring-boot/pull/11809,None,,,,,
-14580,https://github.com/spring-projects/spring-boot/pull/14580,None,,,,,
-8215,https://github.com/spring-projects/spring-boot/pull/8215,None,,,,,
-19953,https://github.com/spring-projects/spring-boot/pull/19953,None,,,,,
-4783,https://github.com/spring-projects/spring-boot/pull/4783,None,,,,,
-2602,https://github.com/spring-projects/spring-boot/pull/2602,None,,,,,
-10077,https://github.com/spring-projects/spring-boot/pull/10077,None,,,,,
-7603,https://github.com/spring-projects/spring-boot/pull/7603,None,,,,,
-3146,https://github.com/spring-projects/spring-boot/pull/3146,None,,,,,
-5808,https://github.com/spring-projects/spring-boot/pull/5808,None,,,,,
-10045,https://github.com/spring-projects/spring-boot/pull/10045,None,,,,,
-16850,https://github.com/spring-projects/spring-boot/pull/16850,None,,,,,
-23058,https://github.com/spring-projects/spring-boot/pull/23058,None,,,,,
-18838,https://github.com/spring-projects/spring-boot/pull/18838,None,,,,,
+3917,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3917,None,,,,,
+14886,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14886,None,,,,,
+15836,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15836,None,,,,,
+10959,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10959,None,,,,,
+20755,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20755,Performance,"""Improve Binder performance slightly"", ""I'm currently trying to improve the startup of a medium sized app and found a couple of minor optimization opportunities in the Binder logic:"", ""Applying this patch shows me the following results for the initializr benchmarks we used in the past already:""","improve, performance, optimization, benchmark","Title, description",,
+20346,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20346,None,,,,,
+31459,Spring Boot,https://github.com/spring-projects/spring-boot/pull/31459,None,,,,,
+28464,Spring Boot,https://github.com/spring-projects/spring-boot/pull/28464,None,,,,,
+24160,Spring Boot,https://github.com/spring-projects/spring-boot/pull/24160,None,,,,,
+10921,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10921,None,,,,,
+23215,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23215,None,,,,,
+18718,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18718,None,,,,,
+7552,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7552,None,,,,,
+16889,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16889,None,,,,,
+5311,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5311,None,,,,,
+7526,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7526,None,,,,,
+20537,Spring Boot,https://github.com/spring-projects/spring-boot/pull/20537,None,,,,,
+472,Spring Boot,https://github.com/spring-projects/spring-boot/pull/472,None,,,,,
+15841,Spring Boot,https://github.com/spring-projects/spring-boot/pull/15841,None,,,,,
+21658,Spring Boot,https://github.com/spring-projects/spring-boot/pull/21658,None,,,,,
+30356,Spring Boot,https://github.com/spring-projects/spring-boot/pull/30356,None,,,,,
+4495,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4495,None,,,,,
+26200,Spring Boot,https://github.com/spring-projects/spring-boot/pull/26200,None,,,,,
+19008,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19008,None,,,,,
+27737,Spring Boot,https://github.com/spring-projects/spring-boot/pull/27737,Maintainability,"""Only link to the two alternative formats from each format of the reference documentation"", ""This PR's mixing improvements to the links to the other forms of the documentation with some general editing of the multi-page documentation's index.""","documentation, improvement, editing","Title, comments",,
+4500,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4500,None,,,,,
+11809,Spring Boot,https://github.com/spring-projects/spring-boot/pull/11809,None,,,,,
+14580,Spring Boot,https://github.com/spring-projects/spring-boot/pull/14580,None,,,,,
+8215,Spring Boot,https://github.com/spring-projects/spring-boot/pull/8215,None,,,,,
+19953,Spring Boot,https://github.com/spring-projects/spring-boot/pull/19953,None,,,,,
+4783,Spring Boot,https://github.com/spring-projects/spring-boot/pull/4783,None,,,,,
+2602,Spring Boot,https://github.com/spring-projects/spring-boot/pull/2602,None,,,,,
+10077,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10077,None,,,,,
+7603,Spring Boot,https://github.com/spring-projects/spring-boot/pull/7603,None,,,,,
+3146,Spring Boot,https://github.com/spring-projects/spring-boot/pull/3146,None,,,,,
+5808,Spring Boot,https://github.com/spring-projects/spring-boot/pull/5808,None,,,,,
+10045,Spring Boot,https://github.com/spring-projects/spring-boot/pull/10045,None,,,,,
+16850,Spring Boot,https://github.com/spring-projects/spring-boot/pull/16850,None,,,,,
+23058,Spring Boot,https://github.com/spring-projects/spring-boot/pull/23058,None,,,,,
+18838,Spring Boot,https://github.com/spring-projects/spring-boot/pull/18838,None,,,,,

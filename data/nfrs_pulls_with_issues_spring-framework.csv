@@ -1,0 +1,13 @@
+NUMBER_PR,SYSTEM,URL,NFR_TYPE,PHRASE,KEYWORDS,LOCATION,OBS,ISSUE
+22637,Spring Framework,https://github.com/spring-projects/spring-framework/pull/22637,None,-,-,-,URL Cleanup,https://github.com/spring-projects/spring-framework/issues/22617
+25311,Spring Framework,https://github.com/spring-projects/spring-framework/pull/25311,None,,,,"Todas essas mudanças que são claramente enhancement, estou desconsiderando como NFR.",https://github.com/spring-projects/spring-framework/issues/25293
+28677,Spring Framework,https://github.com/spring-projects/spring-framework/pull/28677,Robustness,Fix DataSourceUtils inconsistent exception handling,exception,Title,-,https://github.com/spring-projects/spring-framework/issues/28258
+27324,Spring Framework,https://github.com/spring-projects/spring-framework/pull/27324,None,-,-,-,-,https://github.com/spring-projects/spring-framework/issues/27313
+28010,Spring Framework,https://github.com/spring-projects/spring-framework/pull/28010,None,,,,,https://github.com/spring-projects/spring-framework/issues/27971
+25298,Spring Framework,https://github.com/spring-projects/spring-framework/pull/25298,None,,,,,https://github.com/spring-projects/spring-framework/issues/24395
+28853,Spring Framework,https://github.com/spring-projects/spring-framework/pull/28853,None,,,,,https://github.com/spring-projects/spring-framework/issues/28806
+28113,Spring Framework,https://github.com/spring-projects/spring-framework/pull/28113,Performance,Avoid multiple invocations of private lifecycle method,Avoid multiple invocations,,,https://github.com/spring-projects/spring-framework/issues/28083
+23066,Spring Framework,https://github.com/spring-projects/spring-framework/pull/23066,None,,,,,https://github.com/spring-projects/spring-framework/issues/23065
+28448,Spring Framework,https://github.com/spring-projects/spring-framework/pull/28448,Maintainability,"""Update javadoc as type-level @Controller is now required""",Javadoc,Title,,https://github.com/spring-projects/spring-framework/issues/22154
+22728,Spring Framework,https://github.com/spring-projects/spring-framework/pull/22728,Robustness,"""The use case is an error from the writeFunction, e.g. if Reactor Netty fails to flush the response status and the headers before consuming the cached item.""",Error,Review,,https://github.com/spring-projects/spring-framework/issues/22720
+23868,Spring Framework,https://github.com/spring-projects/spring-framework/pull/23868,Robustness,hasCorsConfigurationSource() now supports HandlerExecutionChain,now supports HandlerExecutionChain,Title,,https://github.com/spring-projects/spring-framework/issues/23843
