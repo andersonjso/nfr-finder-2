@@ -1,0 +1,2232 @@
+{
+    "spring-boot": {
+        "maint": [
+            {
+                "author": "spring-operator",
+                "participations": 32,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "90.91",
+                "total_%": "64.52"
+            },
+            {
+                "author": "hsellik",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "66.67",
+                "total_%": "42.86"
+            },
+            {
+                "author": "BigMichi1",
+                "participations": 13,
+                "title_%": "61.54",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "57.14",
+                "total_%": "40.00"
+            },
+            {
+                "author": "XenoAmess",
+                "participations": 9,
+                "title_%": "11.11",
+                "description_%": "88.89",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "10.00",
+                "total_%": "35.71"
+            },
+            {
+                "author": "fml2",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "33.33"
+            },
+            {
+                "author": "htztomic",
+                "participations": 12,
+                "title_%": "9.09",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "30.77"
+            },
+            {
+                "author": "rhamedy",
+                "participations": 7,
+                "title_%": "0.00",
+                "description_%": "60.00",
+                "comment_%": "14.29",
+                "revision_%": "66.67",
+                "commit_%": "28.57",
+                "total_%": "29.63"
+            },
+            {
+                "author": "pirgeo",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "37.50",
+                "revision_%": "10.00",
+                "commit_%": "29.41",
+                "total_%": "29.27"
+            },
+            {
+                "author": "odrotbohm",
+                "participations": 38,
+                "title_%": "13.04",
+                "description_%": "30.43",
+                "comment_%": "40.62",
+                "revision_%": "0.00",
+                "commit_%": "30.00",
+                "total_%": "29.09"
+            },
+            {
+                "author": "nebhale",
+                "participations": 8,
+                "title_%": "0.00",
+                "description_%": "28.57",
+                "comment_%": "33.33",
+                "revision_%": 0,
+                "commit_%": "37.50",
+                "total_%": "27.50"
+            },
+            {
+                "author": "gandrade",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "27.27"
+            },
+            {
+                "author": "xak2000",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "50.00",
+                "revision_%": 0,
+                "commit_%": "20.00",
+                "total_%": "27.27"
+            },
+            {
+                "author": "terminux",
+                "participations": 17,
+                "title_%": "0.00",
+                "description_%": "88.24",
+                "comment_%": "57.14",
+                "revision_%": "7.41",
+                "commit_%": "0.00",
+                "total_%": "27.17"
+            },
+            {
+                "author": "quaff",
+                "participations": 16,
+                "title_%": "0.00",
+                "description_%": "78.57",
+                "comment_%": "28.57",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "26.53"
+            },
+            {
+                "author": "galderz",
+                "participations": 5,
+                "title_%": "25.00",
+                "description_%": "0.00",
+                "comment_%": "50.00",
+                "revision_%": "14.29",
+                "commit_%": "0.00",
+                "total_%": "26.32"
+            }
+        ],
+        "sec": [
+            {
+                "author": "gavlyukovskiy",
+                "participations": 5,
+                "title_%": "75.00",
+                "description_%": "25.00",
+                "comment_%": "71.43",
+                "revision_%": 0,
+                "commit_%": "42.86",
+                "total_%": "54.55"
+            },
+            {
+                "author": "jzheaux",
+                "participations": 5,
+                "title_%": "33.33",
+                "description_%": "33.33",
+                "comment_%": "50.00",
+                "revision_%": "75.00",
+                "commit_%": "25.00",
+                "total_%": "43.75"
+            },
+            {
+                "author": "graemerocher",
+                "participations": 5,
+                "title_%": "50.00",
+                "description_%": "50.00",
+                "comment_%": "33.33",
+                "revision_%": 0,
+                "commit_%": "33.33",
+                "total_%": "40.00"
+            },
+            {
+                "author": "aahlenst",
+                "participations": 8,
+                "title_%": "33.33",
+                "description_%": "66.67",
+                "comment_%": "16.67",
+                "revision_%": "100.00",
+                "commit_%": "33.33",
+                "total_%": "38.71"
+            },
+            {
+                "author": "xak2000",
+                "participations": 4,
+                "title_%": "50.00",
+                "description_%": "50.00",
+                "comment_%": "50.00",
+                "revision_%": 0,
+                "commit_%": "20.00",
+                "total_%": "36.36"
+            },
+            {
+                "author": "hsellik",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "50.00",
+                "total_%": "35.71"
+            },
+            {
+                "author": "cdalexndr",
+                "participations": 10,
+                "title_%": "0.00",
+                "description_%": "88.89",
+                "comment_%": "50.00",
+                "revision_%": "0.00",
+                "commit_%": "15.38",
+                "total_%": "35.71"
+            },
+            {
+                "author": "fml2",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "33.33"
+            },
+            {
+                "author": "Konrado85",
+                "participations": 8,
+                "title_%": "12.50",
+                "description_%": "100.00",
+                "comment_%": "33.33",
+                "revision_%": 0,
+                "commit_%": "7.14",
+                "total_%": "33.33"
+            },
+            {
+                "author": "akonczak",
+                "participations": 6,
+                "title_%": "33.33",
+                "description_%": "66.67",
+                "comment_%": "30.00",
+                "revision_%": 0,
+                "commit_%": "20.00",
+                "total_%": "33.33"
+            },
+            {
+                "author": "jvalkeal",
+                "participations": 10,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "50.00",
+                "revision_%": 0,
+                "commit_%": "37.50",
+                "total_%": "30.77"
+            },
+            {
+                "author": "htztomic",
+                "participations": 12,
+                "title_%": "9.09",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "30.77"
+            },
+            {
+                "author": "quaff",
+                "participations": 16,
+                "title_%": "7.14",
+                "description_%": "78.57",
+                "comment_%": "14.29",
+                "revision_%": 0,
+                "commit_%": "7.14",
+                "total_%": "28.57"
+            },
+            {
+                "author": "XenoAmess",
+                "participations": 9,
+                "title_%": "0.00",
+                "description_%": "88.89",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "28.57"
+            },
+            {
+                "author": "martinlippert",
+                "participations": 5,
+                "title_%": "50.00",
+                "description_%": "25.00",
+                "comment_%": "8.33",
+                "revision_%": "0.00",
+                "commit_%": "66.67",
+                "total_%": "27.59"
+            },
+            {
+                "author": "eiselems",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "66.67",
+                "comment_%": "20.00",
+                "revision_%": "16.67",
+                "commit_%": "33.33",
+                "total_%": "27.59"
+            },
+            {
+                "author": "mikesmithson",
+                "participations": 9,
+                "title_%": "14.29",
+                "description_%": "100.00",
+                "comment_%": "23.08",
+                "revision_%": "0.00",
+                "commit_%": "19.05",
+                "total_%": "27.27"
+            },
+            {
+                "author": "gandrade",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "27.27"
+            },
+            {
+                "author": "rhamedy",
+                "participations": 7,
+                "title_%": "0.00",
+                "description_%": "60.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "57.14",
+                "total_%": "25.93"
+            },
+            {
+                "author": "tinexw",
+                "participations": 7,
+                "title_%": "50.00",
+                "description_%": "16.67",
+                "comment_%": "0.00",
+                "revision_%": "33.33",
+                "commit_%": "25.00",
+                "total_%": "25.64"
+            }
+        ],
+        "perf": [
+            {
+                "author": "spring-operator",
+                "participations": 32,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "90.91",
+                "total_%": "64.52"
+            },
+            {
+                "author": "tomaslin",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "50.00",
+                "revision_%": 0,
+                "commit_%": "66.67",
+                "total_%": "44.44"
+            },
+            {
+                "author": "rupert-madden-abbott",
+                "participations": 5,
+                "title_%": "75.00",
+                "description_%": "50.00",
+                "comment_%": "50.00",
+                "revision_%": "100.00",
+                "commit_%": "23.08",
+                "total_%": "44.00"
+            },
+            {
+                "author": "nebhale",
+                "participations": 8,
+                "title_%": "0.00",
+                "description_%": "57.14",
+                "comment_%": "44.44",
+                "revision_%": 0,
+                "commit_%": "50.00",
+                "total_%": "40.00"
+            },
+            {
+                "author": "XenoAmess",
+                "participations": 9,
+                "title_%": "22.22",
+                "description_%": "88.89",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "10.00",
+                "total_%": "39.29"
+            },
+            {
+                "author": "xak2000",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "100.00",
+                "revision_%": 0,
+                "commit_%": "20.00",
+                "total_%": "36.36"
+            },
+            {
+                "author": "htztomic",
+                "participations": 12,
+                "title_%": "18.18",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "6.25",
+                "total_%": "35.90"
+            },
+            {
+                "author": "hsellik",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "66.67",
+                "revision_%": "0.00",
+                "commit_%": "16.67",
+                "total_%": "35.71"
+            },
+            {
+                "author": "ttddyy",
+                "participations": 15,
+                "title_%": "7.69",
+                "description_%": "53.85",
+                "comment_%": "52.38",
+                "revision_%": "20.00",
+                "commit_%": "21.43",
+                "total_%": "34.85"
+            },
+            {
+                "author": "anshlykov",
+                "participations": 5,
+                "title_%": "40.00",
+                "description_%": "60.00",
+                "comment_%": "33.33",
+                "revision_%": "20.00",
+                "commit_%": "22.22",
+                "total_%": "33.33"
+            },
+            {
+                "author": "fml2",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "33.33"
+            },
+            {
+                "author": "Konrado85",
+                "participations": 8,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "33.33",
+                "revision_%": 0,
+                "commit_%": "14.29",
+                "total_%": "33.33"
+            },
+            {
+                "author": "mp911de",
+                "participations": 44,
+                "title_%": "11.76",
+                "description_%": "41.18",
+                "comment_%": "35.48",
+                "revision_%": "11.76",
+                "commit_%": "40.91",
+                "total_%": "31.75"
+            },
+            {
+                "author": "cdalexndr",
+                "participations": 10,
+                "title_%": "0.00",
+                "description_%": "88.89",
+                "comment_%": "40.00",
+                "revision_%": "0.00",
+                "commit_%": "7.69",
+                "total_%": "30.95"
+            },
+            {
+                "author": "adutra",
+                "participations": 8,
+                "title_%": "0.00",
+                "description_%": "66.67",
+                "comment_%": "46.15",
+                "revision_%": "31.25",
+                "commit_%": "9.09",
+                "total_%": "30.43"
+            },
+            {
+                "author": "GreyTeardrop",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "14.29",
+                "revision_%": 0,
+                "commit_%": "60.00",
+                "total_%": "30.00"
+            },
+            {
+                "author": "thorntonrp",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "66.67",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "25.00",
+                "total_%": "30.00"
+            },
+            {
+                "author": "mikesmithson",
+                "participations": 9,
+                "title_%": "28.57",
+                "description_%": "100.00",
+                "comment_%": "23.08",
+                "revision_%": "0.00",
+                "commit_%": "19.05",
+                "total_%": "29.09"
+            },
+            {
+                "author": "aahlenst",
+                "participations": 8,
+                "title_%": "16.67",
+                "description_%": "66.67",
+                "comment_%": "16.67",
+                "revision_%": "100.00",
+                "commit_%": "16.67",
+                "total_%": "29.03"
+            },
+            {
+                "author": "quaff",
+                "participations": 16,
+                "title_%": "7.14",
+                "description_%": "78.57",
+                "comment_%": "14.29",
+                "revision_%": 0,
+                "commit_%": "7.14",
+                "total_%": "28.57"
+            },
+            {
+                "author": "thombergs",
+                "participations": 6,
+                "title_%": "16.67",
+                "description_%": "0.00",
+                "comment_%": "33.33",
+                "revision_%": "50.00",
+                "commit_%": "33.33",
+                "total_%": "27.78"
+            },
+            {
+                "author": "filiphr",
+                "participations": 15,
+                "title_%": "8.33",
+                "description_%": "50.00",
+                "comment_%": "25.53",
+                "revision_%": "25.00",
+                "commit_%": "31.25",
+                "total_%": "27.47"
+            },
+            {
+                "author": "gandrade",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "27.27"
+            },
+            {
+                "author": "candrews",
+                "participations": 23,
+                "title_%": "4.76",
+                "description_%": "52.38",
+                "comment_%": "24.14",
+                "revision_%": "0.00",
+                "commit_%": "27.27",
+                "total_%": "26.32"
+            },
+            {
+                "author": "rhamedy",
+                "participations": 7,
+                "title_%": "0.00",
+                "description_%": "60.00",
+                "comment_%": "42.86",
+                "revision_%": "0.00",
+                "commit_%": "14.29",
+                "total_%": "25.93"
+            }
+        ],
+        "robu": [
+            {
+                "author": "freekry",
+                "participations": 5,
+                "title_%": "33.33",
+                "description_%": "33.33",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "66.67",
+                "total_%": "50.00"
+            },
+            {
+                "author": "chrylis",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": "100.00",
+                "commit_%": "25.00",
+                "total_%": "44.44"
+            },
+            {
+                "author": "hsellik",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "66.67",
+                "total_%": "42.86"
+            },
+            {
+                "author": "Konrado85",
+                "participations": 8,
+                "title_%": "12.50",
+                "description_%": "100.00",
+                "comment_%": "33.33",
+                "revision_%": 0,
+                "commit_%": "28.57",
+                "total_%": "42.42"
+            },
+            {
+                "author": "L00kian",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "33.33",
+                "comment_%": "40.00",
+                "revision_%": 0,
+                "commit_%": "66.67",
+                "total_%": "41.18"
+            },
+            {
+                "author": "quaff",
+                "participations": 16,
+                "title_%": "14.29",
+                "description_%": "92.86",
+                "comment_%": "14.29",
+                "revision_%": 0,
+                "commit_%": "14.29",
+                "total_%": "36.73"
+            },
+            {
+                "author": "ggerard",
+                "participations": 5,
+                "title_%": "66.67",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "40.00",
+                "total_%": "36.36"
+            },
+            {
+                "author": "fml2",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "33.33"
+            },
+            {
+                "author": "cdalexndr",
+                "participations": 10,
+                "title_%": "0.00",
+                "description_%": "88.89",
+                "comment_%": "50.00",
+                "revision_%": "0.00",
+                "commit_%": "7.69",
+                "total_%": "33.33"
+            },
+            {
+                "author": "tinexw",
+                "participations": 7,
+                "title_%": "50.00",
+                "description_%": "33.33",
+                "comment_%": "0.00",
+                "revision_%": "44.44",
+                "commit_%": "33.33",
+                "total_%": "33.33"
+            },
+            {
+                "author": "jadekler",
+                "participations": 9,
+                "title_%": "25.00",
+                "description_%": "25.00",
+                "comment_%": "35.71",
+                "revision_%": 0,
+                "commit_%": "40.00",
+                "total_%": "33.33"
+            },
+            {
+                "author": "htztomic",
+                "participations": 12,
+                "title_%": "9.09",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "6.25",
+                "total_%": "33.33"
+            },
+            {
+                "author": "marcingrzejszczak",
+                "participations": 7,
+                "title_%": "50.00",
+                "description_%": "25.00",
+                "comment_%": "16.67",
+                "revision_%": 0,
+                "commit_%": "50.00",
+                "total_%": "33.33"
+            },
+            {
+                "author": "An1s9n",
+                "participations": 4,
+                "title_%": "25.00",
+                "description_%": "25.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "42.86",
+                "total_%": "32.35"
+            },
+            {
+                "author": "XenoAmess",
+                "participations": 9,
+                "title_%": "0.00",
+                "description_%": "88.89",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "10.00",
+                "total_%": "32.14"
+            },
+            {
+                "author": "ttddyy",
+                "participations": 15,
+                "title_%": "15.38",
+                "description_%": "69.23",
+                "comment_%": "23.81",
+                "revision_%": "0.00",
+                "commit_%": "35.71",
+                "total_%": "31.82"
+            },
+            {
+                "author": "candrews",
+                "participations": 23,
+                "title_%": "19.05",
+                "description_%": "52.38",
+                "comment_%": "20.69",
+                "revision_%": "0.00",
+                "commit_%": "40.91",
+                "total_%": "31.58"
+            },
+            {
+                "author": "terminux",
+                "participations": 17,
+                "title_%": "29.41",
+                "description_%": "88.24",
+                "comment_%": "7.14",
+                "revision_%": "0.00",
+                "commit_%": "47.06",
+                "total_%": "31.52"
+            },
+            {
+                "author": "mikesmithson",
+                "participations": 9,
+                "title_%": "42.86",
+                "description_%": "100.00",
+                "comment_%": "23.08",
+                "revision_%": "0.00",
+                "commit_%": "19.05",
+                "total_%": "30.91"
+            },
+            {
+                "author": "mnhock",
+                "participations": 14,
+                "title_%": "33.33",
+                "description_%": "25.00",
+                "comment_%": "21.43",
+                "revision_%": 0,
+                "commit_%": "33.33",
+                "total_%": "28.57"
+            },
+            {
+                "author": "kdvolder",
+                "participations": 4,
+                "title_%": "33.33",
+                "description_%": "33.33",
+                "comment_%": "22.22",
+                "revision_%": 0,
+                "commit_%": "33.33",
+                "total_%": "27.78"
+            },
+            {
+                "author": "qct",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "25.00",
+                "comment_%": 0,
+                "revision_%": "50.00",
+                "commit_%": "37.50",
+                "total_%": "27.78"
+            },
+            {
+                "author": "gandrade",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "27.27"
+            },
+            {
+                "author": "xak2000",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "50.00",
+                "revision_%": 0,
+                "commit_%": "20.00",
+                "total_%": "27.27"
+            },
+            {
+                "author": "davinkevin",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "66.67",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "25.00",
+                "total_%": "27.27"
+            },
+            {
+                "author": "jvalkeal",
+                "participations": 10,
+                "title_%": "12.50",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "25.00",
+                "total_%": "26.92"
+            },
+            {
+                "author": "fernandezseb",
+                "participations": 4,
+                "title_%": "25.00",
+                "description_%": "25.00",
+                "comment_%": "50.00",
+                "revision_%": 0,
+                "commit_%": "20.00",
+                "total_%": "26.67"
+            },
+            {
+                "author": "OleksiiBondar",
+                "participations": 5,
+                "title_%": "40.00",
+                "description_%": "40.00",
+                "comment_%": "50.00",
+                "revision_%": 0,
+                "commit_%": "13.33",
+                "total_%": "25.93"
+            }
+        ]
+    },
+    "spring-framework": {
+        "maint": [
+            {
+                "author": "spring-operator",
+                "participations": 48,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "76.97"
+            },
+            {
+                "author": "cac03",
+                "participations": 4,
+                "title_%": "33.33",
+                "description_%": "66.67",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "75.00",
+                "total_%": "60.00"
+            },
+            {
+                "author": "smaldini",
+                "participations": 6,
+                "title_%": "33.33",
+                "description_%": "16.67",
+                "comment_%": "100.00",
+                "revision_%": 0,
+                "commit_%": 0,
+                "total_%": "30.77"
+            },
+            {
+                "author": "ascopes",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "75.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "33.33",
+                "total_%": "30.00"
+            },
+            {
+                "author": "vpavic",
+                "participations": 37,
+                "title_%": "14.29",
+                "description_%": "42.86",
+                "comment_%": "57.89",
+                "revision_%": "0.00",
+                "commit_%": "19.05",
+                "total_%": "29.52"
+            },
+            {
+                "author": "dharrigan",
+                "participations": 6,
+                "title_%": "40.00",
+                "description_%": "20.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "50.00",
+                "total_%": "28.57"
+            },
+            {
+                "author": "marschall",
+                "participations": 50,
+                "title_%": "0.00",
+                "description_%": "32.50",
+                "comment_%": "15.62",
+                "revision_%": "0.00",
+                "commit_%": "52.54",
+                "total_%": "27.84"
+            },
+            {
+                "author": "wyhasany",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "50.00",
+                "total_%": "26.67"
+            }
+        ],
+        "sec": [
+            {
+                "author": "xyloman",
+                "participations": 13,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "80.00",
+                "total_%": "70.59"
+            },
+            {
+                "author": "dbrimley",
+                "participations": 11,
+                "title_%": "100.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "83.33",
+                "total_%": "63.16"
+            },
+            {
+                "author": "spring-operator",
+                "participations": 48,
+                "title_%": "0.00",
+                "description_%": "80.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "75.61",
+                "total_%": "59.21"
+            },
+            {
+                "author": "lee-garden",
+                "participations": 4,
+                "title_%": "66.67",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": "0.00",
+                "commit_%": "66.67",
+                "total_%": "46.15"
+            },
+            {
+                "author": "Drezir",
+                "participations": 4,
+                "title_%": "50.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "80.00",
+                "total_%": "46.15"
+            },
+            {
+                "author": "evpaassen",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "66.67",
+                "comment_%": "25.00",
+                "revision_%": 0,
+                "commit_%": "75.00",
+                "total_%": "42.86"
+            },
+            {
+                "author": "L00kian",
+                "participations": 8,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "75.00",
+                "total_%": "40.00"
+            },
+            {
+                "author": "missingdays",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "44.44",
+                "total_%": "38.46"
+            },
+            {
+                "author": "ascopes",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "75.00",
+                "comment_%": "50.00",
+                "revision_%": "0.00",
+                "commit_%": "33.33",
+                "total_%": "35.00"
+            },
+            {
+                "author": "sokomishalov",
+                "participations": 6,
+                "title_%": "25.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "40.00",
+                "total_%": "31.25"
+            },
+            {
+                "author": "mikesir87",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "50.00",
+                "total_%": "30.77"
+            },
+            {
+                "author": "cac03",
+                "participations": 4,
+                "title_%": "33.33",
+                "description_%": "33.33",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "25.00",
+                "total_%": "30.00"
+            },
+            {
+                "author": "rwinch",
+                "participations": 93,
+                "title_%": "4.88",
+                "description_%": "39.02",
+                "comment_%": "14.55",
+                "revision_%": "0.00",
+                "commit_%": "36.61",
+                "total_%": "27.84"
+            },
+            {
+                "author": "acogoluegnes",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "33.33",
+                "total_%": "26.67"
+            },
+            {
+                "author": "odrotbohm",
+                "participations": 20,
+                "title_%": "11.76",
+                "description_%": "35.29",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "44.44",
+                "total_%": "26.67"
+            },
+            {
+                "author": "drewtul",
+                "participations": 4,
+                "title_%": "25.00",
+                "description_%": "25.00",
+                "comment_%": "33.33",
+                "revision_%": "100.00",
+                "commit_%": "12.50",
+                "total_%": "26.09"
+            }
+        ],
+        "perf": [
+            {
+                "author": "HejiaHo",
+                "participations": 14,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "93.75"
+            },
+            {
+                "author": "igormukhin",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "83.33"
+            },
+            {
+                "author": "spring-operator",
+                "participations": 48,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "76.97"
+            },
+            {
+                "author": "vikeychen",
+                "participations": 7,
+                "title_%": "80.00",
+                "description_%": "40.00",
+                "comment_%": "100.00",
+                "revision_%": 0,
+                "commit_%": "66.67",
+                "total_%": "65.00"
+            },
+            {
+                "author": "ascopes",
+                "participations": 5,
+                "title_%": "25.00",
+                "description_%": "75.00",
+                "comment_%": "50.00",
+                "revision_%": "0.00",
+                "commit_%": "55.56",
+                "total_%": "50.00"
+            },
+            {
+                "author": "overmindx",
+                "participations": 4,
+                "title_%": "50.00",
+                "description_%": "75.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "37.50",
+                "total_%": "47.06"
+            },
+            {
+                "author": "soldierkam",
+                "participations": 10,
+                "title_%": "42.86",
+                "description_%": "42.86",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "53.85",
+                "total_%": "41.94"
+            },
+            {
+                "author": "L00kian",
+                "participations": 8,
+                "title_%": "0.00",
+                "description_%": "33.33",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "62.50",
+                "total_%": "40.00"
+            },
+            {
+                "author": "missingdays",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "44.44",
+                "total_%": "38.46"
+            },
+            {
+                "author": "sslavic",
+                "participations": 27,
+                "title_%": "16.00",
+                "description_%": "40.00",
+                "comment_%": "23.08",
+                "revision_%": 0,
+                "commit_%": "43.33",
+                "total_%": "32.26"
+            },
+            {
+                "author": "bclozel",
+                "participations": 341,
+                "title_%": "9.30",
+                "description_%": "32.56",
+                "comment_%": "21.96",
+                "revision_%": "26.09",
+                "commit_%": "31.91",
+                "total_%": "29.83"
+            },
+            {
+                "author": "bananayong",
+                "participations": 6,
+                "title_%": "50.00",
+                "description_%": "25.00",
+                "comment_%": "33.33",
+                "revision_%": "0.00",
+                "commit_%": "50.00",
+                "total_%": "28.57"
+            },
+            {
+                "author": "cbeams",
+                "participations": 138,
+                "title_%": "22.22",
+                "description_%": "44.44",
+                "comment_%": "30.11",
+                "revision_%": 0,
+                "commit_%": "25.39",
+                "total_%": "26.89"
+            },
+            {
+                "author": "wyhasany",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "50.00",
+                "total_%": "26.67"
+            }
+        ],
+        "robu": [
+            {
+                "author": "cac03",
+                "participations": 4,
+                "title_%": "100.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "100.00"
+            },
+            {
+                "author": "GabiAxel",
+                "participations": 7,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": "100.00",
+                "commit_%": "100.00",
+                "total_%": "81.82"
+            },
+            {
+                "author": "dbrimley",
+                "participations": 11,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "60.00",
+                "revision_%": 0,
+                "commit_%": "83.33",
+                "total_%": "73.68"
+            },
+            {
+                "author": "joshlong",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "66.67"
+            },
+            {
+                "author": "drewtul",
+                "participations": 4,
+                "title_%": "75.00",
+                "description_%": "75.00",
+                "comment_%": "33.33",
+                "revision_%": "100.00",
+                "commit_%": "50.00",
+                "total_%": "56.52"
+            },
+            {
+                "author": "Drezir",
+                "participations": 4,
+                "title_%": "50.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": "33.33",
+                "commit_%": "80.00",
+                "total_%": "53.85"
+            },
+            {
+                "author": "aclement",
+                "participations": 55,
+                "title_%": "15.38",
+                "description_%": "38.46",
+                "comment_%": "18.18",
+                "revision_%": "0.00",
+                "commit_%": "72.58",
+                "total_%": "50.00"
+            },
+            {
+                "author": "clemp6r",
+                "participations": 8,
+                "title_%": "50.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "50.00",
+                "total_%": "47.37"
+            },
+            {
+                "author": "mikesir87",
+                "participations": 4,
+                "title_%": "25.00",
+                "description_%": "50.00",
+                "comment_%": "100.00",
+                "revision_%": 0,
+                "commit_%": "50.00",
+                "total_%": "46.15"
+            },
+            {
+                "author": "vpavic",
+                "participations": 37,
+                "title_%": "28.57",
+                "description_%": "38.10",
+                "comment_%": "26.32",
+                "revision_%": "50.00",
+                "commit_%": "52.38",
+                "total_%": "40.00"
+            },
+            {
+                "author": "qxo",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "100.00",
+                "revision_%": 0,
+                "commit_%": "28.57",
+                "total_%": "36.36"
+            },
+            {
+                "author": "ascopes",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "50.00",
+                "revision_%": "0.00",
+                "commit_%": "44.44",
+                "total_%": "35.00"
+            },
+            {
+                "author": "acogoluegnes",
+                "participations": 6,
+                "title_%": "25.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "33.33",
+                "total_%": "33.33"
+            },
+            {
+                "author": "rupertw",
+                "participations": 10,
+                "title_%": "22.22",
+                "description_%": "44.44",
+                "comment_%": 0,
+                "revision_%": "0.00",
+                "commit_%": "35.71",
+                "total_%": "32.35"
+            },
+            {
+                "author": "bclozel",
+                "participations": 341,
+                "title_%": "2.33",
+                "description_%": "25.58",
+                "comment_%": "13.08",
+                "revision_%": "13.04",
+                "commit_%": "31.91",
+                "total_%": "28.02"
+            },
+            {
+                "author": "mp911de",
+                "participations": 29,
+                "title_%": "0.00",
+                "description_%": "35.71",
+                "comment_%": "22.22",
+                "revision_%": "62.50",
+                "commit_%": "29.03",
+                "total_%": "27.06"
+            },
+            {
+                "author": "jmnarloch",
+                "participations": 9,
+                "title_%": "28.57",
+                "description_%": "42.86",
+                "comment_%": "0.00",
+                "revision_%": "100.00",
+                "commit_%": "33.33",
+                "total_%": "26.47"
+            }
+        ]
+    },
+    "spring-security": {
+        "maint": [
+            {
+                "author": "evpaassen",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "83.33",
+                "total_%": "60.00"
+            },
+            {
+                "author": "spring-operator",
+                "participations": 45,
+                "title_%": "0.00",
+                "description_%": "84.44",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "57.38"
+            },
+            {
+                "author": "yegeniy",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "80.00",
+                "total_%": "57.14"
+            },
+            {
+                "author": "andifalk",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": "0.00",
+                "commit_%": "80.00",
+                "total_%": "46.67"
+            },
+            {
+                "author": "BigMichi1",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "66.67",
+                "total_%": "40.00"
+            },
+            {
+                "author": "ttddyy",
+                "participations": 13,
+                "title_%": "8.33",
+                "description_%": "41.67",
+                "comment_%": "47.06",
+                "revision_%": "38.46",
+                "commit_%": "23.08",
+                "total_%": "32.84"
+            },
+            {
+                "author": "wilkinsona",
+                "participations": 23,
+                "title_%": "0.00",
+                "description_%": "36.36",
+                "comment_%": "42.86",
+                "revision_%": 0,
+                "commit_%": "38.24",
+                "total_%": "31.75"
+            },
+            {
+                "author": "tekul",
+                "participations": 4,
+                "title_%": 0,
+                "description_%": 0,
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "28.21",
+                "total_%": "28.21"
+            },
+            {
+                "author": "dbuos",
+                "participations": 7,
+                "title_%": "0.00",
+                "description_%": "25.00",
+                "comment_%": 0,
+                "revision_%": "0.00",
+                "commit_%": "57.14",
+                "total_%": "27.78"
+            },
+            {
+                "author": "stonio",
+                "participations": 9,
+                "title_%": "16.67",
+                "description_%": "16.67",
+                "comment_%": 0,
+                "revision_%": "0.00",
+                "commit_%": "38.46",
+                "total_%": "26.92"
+            }
+        ],
+        "sec": [
+            {
+                "author": "andifalk",
+                "participations": 4,
+                "title_%": "66.67",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": "25.00",
+                "commit_%": "80.00",
+                "total_%": "66.67"
+            },
+            {
+                "author": "jason076",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "100.00",
+                "total_%": "55.56"
+            },
+            {
+                "author": "ghillert",
+                "participations": 7,
+                "title_%": "25.00",
+                "description_%": "50.00",
+                "comment_%": "100.00",
+                "revision_%": 0,
+                "commit_%": "57.14",
+                "total_%": "50.00"
+            },
+            {
+                "author": "alek-sys",
+                "participations": 4,
+                "title_%": "25.00",
+                "description_%": "75.00",
+                "comment_%": "25.00",
+                "revision_%": "75.00",
+                "commit_%": "66.67",
+                "total_%": "50.00"
+            },
+            {
+                "author": "LeeHainie",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "50.00",
+                "total_%": "50.00"
+            },
+            {
+                "author": "robotmrv",
+                "participations": 9,
+                "title_%": "33.33",
+                "description_%": "66.67",
+                "comment_%": "40.00",
+                "revision_%": "43.75",
+                "commit_%": "66.67",
+                "total_%": "46.94"
+            },
+            {
+                "author": "philsttr",
+                "participations": 8,
+                "title_%": "20.00",
+                "description_%": "60.00",
+                "comment_%": "16.67",
+                "revision_%": "40.00",
+                "commit_%": "85.71",
+                "total_%": "43.40"
+            },
+            {
+                "author": "ttddyy",
+                "participations": 13,
+                "title_%": "8.33",
+                "description_%": "75.00",
+                "comment_%": "47.06",
+                "revision_%": "53.85",
+                "commit_%": "30.77",
+                "total_%": "43.28"
+            },
+            {
+                "author": "sdoxsee",
+                "participations": 7,
+                "title_%": "0.00",
+                "description_%": "66.67",
+                "comment_%": "33.33",
+                "revision_%": "66.67",
+                "commit_%": "14.29",
+                "total_%": "41.30"
+            },
+            {
+                "author": "spring-operator",
+                "participations": 45,
+                "title_%": "0.00",
+                "description_%": "62.22",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "68.75",
+                "total_%": "40.98"
+            },
+            {
+                "author": "philwebb",
+                "participations": 4,
+                "title_%": "33.33",
+                "description_%": "66.67",
+                "comment_%": "100.00",
+                "revision_%": "0.00",
+                "commit_%": "40.26",
+                "total_%": "40.45"
+            },
+            {
+                "author": "evpaassen",
+                "participations": 6,
+                "title_%": "50.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "16.67",
+                "total_%": "40.00"
+            },
+            {
+                "author": "zeeshanadnan",
+                "participations": 6,
+                "title_%": "40.00",
+                "description_%": "100.00",
+                "comment_%": "10.00",
+                "revision_%": "33.33",
+                "commit_%": "40.00",
+                "total_%": "39.29"
+            },
+            {
+                "author": "dbuos",
+                "participations": 7,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": 0,
+                "revision_%": "33.33",
+                "commit_%": "57.14",
+                "total_%": "38.89"
+            },
+            {
+                "author": "dsyer",
+                "participations": 6,
+                "title_%": "50.00",
+                "description_%": "50.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "40.00",
+                "total_%": "38.10"
+            },
+            {
+                "author": "rh-id",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "33.33",
+                "comment_%": "46.67",
+                "revision_%": "25.00",
+                "commit_%": "83.33",
+                "total_%": "37.25"
+            },
+            {
+                "author": "ysavchen",
+                "participations": 6,
+                "title_%": "40.00",
+                "description_%": "40.00",
+                "comment_%": "0.00",
+                "revision_%": "50.00",
+                "commit_%": "30.00",
+                "total_%": "36.00"
+            },
+            {
+                "author": "raphaelDL",
+                "participations": 17,
+                "title_%": "0.00",
+                "description_%": "58.33",
+                "comment_%": "25.00",
+                "revision_%": "0.00",
+                "commit_%": "65.52",
+                "total_%": "35.90"
+            },
+            {
+                "author": "talerngpong",
+                "participations": 5,
+                "title_%": "33.33",
+                "description_%": "66.67",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "25.00",
+                "total_%": "35.71"
+            },
+            {
+                "author": "rhamedy",
+                "participations": 8,
+                "title_%": "16.67",
+                "description_%": "83.33",
+                "comment_%": "43.48",
+                "revision_%": "26.32",
+                "commit_%": "36.36",
+                "total_%": "35.71"
+            },
+            {
+                "author": "ch4mpy",
+                "participations": 26,
+                "title_%": "16.00",
+                "description_%": "96.00",
+                "comment_%": "37.50",
+                "revision_%": "37.23",
+                "commit_%": "25.00",
+                "total_%": "35.29"
+            },
+            {
+                "author": "Kehrlann",
+                "participations": 6,
+                "title_%": "50.00",
+                "description_%": "50.00",
+                "comment_%": "16.67",
+                "revision_%": "0.00",
+                "commit_%": "40.00",
+                "total_%": "35.00"
+            },
+            {
+                "author": "nenaraab",
+                "participations": 5,
+                "title_%": "25.00",
+                "description_%": "100.00",
+                "comment_%": "36.36",
+                "revision_%": "22.22",
+                "commit_%": "33.33",
+                "total_%": "34.78"
+            },
+            {
+                "author": "clementkng",
+                "participations": 5,
+                "title_%": "20.00",
+                "description_%": "100.00",
+                "comment_%": "7.69",
+                "revision_%": "38.46",
+                "commit_%": "37.50",
+                "total_%": "34.09"
+            },
+            {
+                "author": "Dav1dde",
+                "participations": 4,
+                "title_%": "33.33",
+                "description_%": "0.00",
+                "comment_%": "100.00",
+                "revision_%": "50.00",
+                "commit_%": "25.00",
+                "total_%": "33.33"
+            },
+            {
+                "author": "codecracker2014",
+                "participations": 8,
+                "title_%": "16.67",
+                "description_%": "33.33",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "36.36",
+                "total_%": "30.43"
+            },
+            {
+                "author": "nor-ek",
+                "participations": 12,
+                "title_%": "0.00",
+                "description_%": "87.50",
+                "comment_%": "0.00",
+                "revision_%": "33.33",
+                "commit_%": "28.12",
+                "total_%": "30.36"
+            },
+            {
+                "author": "amergey",
+                "participations": 7,
+                "title_%": "25.00",
+                "description_%": "100.00",
+                "comment_%": "20.00",
+                "revision_%": "0.00",
+                "commit_%": "25.00",
+                "total_%": "30.00"
+            },
+            {
+                "author": "finke-ba",
+                "participations": 5,
+                "title_%": "66.67",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "80.00",
+                "total_%": "30.00"
+            },
+            {
+                "author": "bdemers",
+                "participations": 7,
+                "title_%": "0.00",
+                "description_%": "25.00",
+                "comment_%": "46.15",
+                "revision_%": 0,
+                "commit_%": "16.67",
+                "total_%": "29.63"
+            },
+            {
+                "author": "bedla",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "28.57",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "29.41"
+            },
+            {
+                "author": "okohub",
+                "participations": 11,
+                "title_%": "40.00",
+                "description_%": "60.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "30.77",
+                "total_%": "28.12"
+            },
+            {
+                "author": "ThomasVitale",
+                "participations": 15,
+                "title_%": "27.27",
+                "description_%": "54.55",
+                "comment_%": "20.00",
+                "revision_%": "0.00",
+                "commit_%": "41.18",
+                "total_%": "27.27"
+            },
+            {
+                "author": "dongmyo",
+                "participations": 9,
+                "title_%": "16.67",
+                "description_%": "83.33",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "11.11",
+                "total_%": "26.92"
+            },
+            {
+                "author": "mdeinum",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "33.33",
+                "comment_%": "12.50",
+                "revision_%": "14.29",
+                "commit_%": "44.44",
+                "total_%": "26.67"
+            },
+            {
+                "author": "vpavic",
+                "participations": 28,
+                "title_%": "23.81",
+                "description_%": "38.10",
+                "comment_%": "38.10",
+                "revision_%": "21.43",
+                "commit_%": "15.15",
+                "total_%": "25.81"
+            }
+        ],
+        "perf": [
+            {
+                "author": "tt4g",
+                "participations": 4,
+                "title_%": "33.33",
+                "description_%": "66.67",
+                "comment_%": "50.00",
+                "revision_%": "50.00",
+                "commit_%": "100.00",
+                "total_%": "64.29"
+            },
+            {
+                "author": "spring-operator",
+                "participations": 45,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "63.11"
+            },
+            {
+                "author": "michael-simons",
+                "participations": 11,
+                "title_%": "45.45",
+                "description_%": "9.09",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "62.50",
+                "total_%": "37.21"
+            },
+            {
+                "author": "mraible",
+                "participations": 4,
+                "title_%": "33.33",
+                "description_%": "33.33",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "42.86",
+                "total_%": "35.71"
+            },
+            {
+                "author": "andifalk",
+                "participations": 4,
+                "title_%": "33.33",
+                "description_%": "33.33",
+                "comment_%": 0,
+                "revision_%": "25.00",
+                "commit_%": "40.00",
+                "total_%": "33.33"
+            },
+            {
+                "author": "drumonii",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "33.33",
+                "comment_%": "33.33",
+                "revision_%": 0,
+                "commit_%": "42.86",
+                "total_%": "31.25"
+            },
+            {
+                "author": "robotmrv",
+                "participations": 9,
+                "title_%": "0.00",
+                "description_%": "33.33",
+                "comment_%": "0.00",
+                "revision_%": "37.50",
+                "commit_%": "33.33",
+                "total_%": "30.61"
+            },
+            {
+                "author": "Emkas",
+                "participations": 5,
+                "title_%": "40.00",
+                "description_%": "60.00",
+                "comment_%": "30.77",
+                "revision_%": "0.00",
+                "commit_%": "15.38",
+                "total_%": "29.73"
+            },
+            {
+                "author": "bdemers",
+                "participations": 7,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "38.46",
+                "revision_%": 0,
+                "commit_%": "16.67",
+                "total_%": "29.63"
+            },
+            {
+                "author": "beamerblvd",
+                "participations": 15,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "18.18",
+                "revision_%": "52.63",
+                "commit_%": "19.35",
+                "total_%": "28.77"
+            },
+            {
+                "author": "rh-id",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": "20.00",
+                "revision_%": "33.33",
+                "commit_%": "50.00",
+                "total_%": "27.45"
+            },
+            {
+                "author": "ttddyy",
+                "participations": 13,
+                "title_%": "8.33",
+                "description_%": "41.67",
+                "comment_%": "29.41",
+                "revision_%": "30.77",
+                "commit_%": "23.08",
+                "total_%": "26.87"
+            }
+        ],
+        "robu": [
+            {
+                "author": "iHelin",
+                "participations": 4,
+                "title_%": "100.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "80.00"
+            },
+            {
+                "author": "jason076",
+                "participations": 4,
+                "title_%": "100.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": "50.00",
+                "commit_%": "100.00",
+                "total_%": "77.78"
+            },
+            {
+                "author": "evpaassen",
+                "participations": 6,
+                "title_%": "50.00",
+                "description_%": "50.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "83.33",
+                "total_%": "70.00"
+            },
+            {
+                "author": "robotmrv",
+                "participations": 9,
+                "title_%": "100.00",
+                "description_%": "33.33",
+                "comment_%": "40.00",
+                "revision_%": "34.38",
+                "commit_%": "83.33",
+                "total_%": "44.90"
+            },
+            {
+                "author": "igorpele",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "33.33",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "75.00",
+                "total_%": "40.00"
+            },
+            {
+                "author": "gregturn",
+                "participations": 6,
+                "title_%": "50.00",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "50.00",
+                "total_%": "40.00"
+            },
+            {
+                "author": "LeeHainie",
+                "participations": 6,
+                "title_%": "0.00",
+                "description_%": "66.67",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "50.00",
+                "total_%": "40.00"
+            },
+            {
+                "author": "alek-sys",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "50.00",
+                "comment_%": "25.00",
+                "revision_%": "75.00",
+                "commit_%": "33.33",
+                "total_%": "34.62"
+            },
+            {
+                "author": "philsttr",
+                "participations": 8,
+                "title_%": "20.00",
+                "description_%": "40.00",
+                "comment_%": "16.67",
+                "revision_%": "40.00",
+                "commit_%": "28.57",
+                "total_%": "33.96"
+            },
+            {
+                "author": "wangzw",
+                "participations": 8,
+                "title_%": "25.00",
+                "description_%": "25.00",
+                "comment_%": "33.33",
+                "revision_%": "0.00",
+                "commit_%": "45.45",
+                "total_%": "32.14"
+            },
+            {
+                "author": "XYUU",
+                "participations": 6,
+                "title_%": "50.00",
+                "description_%": "50.00",
+                "comment_%": "66.67",
+                "revision_%": 0,
+                "commit_%": "25.00",
+                "total_%": "31.37"
+            },
+            {
+                "author": "panchenko",
+                "participations": 6,
+                "title_%": "40.00",
+                "description_%": "20.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "33.33",
+                "total_%": "31.25"
+            },
+            {
+                "author": "djechelon",
+                "participations": 5,
+                "title_%": "33.33",
+                "description_%": "33.33",
+                "comment_%": "0.00",
+                "revision_%": "0.00",
+                "commit_%": "50.00",
+                "total_%": "30.00"
+            },
+            {
+                "author": "mraible",
+                "participations": 4,
+                "title_%": "33.33",
+                "description_%": "33.33",
+                "comment_%": "100.00",
+                "revision_%": 0,
+                "commit_%": "14.29",
+                "total_%": "28.57"
+            },
+            {
+                "author": "rh-id",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "33.33",
+                "comment_%": "40.00",
+                "revision_%": "20.83",
+                "commit_%": "33.33",
+                "total_%": "27.45"
+            },
+            {
+                "author": "amergey",
+                "participations": 7,
+                "title_%": "25.00",
+                "description_%": "0.00",
+                "comment_%": "40.00",
+                "revision_%": "25.00",
+                "commit_%": "25.00",
+                "total_%": "26.67"
+            },
+            {
+                "author": "andifalk",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "66.67",
+                "comment_%": 0,
+                "revision_%": "0.00",
+                "commit_%": "40.00",
+                "total_%": "26.67"
+            },
+            {
+                "author": "jgoldhammer",
+                "participations": 5,
+                "title_%": "0.00",
+                "description_%": "33.33",
+                "comment_%": "12.50",
+                "revision_%": "0.00",
+                "commit_%": "40.00",
+                "total_%": "26.67"
+            },
+            {
+                "author": "spring-operator",
+                "participations": 45,
+                "title_%": "0.00",
+                "description_%": "48.89",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "28.12",
+                "total_%": "25.41"
+            }
+        ]
+    }
+}

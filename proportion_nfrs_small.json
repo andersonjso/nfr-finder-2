@@ -1,0 +1,244 @@
+{
+    "spring-boot": {
+        "maint": [
+            {
+                "author": "kioyong",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            },
+            {
+                "author": "artembilan",
+                "participations": 56,
+                "title_%": "2.94",
+                "description_%": "35.29",
+                "comment_%": "36.73",
+                "revision_%": "18.37",
+                "commit_%": "22.39",
+                "total_%": "19.03"
+            }
+        ],
+        "sec": [
+            {
+                "author": "kioyong",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            },
+            {
+                "author": "artembilan",
+                "participations": 56,
+                "title_%": "0.00",
+                "description_%": "35.29",
+                "comment_%": "2.04",
+                "revision_%": "18.37",
+                "commit_%": "14.93",
+                "total_%": "11.07"
+            }
+        ],
+        "perf": [
+            {
+                "author": "kioyong",
+                "participations": 4,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            },
+            {
+                "author": "artembilan",
+                "participations": 56,
+                "title_%": "0.00",
+                "description_%": "32.35",
+                "comment_%": "12.24",
+                "revision_%": "12.24",
+                "commit_%": "13.43",
+                "total_%": "11.07"
+            }
+        ],
+        "robu": [
+            {
+                "author": "kioyong",
+                "participations": 4,
+                "title_%": "25.00",
+                "description_%": "75.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "19.05"
+            },
+            {
+                "author": "artembilan",
+                "participations": 56,
+                "title_%": "5.88",
+                "description_%": "38.24",
+                "comment_%": "16.33",
+                "revision_%": "6.12",
+                "commit_%": "19.40",
+                "total_%": "13.49"
+            }
+        ]
+    },
+    "spring-framework": {
+        "maint": [
+            {
+                "author": "bytekoder",
+                "participations": 1,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            },
+            {
+                "author": "dbrimley",
+                "participations": 11,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            }
+        ],
+        "sec": [
+            {
+                "author": "bytekoder",
+                "participations": 1,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            },
+            {
+                "author": "dbrimley",
+                "participations": 11,
+                "title_%": "100.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "83.33",
+                "total_%": "40.00"
+            }
+        ],
+        "perf": [
+            {
+                "author": "bytekoder",
+                "participations": 1,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            },
+            {
+                "author": "dbrimley",
+                "participations": 11,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "3.33"
+            }
+        ],
+        "robu": [
+            {
+                "author": "bytekoder",
+                "participations": 1,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": 0,
+                "revision_%": 0,
+                "commit_%": "100.00",
+                "total_%": "50.00"
+            },
+            {
+                "author": "dbrimley",
+                "participations": 11,
+                "title_%": "0.00",
+                "description_%": "100.00",
+                "comment_%": "60.00",
+                "revision_%": 0,
+                "commit_%": "83.33",
+                "total_%": "46.67"
+            }
+        ]
+    },
+    "spring-security": {
+        "maint": [
+            {
+                "author": "hdeadman"
+            },
+            {
+                "author": "wkorando",
+                "participations": 1,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            }
+        ],
+        "sec": [
+            {
+                "author": "hdeadman"
+            },
+            {
+                "author": "wkorando",
+                "participations": 1,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            }
+        ],
+        "perf": [
+            {
+                "author": "hdeadman"
+            },
+            {
+                "author": "wkorando",
+                "participations": 1,
+                "title_%": "100.00",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "11.11"
+            }
+        ],
+        "robu": [
+            {
+                "author": "hdeadman"
+            },
+            {
+                "author": "wkorando",
+                "participations": 1,
+                "title_%": "0.00",
+                "description_%": "0.00",
+                "comment_%": "0.00",
+                "revision_%": 0,
+                "commit_%": "0.00",
+                "total_%": "0.00"
+            }
+        ]
+    }
+}
