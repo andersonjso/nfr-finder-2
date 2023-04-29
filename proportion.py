@@ -17,10 +17,17 @@ def sort_proportion(data_json):
 
     for system, nfr_list in data.items():
         for nfr, dev_list in nfr_list.items():
-            data[system][nfr] = sorted(dev_list, key=lambda x: float(x['total_%']), reverse=True)
+            data[system][nfr] = sorted(dev_list, key=lambda x: float(x['total_int']), reverse=True)
 
     with open('sorted_devs.json', 'w') as out_file:
         json.dump(data, out_file, indent=4)
+
+def format_data(n, total):
+    percentage = (n / total) * 100 if total else 0
+    formatted_percentage = "{:.2f}".format(percentage)
+
+    return f"{formatted_percentage} [{n}/{total}]"
+
 
 def compute_proportions(_investigated_authors, _pull_file, nfr):
     print (f"Computando {nfr}...")
@@ -120,12 +127,15 @@ def compute_proportions(_investigated_authors, _pull_file, nfr):
             out = {}
             out['author'] = investigated_author
             out['participations'] = total_participations
-            out['title_%'] = "{:.2f}".format((n_mentioned_title / total_title) * 100) if total_title else 0
-            out['description_%'] = "{:.2f}".format((n_mentioned_body / total_body) * 100) if total_body else 0
-            out['comment_%'] = "{:.2f}".format((n_mentioned_comment / total_comment) * 100) if total_comment else 0
-            out['revision_%'] = "{:.2f}".format((n_mentioned_review / total_review) * 100) if total_review else 0
-            out['commit_%'] = "{:.2f}".format((n_mentioned_commit / total_commit) * 100) if total_commit else 0
-            out['total_%'] = "{:.2f}".format((total_mentioned / total_all) * 100) if total_all else 0
+
+            out['title_%'] = format_data(n_mentioned_title, total_title)
+            out['description_%'] = format_data(n_mentioned_body, total_body)
+            out['comment_%'] = format_data(n_mentioned_comment, total_comment)
+            out['revision_%'] = format_data(n_mentioned_review, total_review)
+            out['commit_%'] = format_data(n_mentioned_commit, total_commit)
+            out['total_%'] = format_data(total_mentioned, total_all)
+            out['total_int'] = total_mentioned / total_all * 100 if total_all else 0
+
 
             out_list.append(out)
 
@@ -166,7 +176,7 @@ def analysis_proportion(data_json):
 
     for system, nfr_list in data.items():
         for nfr, dev_list in nfr_list.items():
-            data[system][nfr] = [d for d in dev_list if float(d['total_%']) > 25 and float(d['participations']) > 3]
+            data[system][nfr] = [d for d in dev_list if float(d['total_int']) > 25 and float(d['participations']) > 3]
 
             print ("eae")
 
@@ -175,8 +185,8 @@ def analysis_proportion(data_json):
 
 
 if __name__ == "__main__":
-    # save_proportions()
-    # sort_proportion('proportion_nfrs.json')
+    save_proportions()
+    sort_proportion('proportion_nfrs.json')
     analysis_proportion('sorted_devs.json')
 
 
