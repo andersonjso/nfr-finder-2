@@ -1,0 +1,11 @@
+System,With Robustness Change,Without Robustness Change
+apm-agent-java,3.2,2.3
+dubbo,4.7,0.8
+elasticsearch-hadoop,2.9,2.6
+fresco,3.29,1.57
+netty,8.72,3.74
+okhttp,30.8,4.3
+rxjava,3.53,5.58
+spring-boot,3.39,2.63
+spring-framework,3.41,3.89
+spring-security,2.27,2.34

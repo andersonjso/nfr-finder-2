@@ -7,7 +7,7 @@ import seaborn as sns
 
 
 def analysis_1():
-    df = pd.read_csv('changes.csv')
+    df = pd.read_csv('res.csv')
 
     # Group data by NFR type
     grouped = df.groupby(['nfr'])
