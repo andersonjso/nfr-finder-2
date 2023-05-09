@@ -83,7 +83,7 @@ def compute_changes():
     # Read the CSV file
     systems = ["spring-security", "spring-framework", "spring-boot"]
     # for system in systems:
-    system = systems[1]
+    system = systems[2]
     df = pd.read_csv(f"identification-{system}.csv")
 
     # Filter the rows by NFR type

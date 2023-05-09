@@ -62,10 +62,10 @@ def analysis_3():
     import seaborn as sns
 
     # Read the csv file into a pandas dataframe
-    df = pd.read_csv('changes.csv')
+    df = pd.read_csv('changesv2.csv')
 
     # Group the data by NFR and calculate the mean and standard deviation of changes before and after
-    nfr_grouped = df.groupby('nfr').agg({'changes_before': ['mean', 'std'], 'changes_after': ['mean', 'std']})
+    nfr_grouped = df.groupby('nfr').agg({'changes_after': ['mean', 'std'], 'changes_after': ['mean', 'std']})
 
     # Print the statistics for each NFR
     print(nfr_grouped)
