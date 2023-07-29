@@ -1,0 +1,99 @@
+Consider the following github developers
+
+Group 1:
+Developers who mainly discusses maintainability NFR
+
+"Hendrig Sellik is a software engineer from Tallinn, Estonia who has a master’s degree in computer science from TU Delft1. He has 30 repositories on GitHub, mostly related to Java and web development."
+
+"Michael Cramer is a software engineer from Germany who has 422 stars on GitHub1. He has 8 repositories on GitHub, mostly related to PHP and Java development. He is currently working as a software developer at SpoonX, a company that provides web development services. He has experience with various technologies such as PHP, Java, JavaScript, HTML, CSS, MySQL, MongoDB, Docker, Kubernetes, AWS, Azure, etc. He has some certifications such as Zend Certified PHP Engineer (ZCE) and Oracle Certified Associate Java SE 8 Programmer (OCAJP)."
+
+"XenoAmess is a Java programmer and game engine developer from China who has 547 stars on GitHub1. He has 64 repositories on GitHub, mostly related to Java and Python development. He is a Java programmer and also a Java game engine developer. He has several repositories including cyan_potion, a Java 2D game engine based on lwjgl1. He also has several Maven plugins and JetBrains-IDEA plugins"
+
+"cac03 is a GitHub user who goes by the name Denis1. He has 34 repositories and 72 stars on his profile1. Some of his pinned repositories include zhdun and elijars1"
+
+"smaldini is a GitHub user who goes by the name Stephane Maldini1. He has 86 repositories and 76 stars on his profile1. Some of his pinned repositories include reactor, reactor-core, reactive-streams-commons, reactor-netty, reactor-addons and projectreactor.io1. He has 540 followers and is following 18 people1. He is located in San Francisco, CA and is associated with Netflix1."
+
+"ascopes is a GitHub user who goes by the name Ashley1. He has 30 repositories and 136 stars on his profile1. Some of his pinned repositories include hcl4j, java-compiler-testing, calcrs, asos and kernel1. He has 2 followers and is following 4 people1. He is located in the United Kingdom and describes himself as a software engineer working with highly available, scalable, distributed cloud solutions1."
+
+"vpavic is a GitHub user who goes by the name Vedran Pavic1. He has 117 repositories and 83 stars on his profile1. Some of his pinned repositories include spring-boot-multi-package-demo and samples-spring-session1. He has 141 followers and is not following anyone1. He is located in Croatia and has a personal website at https://vedranpavic.com 1. Vedran Pavic is a software engineer with over a decade of professional experience in designing and developing enterprise software solutions using Java and JVM technologies, with a strong focus on the Spring Framework and its surrounding ecosystem1. He is an open-source software enthusiast and an active contributor to Spring projects1. He has also been an occasional conference speaker"
+
+"dharrigan is a GitHub user who goes by the name David Harrigan1. He has 168 contributions in the last year and 22 followers on his profile1. Some of his popular repositories include startrek, nextjdbc-integrant, spotifyd-notification, mkinitcpio-wireguard, vimconfig and giteditor1."
+
+"Andreas has 148 repositories and has been starred 55 times on GitHub1. He has been working in enterprise application development projects for more than 20 years and his focus is on agile development of cloud-native applications on the Spring platform1. Andreas has several repositories related to security, including a workshop on building secure cloud-native applications using Spring Cloud Security (OAuth2)2, a workshop for securing a Spring Boot 2 application in multiple steps3, and a repository for advanced authentication patterns4. "
+
+"Andreas has 148 repositories and has been starred 55 times on GitHub1. He has been working in enterprise application development projects for more than 20 years and his focus is on agile development of cloud-native applications on the Spring platform1. Andreas has several repositories related to security, including a workshop on building secure cloud-native applications using Spring Cloud Security (OAuth2)2, a workshop for securing a Spring Boot 2 application in multiple steps3, and a repository for advanced authentication patterns4. "
+
+
+
+Group 2:
+Developers who mainly discusses security NFR
+"Arthur Gavlyukovskiy is a software engineer at Miro, a collaborative online whiteboard platform. He is the author of spring-boot-data-source-decorator, a Spring Boot integration with p6spy, datasource-proxy, flexy-pool and spring-cloud-sleuth1. He focuses on security NFR by providing tools to intercept and log SQL queries, monitor connection pool metrics, and trace database calls1. He also contributes to other open source projects such as p6spy, datasource-proxy, google-visualization-java and spring-boot1. His profile has links to his personal website (https://gavlyukovskiy.com/), his Twitter account (@gavlyukovskiy), and his LinkedIn profile (https://www.linkedin.com/in/gavlyukovskiy/).
+He currently works as a senior software engineer at Miro, an online collaborative whiteboard platform1.
+He previously worked as a software engineer at Adyen, a global payment platform1, and as a senior software engineer at Upwork, a freelancing platform12.
+He has experience in working with e-commerce platforms, ETL pipelines, Apache Spark, Airflow, Hive, and Big Query2.
+He is interested in performance monitoring/optimizations and eager to learn new technologies2.
+He has a GitHub account where he has contributed to several repositories, including spring-boot-data-source-decorator, which provides Spring Boot integration with p6spy, datasource-proxy, flexy-pool and spring-cloud-sleuth34."
+
+"Graeme Rocher is a developer and architect who created the Grails and Micronaut frameworks1. He works at Oracle Labs1 and has contributed to many open source projects on GitHub1. He has 97 repositories1, 60 stars1, and 2,255 contributions in the last year1.
+He has a LinkedIn profile where he lists his experience and skills, such as Java, Groovy, Spring Boot, Spring Framework, Hibernate, MongoDB, AWS, Oracle Cloud, and more."
+
+"Andreas Ahlenstorf is a developer from Switzerland with a GitHub profile under the username aahlenst1. He has contributed to several repositories including spring-projects/spring-boot, adoptium/adoptium-support, and aahlenst/spring-boot1. He has also worked on repositories related to Eclipse Adoptium runtimes, such as adoptium-ca-certificates which provides CA certificates for Eclipse Adoptium runtimes2."
+
+"Ruslan Stelmachenko is a developer with a GitHub profile under the username xak20001. He has several repositories including demo-jsp, which demonstrates using Spring MVC with JSP views, and Oll.tv, an SDK class for Oll.tv API1."
+
+"According to my web search results, xyloman is a GitHub user whose real name is Bryan Kelly¹. He has 43 repositories and 24 stars on his profile¹. Some of his popular repositories include tanzu-application-platform-local-setup, which contains automation scripts to stand up and tear down Tanzu Application Platform locally with KIND¹, and configserver-on-tap, which is a walk-through of how to deploy Spring Cloud Config Server on Tanzu Application Platform¹. He does have some repositories that have a security overview page, such as sso², credhub-release³, and cf-cli-resource⁵."
+
+"dbrimley is a GitHub user whose real name is **David Brimley**¹. He has **26 repositories** and **30 stars** on his profile¹. He is currently a product manager at **Elastic** and was previously at **Hazelcast**¹. Some of his popular repositories include `hazelstack`, which contains Hazelcast Distributed Caching Examples using the Stack Exchange Data Dump via a Postgres Database¹, and `hazelcast-security-examples`, which contains sample code for Hazelcast Security¹.
+
+He does have some repositories that have a security overview page, such as `hz-docs`², and some that have a security policy page, such as `hazelrecon`³ and `hazelcar`⁴."
+
+"lee-garden is a GitHub user whose real name is GardenLee¹. He has 45 repositories and 137 stars on his profile¹. He is currently working at Toss and Payw-org¹. Some of his popular repositories include eodiro-server, which is a Node.js server application that powers the eodiro.com¹, and TIL, which stands for Today I Learned²."
+
+"Drezir is a GitHub user whose real name is Adam Ostrožlík². He has 28 repositories and 0 stars on his profile². Some of his popular repositories include maven-profiles-logging-example, which is written in Java², and DrawSomething, which is a DrawSomething game in java - multiplayer over network². He does have some repositories that have a security policy page, such as reactjs³, and some that have a security overview page, such as IPTV⁴."
+
+"According to my web search results, evpaassen is a GitHub user whose real name is Erik van Paassen¹. He has 31 repositories and 20 stars on his profile¹. He is currently working at NavaraBV¹. Some of his popular repositories include ElSql, which is a forked repository from OpenGamma/ElSql¹, and ews-java-api, which is a forked repository from OfficeDev/ews-java-api and is a java client library to access Exchange web services¹."
+
+"Gunnar is a member of the @oracle Coherence team and is a full-stack Java/Spring/Angular developer. He is also a Java Champion and DevNexus co-founder1. He has 110 repositories and has been starred 136 times on GitHub1."
+
+"Alexey has 62 repositories and has been starred 188 times on GitHub1. However, I couldn’t find any specific information about his contributions related to security from my web search results"
+
+"LeeHainie” who has 4 repositories available and has been starred 2 times on GitHub1. However, I couldn’t find any specific information about their technical skills, contributions related to security or their real name from my web search results."
+
+Group 3:
+Developers who mainly discusses performance NFR
+
+"Tomás Lin is a developer with a GitHub profile under the username tomaslin1. He has several repositories including grails-test-recipes, a collection of Grails testing related snippets, and gs-spring-boot-spock, a sample app showing how to test Spring Boot with Spock1"
+
+"Rupert Madden-Abbott is a developer with a GitHub profile under the username rupert-madden-abbott1. He has several repositories including jcommander-spring-boot-starter, a Spring Boot starter for JCommander2."
+
+"Ben Hale is a developer with a GitHub profile under the username nebhale¹. He is the Technical Lead for @vmware-tanzu Developer Experience and the creator of @buildpacks and @r2dbc¹. He has several repositories including client-jvm, a Service Bindings for Kubernetes Java Client¹. Ben Hale has 84 repositories on his GitHub profile. He has made contributions to his repositories in the past year, with varying frequency. I couldn’t find specific information about his involvement in solving issues and merging pull requests in his repositories or his contributions to other projects. His profile information states that he is the Technical Lead for @vmware-tanzu Developer Experience and the creator of @buildpacks and @r2dbc. He is often found cycling in either Marin or the Dolomites. He has several repositories that showcase his proficiency in languages such as Java, Python, TypeScript, Go and Ruby."
+
+"HejiaHo is a GitHub user who has 14 repositories available1. I couldn’t find any specific information about his real name or concerns with security from my web search results. However, he does have some repositories that have a security overview page, such as progit2 and show-me-the-code"
+
+"Igor Mukhin is a GitHub user with the username igormukhin. He has 36 repositories and 36 stars on his profile4. Some of his popular repositories include spring-boot-sample-jsf, which is a Spring Boot With JSF (PrimeFaces) Sample written in Java4, and spring-boot-sample-data-eclipselink-war, which is a forked repository from dsyer/spring-boot-sample-data-eclipselink and is a Spring Boot Sample: EclipseLink, WAR-Deployment, Eclipse IDE written in Java4. He does have some repositories that have a security overview page, such as spring-framework5 and sagan"
+
+"Vikey Chen is a GitHub user with the username vikeychen. He has 6 repositories and 17 stars on his profile7. Some of his popular repositories include engine, which is a forked repository from flutter/engine7, and spring-framework, which is a forked repository from spring-projects/spring-framework written in Java"
+
+"there is a GitHub user with the username “tt4g” who has 76 repositories available and has been starred 318 times on GitHub1. This user is located in Japan1."
+
+"There is a GitHub user with the username “michael-simons” who has 158 repositories available and has been starred 196 times on GitHub1. This user is located in Aachen, Germany and works at Neo4j1. His official title is Staff Software Engineer1. He has been working in IT since the early 2000s and his goto language of choice is Java1. He is a recognized Java Champion and published author1. He has contributed to a broad number of frameworks and ecosystems, such as Spring Boot, Spring Security, Spring Data JDBC, Quarkus, Neo4j, and jOOQ1. Since 2018 he has been the maintainer of Spring Data Neo4j and Neo4j-OGM together with @meistermeier"
+
+"Drummond Dawson, also known as drumonii on GitHub, has a profile that showcases his technical skills in software development and contributions to GitHub¹. He has 21 repositories and 11 stars on his profile¹. Some of his pinned repositories include LeagueTrollBuild, a League of Legends Build Randomizer written in Java¹², and SpringBootTwoDataSources, a Spring Boot project with multiple (two) DataSources and JPA¹. His profile also has links to his repositories and projects on GitHub¹³. He also has a profile on Stack Overflow⁴."
+
+Group 3:
+Developers who mainly discusses robustness NFR
+"Freekry is a developer with a GitHub profile under the same username. He has 15 repositories on his profile and has 10 stars1. He has several repositories including spring-session, a forked repository from spring-projects/spring-session"
+
+"Christopher Smith is a developer with a GitHub profile under the username chrylis1. He has 61 repositories on his profile and has 26 stars1. He has several repositories including spring_autowired_npe_example, a public repository with 16 stars and 23 fork"
+
+"Konrado85 is a developer with a GitHub profile under the same username. He has 1 repository on his profile and has 0 stars1. The repository is a fork of spring-projects/spring-boot"
+
+"GabiAxel’s real name is Gabriel Axel and he has 25 repositories on his GitHub profile1. He has a project called ng-polymer-elements, which is an extendible AngularJS two-way binding support for Polymer elements and web components"
+
+"Joshlong’s real name is Josh Long and he has 51 repositories on his GitHub profile2. He is the Spring Developer Advocate at VMware, an open-source hacker, book/video author and speaker2. He has a Bootiful Podcast, a YouTube series called Spring Tips, a book called Reactive Spring, Livelessons training videos, weekly blogs, and code2."
+
+"Ian He, also known as iHelin on GitHub, has a profile that showcases his technical skills in software development and contributions to GitHub1. He has 22 repositories and 305 stars on his profile1. Some of his popular repositories include book, an online bookstore (used for undergraduate graduation design in 2016) written in JavaScript1, and iHelin, his personal homepage written in Vue12."
+
+"robotmrv has a GitHub profile that showcases his technical skills in software development and contributions to GitHub1. He has 22 repositories and 30 stars on his profile1. Some of his popular repositories include reactor-debug-error, jackson-encoder-jmh, no-close-on-start-failure, shifted-span, each-sse-emit-creates-new-span, and async-span-on-each-scheduler-change, all written in Java1."
+
+"igorpele has a GitHub profile that showcases his technical skills in software development and contributions to GitHub¹. He has 6 repositories and 2 stars on his profile¹. Some of his repositories include iotsys, a fork of mjung85/iotsys, automatically exported from code.google.com/p/iotsys written in Java¹, and tutorials, a fork of eugenp/tutorials, The "REST With Spring" Course written in Java¹."

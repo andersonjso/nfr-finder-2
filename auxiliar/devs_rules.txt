@@ -1,0 +1,723 @@
+Rules:
+Mais de 25% de mensagens relacionadas ao NFR
+Discussão em pelo menos 3 discussões
+Menos que 50 mensagens enviadas
+
+spring-boot
+***
+maint
+8888
+{
+    "author": "hsellik",
+    "participations": 4,
+    "title_%": "0.00 [0/2]",
+    "description_%": "100.00 [2/2]",
+    "comment_%": "0.00 [0/3]",
+    "revision_%": "0.00 [0/1]",
+    "commit_%": "66.67 [4/6]",
+    "total_%": "42.86 [6/14]",
+    "total_int": 42.857142857142854
+    "description": "Hendrig Sellik is a software engineer from Tallinn, Estonia who has a master’s degree in computer science from TU Delft1. He has 30 repositories on GitHub, mostly related to Java and web development. "
+}
+{
+    "author": "BigMichi1",
+    "participations": 13,
+    "title_%": "61.54 [8/13]",
+    "description_%": "0.00 [0/13]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "57.14 [8/14]",
+    "total_%": "40.00 [16/40]",
+    "total_int": 40.0
+    "description": "Michael Cramer is a software engineer from Germany who has 422 stars on GitHub1. He has 8 repositories on GitHub, mostly related to PHP and Java development. He is currently working as a software developer at SpoonX, a company that provides web development services. He has experience with various technologies such as PHP, Java, JavaScript, HTML, CSS, MySQL, MongoDB, Docker, Kubernetes, AWS, Azure, etc. He has some certifications such as Zend Certified PHP Engineer (ZCE) and Oracle Certified Associate Java SE 8 Programmer (OCAJP)."
+}
+{
+    "author": "XenoAmess",
+    "participations": 9,
+    "title_%": "11.11 [1/9]",
+    "description_%": "88.89 [8/9]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "10.00 [1/10]",
+    "total_%": "35.71 [10/28]",
+    "total_int": 35.714285714285715,
+    "description": "XenoAmess is a Java programmer and game engine developer from China who has 547 stars on GitHub1. He has 64 repositories on GitHub, mostly related to Java and Python development. He is a Java programmer and also a Java game engine developer. He has several repositories including cyan_potion, a Java 2D game engine based on lwjgl1. He also has several Maven plugins and JetBrains-IDEA plugins"
+}
+{
+    "author": "fml2",
+    "participations": 4,
+    "title_%": "0.00 [0/4]",
+    "description_%": "100.00 [4/4]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "0.00 [0/4]",
+    "total_%": "33.33 [4/12]",
+    "total_int": 33.33333333333333
+}
+{
+    "author": "htztomic",
+    "participations": 12,
+    "title_%": "9.09 [1/11]",
+    "description_%": "100.00 [11/11]",
+    "comment_%": "0.00 [0/1]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "0.00 [0/16]",
+    "total_%": "30.77 [12/39]",
+    "total_int": 30.76923076923077
+}
+sec
+8888
+{
+    "author": "gavlyukovskiy",
+    "participations": 5,
+    "title_%": "75.00 [3/4]",
+    "description_%": "25.00 [1/4]",
+    "comment_%": "71.43 [5/7]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "42.86 [3/7]",
+    "total_%": "54.55 [12/22]",
+    "total_int": 54.54545454545454
+    "description": "Arthur Gavlyukovskiy is a software engineer at Miro, a collaborative online whiteboard platform. He is the author of spring-boot-data-source-decorator, a Spring Boot integration with p6spy, datasource-proxy, flexy-pool and spring-cloud-sleuth1. He focuses on security NFR by providing tools to intercept and log SQL queries, monitor connection pool metrics, and trace database calls1. He also contributes to other open source projects such as p6spy, datasource-proxy, google-visualization-java and spring-boot1. His profile has links to his personal website (https://gavlyukovskiy.com/), his Twitter account (@gavlyukovskiy), and his LinkedIn profile (https://www.linkedin.com/in/gavlyukovskiy/).
+    He currently works as a senior software engineer at Miro, an online collaborative whiteboard platform1.
+    He previously worked as a software engineer at Adyen, a global payment platform1, and as a senior software engineer at Upwork, a freelancing platform12.
+    He has experience in working with e-commerce platforms, ETL pipelines, Apache Spark, Airflow, Hive, and Big Query2.
+    He is interested in performance monitoring/optimizations and eager to learn new technologies2.
+    He has a GitHub account where he has contributed to several repositories, including spring-boot-data-source-decorator, which provides Spring Boot integration with p6spy, datasource-proxy, flexy-pool and spring-cloud-sleuth34."
+}
+{
+    "author": "jzheaux",
+    "participations": 5,
+    "title_%": "33.33 [1/3]",
+    "description_%": "33.33 [1/3]",
+    "comment_%": "50.00 [1/2]",
+    "revision_%": "75.00 [3/4]",
+    "commit_%": "25.00 [1/4]",
+    "total_%": "43.75 [7/16]",
+    "total_int": 43.75
+}
+{
+    "author": "graemerocher",
+    "participations": 5,
+    "title_%": "50.00 [1/2]",
+    "description_%": "50.00 [1/2]",
+    "comment_%": "33.33 [1/3]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "33.33 [1/3]",
+    "total_%": "40.00 [4/10]",
+    "total_int": 40.0
+    "description": "Graeme Rocher is a developer and architect who created the Grails and Micronaut frameworks1. He works at Oracle Labs1 and has contributed to many open source projects on GitHub1. He has 97 repositories1, 60 stars1, and 2,255 contributions in the last year1.
+    He has a LinkedIn profile where he lists his experience and skills, such as Java, Groovy, Spring Boot, Spring Framework, Hibernate, MongoDB, AWS, Oracle Cloud, and more."
+}
+{
+    "author": "aahlenst",
+    "participations": 8,
+    "title_%": "33.33 [2/6]",
+    "description_%": "66.67 [4/6]",
+    "comment_%": "16.67 [1/6]",
+    "revision_%": "100.00 [1/1]",
+    "commit_%": "33.33 [4/12]",
+    "total_%": "38.71 [12/31]",
+    "total_int": 38.70967741935484
+    "description": "Andreas Ahlenstorf is a developer from Switzerland with a GitHub profile under the username aahlenst1. He has contributed to several repositories including spring-projects/spring-boot, adoptium/adoptium-support, and aahlenst/spring-boot1. He has also worked on repositories related to Eclipse Adoptium runtimes, such as adoptium-ca-certificates which provides CA certificates for Eclipse Adoptium runtimes2."
+}
+{
+    "author": "xak2000",
+    "participations": 4,
+    "title_%": "50.00 [1/2]",
+    "description_%": "50.00 [1/2]",
+    "comment_%": "50.00 [1/2]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "20.00 [1/5]",
+    "total_%": "36.36 [4/11]",
+    "total_int": 36.36363636363637
+    "description": "Ruslan Stelmachenko is a developer with a GitHub profile under the username xak20001. He has several repositories including demo-jsp, which demonstrates using Spring MVC with JSP views, and Oll.tv, an SDK class for Oll.tv API1."
+}
+perf
+8888
+{
+    "author": "tomaslin",
+    "participations": 4,
+    "title_%": "0.00 [0/2]",
+    "description_%": "50.00 [1/2]",
+    "comment_%": "50.00 [1/2]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "66.67 [2/3]",
+    "total_%": "44.44 [4/9]",
+    "total_int": 44.44444444444444
+    "description": "Tomás Lin is a developer with a GitHub profile under the username tomaslin1. He has several repositories including grails-test-recipes, a collection of Grails testing related snippets, and gs-spring-boot-spock, a sample app showing how to test Spring Boot with Spock1"
+}
+{
+    "author": "rupert-madden-abbott",
+    "participations": 5,
+    "title_%": "75.00 [3/4]",
+    "description_%": "50.00 [2/4]",
+    "comment_%": "50.00 [1/2]",
+    "revision_%": "100.00 [2/2]",
+    "commit_%": "23.08 [3/13]",
+    "total_%": "44.00 [11/25]",
+    "total_int": 44.0
+    description: "Rupert Madden-Abbott is a developer with a GitHub profile under the username rupert-madden-abbott1. He has several repositories including jcommander-spring-boot-starter, a Spring Boot starter for JCommander2."
+}
+{
+    "author": "nebhale",
+    "participations": 8,
+    "title_%": "0.00 [0/7]",
+    "description_%": "57.14 [4/7]",
+    "comment_%": "44.44 [8/18]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "50.00 [4/8]",
+    "total_%": "40.00 [16/40]",
+    "total_int": 40.0
+    "description": "Ben Hale is a developer with a GitHub profile under the username **nebhale**¹. He is the Technical Lead for **@vmware-tanzu Developer Experience** and the creator of **@buildpacks** and **@r2dbc**¹. He has several repositories including **client-jvm**, a Service Bindings for Kubernetes Java Client¹. Ben Hale has 84 repositories on his GitHub profile. He has made contributions to his repositories in the past year, with varying frequency. I couldn’t find specific information about his involvement in solving issues and merging pull requests in his repositories or his contributions to other projects. His profile information states that he is the Technical Lead for @vmware-tanzu Developer Experience and the creator of @buildpacks and @r2dbc. He is often found cycling in either Marin or the Dolomites. He has several repositories that showcase his proficiency in languages such as Java, Python, TypeScript, Go and Ruby." 
+}
+{
+    "author": "XenoAmess",
+    "participations": 9,
+    "title_%": "22.22 [2/9]",
+    "description_%": "88.89 [8/9]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "10.00 [1/10]",
+    "total_%": "39.29 [11/28]",
+    "total_int": 39.285714285714285
+    repeated
+}
+{
+    "author": "xak2000",
+    "participations": 4,
+    "title_%": "0.00 [0/2]",
+    "description_%": "50.00 [1/2]",
+    "comment_%": "100.00 [2/2]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "20.00 [1/5]",
+    "total_%": "36.36 [4/11]",
+    "total_int": 36.36363636363637
+    repeated
+}
+robu
+8888
+{
+    "author": "freekry",
+    "participations": 5,
+    "title_%": "33.33 [1/3]",
+    "description_%": "33.33 [1/3]",
+    "comment_%": "0.00 [0/3]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "66.67 [10/15]",
+    "total_%": "50.00 [12/24]",
+    "total_int": 50.0
+    "description": "Freekry is a developer with a GitHub profile under the same username. He has 15 repositories on his profile and has 10 stars1. He has several repositories including spring-session, a forked repository from spring-projects/spring-session"
+}
+{
+    "author": "chrylis",
+    "participations": 4,
+    "title_%": "0.00 [0/2]",
+    "description_%": "100.00 [2/2]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "100.00 [1/1]",
+    "commit_%": "25.00 [1/4]",
+    "total_%": "44.44 [4/9]",
+    "total_int": 44.44444444444444
+    "Christopher Smith is a developer with a GitHub profile under the username chrylis1. He has 61 repositories on his profile and has 26 stars1. He has several repositories including spring_autowired_npe_example, a public repository with 16 stars and 23 fork"
+}
+{
+    "author": "hsellik",
+    "participations": 4,
+    "title_%": "0.00 [0/2]",
+    "description_%": "100.00 [2/2]",
+    "comment_%": "0.00 [0/3]",
+    "revision_%": "0.00 [0/1]",
+    "commit_%": "66.67 [4/6]",
+    "total_%": "42.86 [6/14]",
+    "total_int": 42.857142857142854
+}
+{
+    "author": "Konrado85",
+    "participations": 8,
+    "title_%": "12.50 [1/8]",
+    "description_%": "100.00 [8/8]",
+    "comment_%": "33.33 [1/3]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "28.57 [4/14]",
+    "total_%": "42.42 [14/33]",
+    "total_int": 42.42424242424242
+    Konrado85 is a developer with a GitHub profile under the same username. He has 1 repository on his profile and has 0 stars1. The repository is a fork of spring-projects/spring-boot
+}
+{
+    "author": "L00kian",
+    "participations": 6,
+    "title_%": "0.00 [0/3]",
+    "description_%": "33.33 [1/3]",
+    "comment_%": "40.00 [2/5]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "66.67 [4/6]",
+    "total_%": "41.18 [7/17]",
+    "total_int": 41.17647058823529
+}
+spring-framework
+***
+maint
+8888
+{
+    "author": "cac03",
+    "participations": 4,
+    "title_%": "33.33 [1/3]",
+    "description_%": "66.67 [2/3]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "75.00 [3/4]",
+    "total_%": "60.00 [6/10]",
+    "total_int": 60.0
+    cac03 is a GitHub user who goes by the name Denis1. He has 34 repositories and 72 stars on his profile1. Some of his pinned repositories include zhdun and elijars1
+}
+{
+    "author": "smaldini",
+    "participations": 6,
+    "title_%": "33.33 [2/6]",
+    "description_%": "16.67 [1/6]",
+    "comment_%": "100.00 [1/1]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "0.00 [0/0]",
+    "total_%": "30.77 [4/13]",
+    "total_int": 30.76923076923077
+    smaldini is a GitHub user who goes by the name Stephane Maldini1. He has 86 repositories and 76 stars on his profile1. Some of his pinned repositories include reactor, reactor-core, reactive-streams-commons, reactor-netty, reactor-addons and projectreactor.io1. He has 540 followers and is following 18 people1. He is located in San Francisco, CA and is associated with Netflix1.
+}
+{
+    "author": "ascopes",
+    "participations": 5,
+    "title_%": "0.00 [0/4]",
+    "description_%": "75.00 [3/4]",
+    "comment_%": "0.00 [0/2]",
+    "revision_%": "0.00 [0/1]",
+    "commit_%": "33.33 [3/9]",
+    "total_%": "30.00 [6/20]",
+    "total_int": 30.0
+    ascopes is a GitHub user who goes by the name Ashley1. He has 30 repositories and 136 stars on his profile1. Some of his pinned repositories include hcl4j, java-compiler-testing, calcrs, asos and kernel1. He has 2 followers and is following 4 people1. He is located in the United Kingdom and describes himself as a software engineer working with highly available, scalable, distributed cloud solutions1.
+}
+{
+    "author": "vpavic",
+    "participations": 37,
+    "title_%": "14.29 [3/21]",
+    "description_%": "42.86 [9/21]",
+    "comment_%": "57.89 [11/19]",
+    "revision_%": "0.00 [0/2]",
+    "commit_%": "19.05 [8/42]",
+    "total_%": "29.52 [31/105]",
+    "total_int": 29.523809523809526
+    vpavic is a GitHub user who goes by the name Vedran Pavic1. He has 117 repositories and 83 stars on his profile1. Some of his pinned repositories include spring-boot-multi-package-demo and samples-spring-session1. He has 141 followers and is not following anyone1. He is located in Croatia and has a personal website at https://vedranpavic.com 1. Vedran Pavic is a software engineer with over a decade of professional experience in designing and developing enterprise software solutions using Java and JVM technologies, with a strong focus on the Spring Framework and its surrounding ecosystem1. He is an open-source software enthusiast and an active contributor to Spring projects1. He has also been an occasional conference speaker
+}
+{
+    "author": "dharrigan",
+    "participations": 6,
+    "title_%": "40.00 [2/5]",
+    "description_%": "20.00 [1/5]",
+    "comment_%": "0.00 [0/5]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "50.00 [3/6]",
+    "total_%": "28.57 [6/21]",
+    "total_int": 28.57142857142857
+    dharrigan is a GitHub user who goes by the name David Harrigan1. He has 168 contributions in the last year and 22 followers on his profile1. Some of his popular repositories include startrek, nextjdbc-integrant, spotifyd-notification, mkinitcpio-wireguard, vimconfig and giteditor1.
+}
+sec
+8888
+{
+    "author": "xyloman",
+    "participations": 13,
+    "title_%": "0.00 [0/1]",
+    "description_%": "0.00 [0/1]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "80.00 [12/15]",
+    "total_%": "70.59 [12/17]",
+    "total_int": 70.58823529411765
+}
+{
+    "author": "dbrimley",
+    "participations": 11,
+    "title_%": "100.00 [1/1]",
+    "description_%": "100.00 [1/1]",
+    "comment_%": "0.00 [0/5]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "83.33 [10/12]",
+    "total_%": "63.16 [12/19]",
+    "total_int": 63.1578947368421
+}
+{
+    "author": "lee-garden",
+    "participations": 4,
+    "title_%": "66.67 [2/3]",
+    "description_%": "0.00 [0/3]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/1]",
+    "commit_%": "66.67 [4/6]",
+    "total_%": "46.15 [6/13]",
+    "total_int": 46.15384615384615
+}
+{
+    "author": "Drezir",
+    "participations": 4,
+    "title_%": "50.00 [1/2]",
+    "description_%": "50.00 [1/2]",
+    "comment_%": "0.00 [0/1]",
+    "revision_%": "0.00 [0/3]",
+    "commit_%": "80.00 [4/5]",
+    "total_%": "46.15 [6/13]",
+    "total_int": 46.15384615384615
+}
+{
+    "author": "evpaassen",
+    "participations": 4,
+    "title_%": "0.00 [0/3]",
+    "description_%": "66.67 [2/3]",
+    "comment_%": "25.00 [1/4]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "75.00 [3/4]",
+    "total_%": "42.86 [6/14]",
+    "total_int": 42.857142857142854
+}
+perf
+8888
+{
+    "author": "HejiaHo",
+    "participations": 14,
+    "title_%": "0.00 [0/1]",
+    "description_%": "100.00 [1/1]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "100.00 [14/14]",
+    "total_%": "93.75 [15/16]",
+    "total_int": 93.75
+}
+{
+    "author": "igormukhin",
+    "participations": 4,
+    "title_%": "0.00 [0/1]",
+    "description_%": "100.00 [1/1]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "100.00 [4/4]",
+    "total_%": "83.33 [5/6]",
+    "total_int": 83.33333333333334
+}
+{
+    "author": "vikeychen",
+    "participations": 7,
+    "title_%": "80.00 [4/5]",
+    "description_%": "40.00 [2/5]",
+    "comment_%": "100.00 [1/1]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "66.67 [6/9]",
+    "total_%": "65.00 [13/20]",
+    "total_int": 65.0
+}
+{
+    "author": "ascopes",
+    "participations": 5,
+    "title_%": "25.00 [1/4]",
+    "description_%": "75.00 [3/4]",
+    "comment_%": "50.00 [1/2]",
+    "revision_%": "0.00 [0/1]",
+    "commit_%": "55.56 [5/9]",
+    "total_%": "50.00 [10/20]",
+    "total_int": 50.0
+}
+{
+    "author": "overmindx",
+    "participations": 4,
+    "title_%": "50.00 [2/4]",
+    "description_%": "75.00 [3/4]",
+    "comment_%": "0.00 [0/1]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "37.50 [3/8]",
+    "total_%": "47.06 [8/17]",
+    "total_int": 47.05882352941176
+}
+robu
+8888
+{
+    "author": "cac03",
+    "participations": 4,
+    "title_%": "100.00 [3/3]",
+    "description_%": "100.00 [3/3]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "100.00 [4/4]",
+    "total_%": "100.00 [10/10]",
+    "total_int": 100.0
+}
+{
+    "author": "GabiAxel",
+    "participations": 7,
+    "title_%": "0.00 [0/1]",
+    "description_%": "100.00 [1/1]",
+    "comment_%": "0.00 [0/1]",
+    "revision_%": "100.00 [1/1]",
+    "commit_%": "100.00 [7/7]",
+    "total_%": "81.82 [9/11]",
+    "total_int": 81.81818181818183
+}
+{
+    "author": "dbrimley",
+    "participations": 11,
+    "title_%": "0.00 [0/1]",
+    "description_%": "100.00 [1/1]",
+    "comment_%": "60.00 [3/5]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "83.33 [10/12]",
+    "total_%": "73.68 [14/19]",
+    "total_int": 73.68421052631578
+}
+{
+    "author": "joshlong",
+    "participations": 6,
+    "title_%": "0.00 [0/2]",
+    "description_%": "50.00 [1/2]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "100.00 [5/5]",
+    "total_%": "66.67 [6/9]",
+    "total_int": 66.66666666666666
+}
+{
+    "author": "drewtul",
+    "participations": 4,
+    "title_%": "75.00 [3/4]",
+    "description_%": "75.00 [3/4]",
+    "comment_%": "33.33 [2/6]",
+    "revision_%": "100.00 [1/1]",
+    "commit_%": "50.00 [4/8]",
+    "total_%": "56.52 [13/23]",
+    "total_int": 56.52173913043478
+}
+spring-security
+***
+maint
+8888
+{
+    "author": "evpaassen",
+    "participations": 6,
+    "title_%": "0.00 [0/2]",
+    "description_%": "50.00 [1/2]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "83.33 [5/6]",
+    "total_%": "60.00 [6/10]",
+    "total_int": 60.0
+}
+{
+    "author": "yegeniy",
+    "participations": 5,
+    "title_%": "0.00 [0/1]",
+    "description_%": "0.00 [0/1]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "80.00 [4/5]",
+    "total_%": "57.14 [4/7]",
+    "total_int": 57.14285714285714
+}
+{
+    "author": "andifalk",
+    "participations": 4,
+    "title_%": "0.00 [0/3]",
+    "description_%": "100.00 [3/3]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/4]",
+    "commit_%": "80.00 [4/5]",
+    "total_%": "46.67 [7/15]",
+    "total_int": 46.666666666666664
+}
+{
+    "author": "BigMichi1",
+    "participations": 6,
+    "title_%": "0.00 [0/2]",
+    "description_%": "0.00 [0/2]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "66.67 [4/6]",
+    "total_%": "40.00 [4/10]",
+    "total_int": 40.0
+}
+{
+    "author": "ttddyy",
+    "participations": 13,
+    "title_%": "8.33 [1/12]",
+    "description_%": "41.67 [5/12]",
+    "comment_%": "47.06 [8/17]",
+    "revision_%": "38.46 [5/13]",
+    "commit_%": "23.08 [3/13]",
+    "total_%": "32.84 [22/67]",
+    "total_int": 32.83582089552239
+}
+sec
+8888
+{
+    "author": "andifalk",
+    "participations": 4,
+    "title_%": "66.67 [2/3]",
+    "description_%": "100.00 [3/3]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "25.00 [1/4]",
+    "commit_%": "80.00 [4/5]",
+    "total_%": "66.67 [10/15]",
+    "total_int": 66.66666666666666
+}
+{
+    "author": "jason076",
+    "participations": 4,
+    "title_%": "0.00 [0/1]",
+    "description_%": "100.00 [1/1]",
+    "comment_%": "0.00 [0/1]",
+    "revision_%": "0.00 [0/2]",
+    "commit_%": "100.00 [4/4]",
+    "total_%": "55.56 [5/9]",
+    "total_int": 55.55555555555556
+}
+{
+    "author": "ghillert",
+    "participations": 7,
+    "title_%": "25.00 [1/4]",
+    "description_%": "50.00 [2/4]",
+    "comment_%": "100.00 [1/1]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "57.14 [4/7]",
+    "total_%": "50.00 [8/16]",
+    "total_int": 50.0
+}
+{
+    "author": "alek-sys",
+    "participations": 4,
+    "title_%": "25.00 [1/4]",
+    "description_%": "75.00 [3/4]",
+    "comment_%": "25.00 [2/8]",
+    "revision_%": "75.00 [3/4]",
+    "commit_%": "66.67 [4/6]",
+    "total_%": "50.00 [13/26]",
+    "total_int": 50.0
+}
+{
+    "author": "LeeHainie",
+    "participations": 6,
+    "title_%": "0.00 [0/6]",
+    "description_%": "100.00 [6/6]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "50.00 [4/8]",
+    "total_%": "50.00 [10/20]",
+    "total_int": 50.0
+}
+perf
+8888
+{
+    "author": "tt4g",
+    "participations": 4,
+    "title_%": "33.33 [1/3]",
+    "description_%": "66.67 [2/3]",
+    "comment_%": "50.00 [1/2]",
+    "revision_%": "50.00 [1/2]",
+    "commit_%": "100.00 [4/4]",
+    "total_%": "64.29 [9/14]",
+    "total_int": 64.28571428571429
+}
+{
+    "author": "michael-simons",
+    "participations": 11,
+    "title_%": "45.45 [5/11]",
+    "description_%": "9.09 [1/11]",
+    "comment_%": "0.00 [0/5]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "62.50 [10/16]",
+    "total_%": "37.21 [16/43]",
+    "total_int": 37.2093023255814
+}
+{
+    "author": "mraible",
+    "participations": 4,
+    "title_%": "33.33 [1/3]",
+    "description_%": "33.33 [1/3]",
+    "comment_%": "0.00 [0/1]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "42.86 [3/7]",
+    "total_%": "35.71 [5/14]",
+    "total_int": 35.714285714285715
+}
+{
+    "author": "andifalk",
+    "participations": 4,
+    "title_%": "33.33 [1/3]",
+    "description_%": "33.33 [1/3]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "25.00 [1/4]",
+    "commit_%": "40.00 [2/5]",
+    "total_%": "33.33 [5/15]",
+    "total_int": 33.33333333333333
+}
+{
+    "author": "drumonii",
+    "participations": 5,
+    "title_%": "0.00 [0/3]",
+    "description_%": "33.33 [1/3]",
+    "comment_%": "33.33 [1/3]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "42.86 [3/7]",
+    "total_%": "31.25 [5/16]",
+    "total_int": 31.25
+}
+robu
+8888
+{
+    "author": "iHelin",
+    "participations": 4,
+    "title_%": "100.00 [2/2]",
+    "description_%": "100.00 [2/2]",
+    "comment_%": "0.00 [0/2]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "100.00 [4/4]",
+    "total_%": "80.00 [8/10]",
+    "total_int": 80.0
+}
+{
+    "author": "jason076",
+    "participations": 4,
+    "title_%": "100.00 [1/1]",
+    "description_%": "100.00 [1/1]",
+    "comment_%": "0.00 [0/1]",
+    "revision_%": "50.00 [1/2]",
+    "commit_%": "100.00 [4/4]",
+    "total_%": "77.78 [7/9]",
+    "total_int": 77.77777777777779
+}
+{
+    "author": "evpaassen",
+    "participations": 6,
+    "title_%": "50.00 [1/2]",
+    "description_%": "50.00 [1/2]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "83.33 [5/6]",
+    "total_%": "70.00 [7/10]",
+    "total_int": 70.0
+}
+{
+    "author": "robotmrv",
+    "participations": 9,
+    "title_%": "100.00 [3/3]",
+    "description_%": "33.33 [1/3]",
+    "comment_%": "40.00 [2/5]",
+    "revision_%": "34.38 [11/32]",
+    "commit_%": "83.33 [5/6]",
+    "total_%": "44.90 [22/49]",
+    "total_int": 44.89795918367347
+}
+{
+    "author": "igorpele",
+    "participations": 5,
+    "title_%": "0.00 [0/3]",
+    "description_%": "33.33 [1/3]",
+    "comment_%": "0.00 [0/0]",
+    "revision_%": "0.00 [0/0]",
+    "commit_%": "75.00 [3/4]",
+    "total_%": "40.00 [4/10]",
+    "total_int": 40.0
+}
+
+Process finished with exit code 0
